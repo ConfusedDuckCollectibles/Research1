@@ -1,7 +1,6 @@
 # Research1
 
-A shared archive of research notes and reproducible checks. Each project states what it establishes, what remains uncertain, and how to run its checks. These notes are not peer reviewed unless noted otherwise.
+An archive of research notes and reproducible checks. Each project explains what it establishes, what remains uncertain, and how to run its checks. Notes are not peer reviewed unless stated.
 
-## Projects
-
-- [Least periods for power-of-two wrapped grids](projects/wrapped-grid/): proves that no repeat length shorter than half the width squared works for the toric no-three-in-line sequence at power-of-two widths. Includes the proof, prior work, and a dependency-free verifier.
+- [Discoveries](discoveries/): original, reproducible results with a clear scope.
+- [Breakthroughs](breakthroughs/): results that resolve or materially advance a major research question and withstand independent verification. None recorded yet.
