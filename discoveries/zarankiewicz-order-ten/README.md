@@ -1,5 +1,7 @@
 # Two rectangle-free grid bounds near order ten
 
+**Updated bound: 1197 for 110 × 110.** The [net-transfer addendum](net-transfer.md) replaces the original ceiling of 1198 below and extends the argument to an infinite family of sizes. The 111 × 111 ceiling stays 1211.
+
 How densely can you mark a square grid without marking all four corners of a rectangle? Two grid sizes, 110 and 111, are especially close to what would be possible if a finite projective plane of order ten existed. It does not. The proofs below show that several near-misses are impossible, too.
 
 Write $z(N)=z(N,N;2,2)$, the most ones in an $N\times N$ binary matrix with no all-one $2\times2$. We prove
