@@ -1,0 +1,8 @@
+rare finite-lag four-state ring: (sigma, three-point, CP-by-block, Pinsker) = 3.66142952745, 3.45679138912, 2.73865902409, 0.000720413531802
+moderate finite-lag four-state ring: (sigma, three-point, CP-by-block, Pinsker) = 0.599347873613, 0.537101967770, 0.524327001422, 0.00195653264347
+detailed balance: (sigma, three-point, CP-by-block, Pinsker) = 0, 0, 0, 0
+unequal midpoint mass, singleton block exactly zero: (sigma, three-point, CP-by-block, Pinsker) = 0.693147180560, 0.218456921840, 0.216459954547, 0.0121854444963
+positive hidden EP, reversible Markov readout: (sigma, three-point, CP-by-block, Pinsker) = 0.804718956217, 0, 0, 0
+heterogeneous sequence rigid finite enclosures for bound/sigma: 0.896143944806, 0.990759912084, 0.999088376451
+exact swapped-atom product moments verified, nonlinear cost: 0.0374498138561
+PASS: probability and transcendental output brackets use exact rational arithmetic.

@@ -1,0 +1,16 @@
+exact two-class product, tight certificate: 0.0374498138561
+H,k,j,t: 2 1 0 1/8
+ s,r: 0.110599608464 0.0122322733925
+ sigma: 0 (exact symmetry)
+ three-reading floor: 0 (exact symmetry) binary CP floor: 0 (exact symmetry) same-triple Pinsker floor: 0 (exact symmetry)
+H,k,j,t: 10 1 1/2 1/1000
+ s,r: 0.000999248676522 7.53931337097E-7
+ sigma: 0.599347873613
+ three-reading floor: 0.537101967770 binary CP floor: 0.524327001422 same-triple Pinsker floor: 0.00195653264347
+ recovered fraction: 0.896143944806
+H,k,j,t: 10 1 19/20 1/10000
+ s,r: 0.0000999990184503 9.94634543499E-10
+ sigma: 3.66142952745
+ three-reading floor: 3.45679138912 binary CP floor: 2.73865902409 same-triple Pinsker floor: 0.000720413531802
+ recovered fraction: 0.944109770024
+PASS: all asserted inequalities are certified by rational enclosures.
