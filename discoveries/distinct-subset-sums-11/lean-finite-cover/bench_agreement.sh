@@ -9,7 +9,7 @@ c++ -O3 -std=c++17 -Wall -Wextra -Wpedantic "$src/generate.cpp" -o "$build/gen"
 "$build/gen" > "$build/certificates.json"
 (cd "$build" && sha256sum --check "$src/corpus.sha256")
 python3 emit_lean.py --corpus "$build/certificates.json" --output "$build" --trial 1
-python3 bench_agreement.py "$build/AgreementBench.lean"
+python3 bench_agreement.py "$build/AgreementBench.lean" "$build/certificates.json"
 cp Checker.lean Rows.lean "$build/"
 cd "$build"
 "$lean" -o Checker.olean Checker.lean

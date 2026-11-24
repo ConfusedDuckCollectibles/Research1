@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 from emit_lean import array
 
-corpus=json.loads(Path(__file__).with_name("certificates.json").read_text())
+corpus=json.loads(Path(sys.argv[2]).read_text())
 template=next(t for t in corpus if t["dimension"]==11)
 longest=max(template["entries"],key=lambda e:len(e[1]))
 pool=[(ds, cert, s, rows) for ds,cert,cache in template["entries"] for s,rows in cache]
