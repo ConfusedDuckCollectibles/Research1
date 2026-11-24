@@ -1,0 +1,6 @@
+Baseline: 236 points, all 27,730 pairs checked.
+Single outsider: minimum 10 secants, attained by 24 of 1,951.
+Outsider pairs: 1,902,225 checked; minimum exact cost 16.
+Budget 16: 1,616 vertices, 888 edges, verified 7-coloring.
+Hyperplanes: all 3,279 verified; slack 0/1/2/13 on 1,669/1,220/388/2 hyperplanes.
+PASS: both scoped local barriers verified.
