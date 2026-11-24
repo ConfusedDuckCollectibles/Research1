@@ -1,0 +1,5 @@
+source-free 4 cases by planted cycle {4: 1} supports [('012010', (1, 1, 1, 1))]
+source-free 5 cases by planted cycle {4: 31, 5: 1} supports []
+source-free 6 cases by planted cycle {4: 2757, 5: 91, 6: 1} supports [('000010122012022', (4, 1, 1, 1, 1, 4)), ('000120101201010', (3, 1, 1, 1, 3, 3))]
+000120101201010 exact type nesting 15 types; N^-_ext 2 subset of 1
+000010122012022 exact type nesting 27 types; N^-_ext 1 subset of 0
