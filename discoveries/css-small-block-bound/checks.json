@@ -1,0 +1,1615 @@
+{
+  "algorithm": "binary exact; physical sector searches check the compressed rank/weight derivation",
+  "script_sha256": "cab686bfff97287195988cc15fd2a1e862830dcf7008a99e3caf142f846b463f",
+  "controls": [
+    {
+      "control": "pair_only_asymmetric",
+      "n": 18,
+      "k": 1,
+      "d_X": 3,
+      "d_Z": 6,
+      "target_D": 6,
+      "ranks": [
+        15,
+        2
+      ],
+      "X_logical_support": [
+        0,
+        6,
+        12
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "physical_distance_verification": [
+        "exact_kernel",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        2,
+        12
+      ],
+      "physical_generator_max_col": [
+        2,
+        2
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ]
+        ],
+        "Z": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        ]
+      },
+      "intrinsic_XX_pairs": 45,
+      "blocks_after_removals": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 18,
+        "small_blocks": 0,
+        "n_small": 0,
+        "n_large": 18,
+        "rank_A_on_small": 0,
+        "ell_Z_on_small": 0,
+        "applies_row_weight": true,
+        "applies_actual_large_check_projection": true,
+        "bound_logical_X_graph_families": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "fixed_deleted": [],
+        "exact_dX_support_large": 3,
+        "n_bound_after_removals": 18,
+        "n_bound": 18
+      }
+    },
+    {
+      "control": "repeated_steane_bias_control",
+      "n": 14,
+      "k": 1,
+      "d_X": 3,
+      "d_Z": 6,
+      "target_D": 6,
+      "ranks": [
+        10,
+        3
+      ],
+      "X_logical_support": [
+        0,
+        2,
+        4
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "physical_distance_verification": [
+        "exact_kernel",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        4,
+        8
+      ],
+      "physical_generator_max_col": [
+        4,
+        3
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            0,
+            4,
+            8,
+            12
+          ],
+          [
+            2,
+            4,
+            10,
+            12
+          ],
+          [
+            6,
+            8,
+            10,
+            12
+          ]
+        ],
+        "Z": [
+          [
+            0,
+            1,
+            4,
+            5,
+            8,
+            9,
+            12,
+            13
+          ],
+          [
+            2,
+            3,
+            4,
+            5,
+            10,
+            11,
+            12,
+            13
+          ],
+          [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        ]
+      },
+      "intrinsic_XX_pairs": 7,
+      "blocks_after_removals": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 14,
+        "small_blocks": 7,
+        "n_small": 14,
+        "n_large": 0,
+        "rank_A_on_small": 3,
+        "ell_Z_on_small": 1,
+        "applies_row_weight": true,
+        "applies_actual_large_check_projection": true,
+        "bound_logical_X_graph_families": [],
+        "fixed_deleted": [],
+        "exact_dX_support_large": null,
+        "n_bound_after_removals": 14,
+        "n_bound": 14
+      }
+    },
+    {
+      "control": "mixed_check_budget_exact_saturation",
+      "n": 32,
+      "k": 2,
+      "d_X": 3,
+      "d_Z": 6,
+      "target_D": 6,
+      "ranks": [
+        25,
+        5
+      ],
+      "X_logical_support": [
+        0,
+        6,
+        12
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "physical_distance_verification": [
+        "increasing_exact_physical_weights",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        4,
+        12
+      ],
+      "physical_generator_max_col": [
+        4,
+        3
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            18,
+            22,
+            26,
+            30
+          ],
+          [
+            20,
+            22,
+            28,
+            30
+          ],
+          [
+            24,
+            26,
+            28,
+            30
+          ]
+        ],
+        "Z": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          [
+            18,
+            19,
+            22,
+            23,
+            26,
+            27,
+            30,
+            31
+          ],
+          [
+            20,
+            21,
+            22,
+            23,
+            28,
+            29,
+            30,
+            31
+          ],
+          [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        ]
+      },
+      "intrinsic_XX_pairs": 52,
+      "blocks_after_removals": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          30,
+          31
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 32,
+        "small_blocks": 7,
+        "n_small": 14,
+        "n_large": 18,
+        "rank_A_on_small": 3,
+        "ell_Z_on_small": 1,
+        "applies_row_weight": true,
+        "applies_actual_large_check_projection": true,
+        "bound_logical_X_graph_families": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "fixed_deleted": [],
+        "exact_dX_support_large": 3,
+        "n_bound_after_removals": 32,
+        "n_bound": 32
+      }
+    },
+    {
+      "control": "mixed_X_links_clear_small_logicals",
+      "n": 32,
+      "k": 1,
+      "d_X": 3,
+      "d_Z": 12,
+      "target_D": 6,
+      "ranks": [
+        26,
+        5
+      ],
+      "X_logical_support": [
+        0,
+        6,
+        12
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "physical_distance_verification": [
+        "increasing_exact_physical_weights",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        6,
+        12
+      ],
+      "physical_generator_max_col": [
+        4,
+        3
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            18,
+            22,
+            26,
+            30
+          ],
+          [
+            20,
+            22,
+            28,
+            30
+          ],
+          [
+            24,
+            26,
+            28,
+            30
+          ],
+          [
+            0,
+            6,
+            12,
+            18,
+            20,
+            22
+          ]
+        ],
+        "Z": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          [
+            18,
+            19,
+            22,
+            23,
+            26,
+            27,
+            30,
+            31
+          ],
+          [
+            20,
+            21,
+            22,
+            23,
+            28,
+            29,
+            30,
+            31
+          ],
+          [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        ]
+      },
+      "intrinsic_XX_pairs": 52,
+      "blocks_after_removals": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          30,
+          31
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 32,
+        "small_blocks": 7,
+        "n_small": 14,
+        "n_large": 18,
+        "rank_A_on_small": 4,
+        "ell_Z_on_small": 0,
+        "applies_row_weight": true,
+        "applies_actual_large_check_projection": true,
+        "bound_logical_X_graph_families": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "fixed_deleted": [],
+        "exact_dX_support_large": 3,
+        "n_bound_after_removals": 32,
+        "n_bound": 32
+      }
+    },
+    {
+      "control": "basis_change_intrinsic_pair_invariance",
+      "n": 32,
+      "k": 2,
+      "d_X": 3,
+      "d_Z": 6,
+      "target_D": 6,
+      "ranks": [
+        25,
+        5
+      ],
+      "X_logical_support": [
+        0,
+        6,
+        12
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "physical_distance_verification": [
+        "increasing_exact_physical_weights",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        6,
+        12
+      ],
+      "physical_generator_max_col": [
+        5,
+        3
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1,
+            24,
+            26,
+            28,
+            30
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            18,
+            22,
+            26,
+            30
+          ],
+          [
+            20,
+            22,
+            28,
+            30
+          ],
+          [
+            24,
+            26,
+            28,
+            30
+          ]
+        ],
+        "Z": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          [
+            18,
+            19,
+            22,
+            23,
+            26,
+            27,
+            30,
+            31
+          ],
+          [
+            20,
+            21,
+            22,
+            23,
+            28,
+            29,
+            30,
+            31
+          ],
+          [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ]
+        ]
+      },
+      "intrinsic_XX_pairs": 52,
+      "blocks_after_removals": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          30,
+          31
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 32,
+        "small_blocks": 7,
+        "n_small": 14,
+        "n_large": 18,
+        "rank_A_on_small": 3,
+        "ell_Z_on_small": 1,
+        "applies_row_weight": true,
+        "applies_actual_large_check_projection": true,
+        "bound_logical_X_graph_families": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "fixed_deleted": [],
+        "exact_dX_support_large": 3,
+        "n_bound_after_removals": 32,
+        "n_bound": 32
+      }
+    },
+    {
+      "control": "three_block_parity_boundary",
+      "n": 9,
+      "k": 2,
+      "d_X": 2,
+      "d_Z": 3,
+      "target_D": 3,
+      "ranks": [
+        6,
+        1
+      ],
+      "X_logical_support": [
+        0,
+        3
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2
+      ],
+      "physical_distance_verification": [
+        "exact_kernel",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        2,
+        9
+      ],
+      "physical_generator_max_col": [
+        2,
+        1
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "Z": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        ]
+      },
+      "intrinsic_XX_pairs": 9,
+      "blocks_after_removals": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 9,
+        "small_blocks": 0,
+        "n_small": 0,
+        "n_large": 9,
+        "rank_A_on_small": 0,
+        "ell_Z_on_small": 0,
+        "applies_row_weight": false,
+        "applies_actual_large_check_projection": false,
+        "bound_logical_X_graph_families": [],
+        "fixed_deleted": []
+      }
+    },
+    {
+      "control": "one_sector_protected",
+      "n": 6,
+      "k": 1,
+      "d_X": 1,
+      "d_Z": 6,
+      "target_D": 6,
+      "ranks": [
+        5,
+        0
+      ],
+      "X_logical_support": [
+        0
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "physical_distance_verification": [
+        "exact_kernel",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        2,
+        0
+      ],
+      "physical_generator_max_col": [
+        2,
+        0
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "Z": []
+      },
+      "intrinsic_XX_pairs": 15,
+      "blocks_after_removals": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 6,
+        "small_blocks": 0,
+        "n_small": 0,
+        "n_large": 6,
+        "rank_A_on_small": 0,
+        "ell_Z_on_small": 0,
+        "applies_row_weight": true,
+        "applies_actual_large_check_projection": true,
+        "bound_logical_X_graph_families": [
+          [
+            0
+          ]
+        ],
+        "fixed_deleted": [],
+        "exact_dX_support_large": 1,
+        "n_bound_after_removals": 6,
+        "n_bound": 6
+      }
+    },
+    {
+      "control": "pinned_and_fixed_factors",
+      "n": 21,
+      "k": 1,
+      "d_X": 3,
+      "d_Z": 6,
+      "target_D": 6,
+      "ranks": [
+        17,
+        3
+      ],
+      "X_logical_support": [
+        0,
+        6,
+        12
+      ],
+      "Z_logical_support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "physical_distance_verification": [
+        "exact_kernel",
+        "exact_kernel"
+      ],
+      "physical_generator_max_row": [
+        2,
+        12
+      ],
+      "physical_generator_max_col": [
+        2,
+        2
+      ],
+      "presented_generators": {
+        "X": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            18
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "Z": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          [
+            19,
+            20
+          ]
+        ]
+      },
+      "intrinsic_XX_pairs": 46,
+      "blocks_after_removals": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      ],
+      "certificate": {
+        "n_after_discard": 18,
+        "small_blocks": 0,
+        "n_small": 0,
+        "n_large": 18,
+        "rank_A_on_small": 0,
+        "ell_Z_on_small": 0,
+        "applies_row_weight": true,
+        "applies_actual_large_check_projection": true,
+        "bound_logical_X_graph_families": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "fixed_deleted": [
+          [
+            [
+              18
+            ],
+            "X pinned"
+          ],
+          [
+            [
+              19,
+              20
+            ],
+            "Z fixed"
+          ]
+        ],
+        "exact_dX_support_large": 3,
+        "n_bound_after_removals": 18,
+        "n_bound": 21
+      }
+    }
+  ]
+}
