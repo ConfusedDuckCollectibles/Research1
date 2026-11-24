@@ -74,3 +74,5 @@ c++ -O3 -std=c++17 -Wall -Wextra -Wpedantic replay-sharper.cpp -o /tmp/subset-ga
 ```
 
 The code needs no inputs and uses only exact integer arithmetic and the C++ standard library. The C++ replay was independently implemented to rederive and check the rounding and cover calculation.
+
+A separate [Lean finite-cover replay](lean-finite-cover/) verifies all 7,572 certificates on their declared row data and documents the remaining mathematical encoding and analytic steps. It is not an end-to-end Lean proof of this bound.

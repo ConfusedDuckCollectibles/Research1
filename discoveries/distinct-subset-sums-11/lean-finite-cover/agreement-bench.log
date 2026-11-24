@@ -1,0 +1,12 @@
+'SubsetCover.check_sound' depends on axioms: [propext, Quot.sound]
+'SubsetCover.finite_batch_sound' depends on axioms: [propext, Quot.sound]
+'SubsetCover.cached_batch_sound' depends on axioms: [propext, Quot.sound]
+'SubsetCover.cached_batch_transfer' depends on axioms: [propext, Quot.sound]
+-- 26 preorder nodes; 20 rows in this site bucket.
+-- 26 preorder nodes; 14 rows in this site bucket.
+-- 7 preorder nodes; 20 rows in this site bucket.
+
+real	1m10.182s
+user	1m7.588s
+sys	0m3.312s
+Exit status: 124 (timeout at 70 s; no completed per-bucket theorem reported)

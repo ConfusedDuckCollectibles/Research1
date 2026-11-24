@@ -1,0 +1,7 @@
+Q9: 62 tails, 4 repeated floors, 156 nodes, max 10; exact window, mask bans, incidences and 186 negative cases verified.
+Q10: 3755 tails, 455 repeated floors, 6329 nodes, max 12; exact window, mask bans, incidences and 11265 negative cases verified.
+Q11: 3755 tails, 455 repeated floors, 7406 nodes, max 26; exact window, mask bans, incidences and 11265 negative cases verified.
+
+real	0m2.216s
+user	0m2.174s
+sys	0m0.018s
