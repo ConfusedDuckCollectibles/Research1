@@ -1,0 +1,7 @@
+Exact polynomial identities: both expanded seven-length tuples, family-I residue form, family-II factors, parity swap, and doubling.
+All 128 opposite-parity residue pairs modulo 16: normalized I = 13.
+Good reduction: 5 affine points [(0, 0), (2, 2), (2, 3), (3, 2), (3, 3), (4, 2), (4, 3)] plus O, total 8.
+Good reduction: 7 affine points [(0, 0), (2, 0), (3, 2), (3, 5), (4, 0), (5, 1), (5, 6)] plus O, total 8.
+Source example (2, 1): edges 1443,1800,sqrt(461776); space diagonal 2405.
+Source example (4, 1): edges 552968,554880,sqrt(767093529825); space diagonal 1175057.
+Ordinary Euler-brick control: squared edges are 0,0,1 mod 8.
