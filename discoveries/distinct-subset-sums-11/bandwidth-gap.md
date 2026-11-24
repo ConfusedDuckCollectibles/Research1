@@ -1,5 +1,7 @@
 # A uniform gap above the subset-sum bandwidth bound
 
+**Sharper real bound:** the [one-fifth addendum](sharper-real-gap.md) improves the uniform real gap of 1/20 below to 1/5. The integer conclusion is unchanged.
+
 Choose numbers so that every subset has a different sum. An earlier formula gave a lower bound for the largest number you need. We prove that the bound cannot be attained once you choose six or more numbers, even if you allow real numbers and require the sums to stay at least one unit apart. The argument for arbitrarily many numbers reduces to one fixed eleven-coordinate check. This extends the [earlier eleven-integer proof](README.md).
 
 Let $f_{\mathbb R}(n)$ be the least possible largest element of an

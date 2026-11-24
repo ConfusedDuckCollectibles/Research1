@@ -1,6 +1,6 @@
 # A lower bound of 527 for eleven distinct subset sums
 
-**Generalized theorem:** the [bandwidth-gap addendum](bandwidth-gap.md) improves the lower bound at every size from six onward, with a positive gap even for separated real subset sums.
+**Generalized theorem:** the [bandwidth-gap addendum](bandwidth-gap.md) improves the lower bound at every size from six onward, and the [sharper real gap](sharper-real-gap.md) is at least 1/5 for separated real subset sums.
 
 Pick eleven distinct positive integers. If all 2,048 subsets must have different sums, **at least one of the integers must be 527 or larger**. The previous lower bound derived from the hypercube bandwidth was 526. A known construction reaches 594, so the exact minimum is still open.
 
