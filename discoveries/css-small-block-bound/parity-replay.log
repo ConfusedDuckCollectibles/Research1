@@ -1,0 +1,28 @@
+one odd-distance triple: n,k,dx,dz,Wz,rankR,h,nL=(10, 2, 3, 2, 6, 1, 2, 10); restricted dx=3
+two triples plus chain: n,k,dx,dz,Wz,rankR,h,nL=(26, 5, 3, 2, 6, 2, 5, 26); restricted dx=3
+even dx and rank-one: n,k,dx,dz,Wz,rankR,h,nL=(18, 2, 4, 3, 9, 1, 2, 18); restricted dx=4
+degree-two projection r=0: n,k,dx,dz,Wz,rankR,h,nL=(12, 2, 3, 2, 4, 0, 2, 12); restricted dx=3
+d=1: triple plus singleton: n,k,dx,dz,Wz,rankR,h,nL=(8, 3, 1, 2, 6, 1, 3, 8); restricted dx=1
+d=1 confined to S: n,k,dx,dz,Wz,rankR,h,nL=(9, 4, 1, 2, 6, 1, 2, 6); restricted dx=2
+surplus overlapping images: n,k,dx,dz,Wz,rankR,h,nL=(12, 3, 2, 2, 6, 2, 3, 12); restricted dx=2
+one new class on a triple: n,k,dx,dz,Wz,rankR,h,nL=(8, 1, 2, 2, 6, 1, 1, 8); restricted dx=2
+zero logical image on triple: n,k,dx,dz,Wz,rankR,h,nL=(12, 1, 1, 2, 6, 1, 1, 12); restricted dx=1
+h=0 and an isolated degenerate triple: n,k,dx,dz,Wz,rankR,h,nL=(13, 2, 1, 2, 6, 1, 0, 10); restricted dx=inf
+overlap violates formula without disjointness: n,k,dx,dz,Wz,rankR,h,nL=(18, 3, 3, 3, 9, 3, 3, 18); restricted dx=3
+rank-one four-set at Wz=4D: n,k,dx,dz,Wz,rankR,h,nL=(8, 3, 2, 2, 8, 1, 3, 8); restricted dx=2
+abstract: m=1, regions=(), kernel dim=1, quotient-test cases=21
+abstract: m=2, regions=(), kernel dim=2, quotient-test cases=109
+abstract: m=3, regions=(), kernel dim=3, quotient-test cases=765
+abstract: m=3, regions=(3,), kernel dim=2, quotient-test cases=513
+abstract: m=4, regions=(), kernel dim=4, quotient-test cases=7705
+abstract: m=4, regions=(3,), kernel dim=3, quotient-test cases=3263
+abstract: m=4, regions=(4,), kernel dim=3, quotient-test cases=4177
+abstract: m=5, regions=(), kernel dim=5, quotient-test cases=112473
+abstract: m=5, regions=(3,), kernel dim=4, quotient-test cases=29851
+abstract: m=5, regions=(4,), kernel dim=4, quotient-test cases=35923
+abstract: m=5, regions=(5,), kernel dim=4, quotient-test cases=45957
+abstract: m=6, regions=(3, 3), kernel dim=4, quotient-test cases=144697
+abstract: m=7, regions=(3, 3), kernel dim=5, quotient-test cases=79704
+abstract: m=7, regions=(3, 4), kernel dim=5, quotient-test cases=107380
+abstract: m=8, regions=(4, 4), kernel dim=6, quotient-test cases=1549428
+ABSTRACT TOTAL 2121966 weighted target/quotient cases

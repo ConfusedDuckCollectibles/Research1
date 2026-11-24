@@ -37,3 +37,7 @@ python3 audit.py --nmax 6
 The independent replay checks all eight supplied designs, the extra
 24-qubit case, and 98,780 small CSS row-space pairs. The code controls
 are not a substitute for the proof.
+
+### Extension: disjoint parity constraints
+
+The [parity addendum](disjoint-parity.md) covers isolated three-group constraints, including rank one below four times the target distance. It gives a sharp correction, an exact restricted distance test, and a counterexample showing why overlapping constraints cannot be treated as disjoint. See the [independent replay](parity-audit.md).
