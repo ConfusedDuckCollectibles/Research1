@@ -1,0 +1,4 @@
+96 triangles; 32 axial faces + 64 axial stars; one face frame each
+Exact 38-point full-cap witness and opposite-side triple-low pair
+Exact nonpolar seven-high control; all 24 polar seven-high subframes
+Triple-violating height-one control and all W/W products 7/4

@@ -7,3 +7,4 @@ This extends the previously studied case with all 24 vertices present. It does n
 - [Continuous proof and prior work](CHECKPOINT.md)
 - [Independent audit and edge cases](audit/AUDIT.md)
 - Exact controls: `python3 verify.py` and `python3 audit/verify.py` (standard library only).
+- [Three-hole completion](triangle-holes/): 21 vertices of one named template already force all 24 at a total of 40. With exactly 21 present and triangular holes, 38 or 39 is possible as a maximum; the proof does not distinguish them in general.

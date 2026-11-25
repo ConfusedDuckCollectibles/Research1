@@ -1,0 +1,4 @@
+All 96 hole triangles: unique face frame, both W rays and polar matching
+Five polar highs without an antipode: 48 cases; exact mixed/triple high-ray controls
+Transported exact 38-point both-full code for each of 96 hole masks
+Exact two-sided opposition controls: one full cap can coexist with two triple lows
