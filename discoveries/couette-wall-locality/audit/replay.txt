@@ -1,0 +1,3 @@
+256 disjoint bounded-pulse windows satisfy the variance/continuity certificate.
+Strict lower bound for |K_N−K_bulk|/p_1(2epsilon): 2.540807939493274
+Exact inequality: > 5/2 at x=y=epsilon=2^(-276).
