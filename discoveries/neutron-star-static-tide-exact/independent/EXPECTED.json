@@ -1,0 +1,27 @@
+{
+  "base": {
+    "compactness": "48128000081/614400000000",
+    "causalUpper": "603/800",
+    "pressureBootstrapSlack": "13/800",
+    "yContinuationUpper": "28823/240000",
+    "flatGapLower": "3969/5000000",
+    "totalErrorUpper": "3/12500",
+    "strictWitnessMargin": "2769/5000000",
+    "minimumRelativeJump": "3/100",
+    "radialBound": "54002/54675",
+    "radialMargin": "673/54675"
+  },
+  "higher": {
+    "compactness": "40960000081/384000000000",
+    "causalUpper": "7153/7500",
+    "pressureBootstrapSlack": "47/45000",
+    "yContinuationUpper": "1201/8000",
+    "flatGapLower": "3969/5000000",
+    "totalErrorUpper": "17/50000",
+    "strictWitnessMargin": "2269/5000000",
+    "minimumRelativeJump": "6/175",
+    "radialBound": "2679/2720",
+    "radialMargin": "41/2720"
+  },
+  "checks": "PASS"
+}

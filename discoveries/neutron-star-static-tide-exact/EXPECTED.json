@@ -1,0 +1,11 @@
+{
+  "checks": "PASS",
+  "compactness": "48128000081/614400000000",
+  "compactnessDecimal": 0.07833333346516927,
+  "soundUpper": "603/800",
+  "stability": "54002/54675",
+  "stabilityDecimal": 0.9876909007773206,
+  "IVTGap": "3969/5000000",
+  "IVTError": "3/12500",
+  "remainingWitnessGap": "2769/5000000"
+}
