@@ -1,0 +1,6 @@
+bump bounds: B<=1, |B'|<=4, |B''|<=32
+global positivity: Hessian perturbation < 1/8; geometric jets match for |c|<1/100
+same-point convergence deficit >1/400 and >1% at a certified physical lens point
+fibre length unchanged, first transverse moment strictly changes at midpoint
+circular witness: aligned area exactly preserved; inverse endpoints recovered from first radial moment
+PASS

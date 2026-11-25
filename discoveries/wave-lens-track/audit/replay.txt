@@ -1,0 +1,4 @@
+Exact Plummer potential, positive-convex projection, and Abel constant
+Bessel offset coefficients: -w^2 x/2 and w^4 x^2/16
+Common shear preserves width, its shifted first moment inverts, and one-sided test fails
+Affine-track conditional Jacobian moments exact; first transverse moment changes
