@@ -1,0 +1,43 @@
+# Independently checked size-52 endgame
+
+**Result of the audit.** Combining the previously audited spectral caps, layered exclusion, K9 reductions, exact two-row K9 exclusion, and degree-seven rigidity, the low-pencil and centroid steps below exclude every size-52 spectral pair over F13³. This does not address size 78. The endgame needs no full K8 shadow enumeration. Its only new finite check can be elementary interpolation of degree-four profiles; the arithmetic-progression step is classical and is additionally reproduced by exact finite check.
+
+## 1. The bounded profile and weighted low pencil
+
+Write D(E) for direction points of E differences, U_E for projective normals with all affine plane occupancies equal to four, and V_E for the complement. Spectrality gives D(E)⊂U_A, and symmetrically D(A)⊂U_E. Both U sets meet each projective line at most eight times after the K9 exclusion. All plane occupancies are at most ten; affine lines have at most four. The independent previous degree-seven audit proves mixed-moment vanishing on each side.
+
+For a normal v, let c(t) be its thirteen actual plane occupancies. There is a unique interpolation polynomial c over F13 of degree at most 12. Pairing against t^j for 0≤j≤7 gives zero by the moments of total degree j. For any j in this range the only exponent contributing to the sum over t is degree 12 (degree zero contributes 13=0, and total degree is at most 19<24). Thus the coefficients of degrees 12 down through 5 vanish. The actual integers c(t) are the least residues of this degree-at-most-four polynomial because they are bounded by ten. There is no modulo ambiguity.
+
+Let q(v)=Σ_t binom(c(t),2), k_E(v)=(q(v)−78)/13. A finite exact rank-free replay assigns every set of five values in [0,10] at field locations 0..4, obtains all remaining values by Lagrange interpolation, and filters real total 52 and cap ten. Of 161,051 candidates, 42,781 respect the cap and 10,765 also give total 52. Exact k counts are 0:1, 2:390, 3:1664, 4:3510, 5:2964, 6:1651, 7:546, 10:39. The zero profile is uniform four. In particular the weight is zero on U_E and at least two on V_E.
+
+Every unordered E pair is counted in q(v) for fourteen v. Consequently Σ_v k_E(v)=[14·binom(52,2)−183·78]/13=330. For a fixed direction d, a pair of direction d is counted by all fourteen normals perpendicular to d, whereas any other pair is counted once in this pencil, giving Σ_{v⊥d} k_E(v)=18+t_E(d), with t_E(d) the number of E pairs of direction d. For d∈V_A, t_E(d)=0. Summing over all such d and rearranging gives, for m=|U_A|,
+\[
+\sum_v k_E(v)\big(8-|U_A\cap v^\perp|\big)=18(73-m).
+\]
+The formula also gives m≤73 (all terms nonnegative), and after exchange |V_E|≥110.
+
+Suppose every line meets D(E) at least four times. Put n_L=|U_A∩L|, so 4≤n_L≤8. Then
+\[
+0\ge \sum_L(n_L-4)(n_L-8)=m^2-155m+5856.
+\]
+This gives m≥66. Let e count lines with n_L=8. Since v↦v⊥ is a bijection between points and lines, and each v∈V_E outside those e lines' normals contributes at least two, the displayed weighted sum is at least 2(110−e). Two independent upper bounds on e are
+\[
+e\le\left\lfloor\frac{\binom m2-1098}{22}\right\rfloor,
+\qquad
+e\le\left\lfloor\frac{\binom m2-56m+1830}{6}\right\rfloor .
+\]
+The first counts six pairs per line plus another 22 on each eight-line, and the second uses the pointwise inequality binom(n,2)≥6+4(n−4)+6·[n=8]. Use min of the two. At m=66, e≤46 so 2(110−e)≥128>126. For m=67..73, the minima are respectively 48,50,52,54,56,59,61. The finite table in the replay compares each lower bound against 18(73−m), all strict. Hence E has some projective direction line meeting D(E) at most three times. This conclusion uses no assumed Boolean projection. It applies to either member.
+
+## 2. Low pencil and centroid closure
+
+Fix such a direction line for E, corresponding to a horizontal two-dimensional vector plane H. Its thirteen parallel affine planes, indexed by y∈F13, meet E in exactly four collinear points each. A larger slice would contain four noncollinear points by cap four, and four noncollinear points already determine four directions in odd characteristic; all slices therefore have at most four, and their average is four. The thirteen row lines have at most three directions in H. Choose affine coordinates p∈F13² on H and let C(y)=(1/4)Σ_{p in row y}p.
+
+Consider two rows of the same direction d. Their affine lines are distinct (they lie in different y-slices) and span an affine plane. Choose the same nonzero along-line basis d for both and offsets for the affine locations. Their cross directions in that affine plane are in bijection with the scalar difference set X−Y of the two four-element abscissa sets, since the transverse displacement between the lines is fixed and nonzero. None is their common direction d. The at-most-eight pencil bound therefore requires |X−Y|≤7. Cauchy–Davenport gives the reverse inequality. By [Vosper’s critical-pair theorem](https://doi.org/10.1112/jlms/s1-31.2.200), with both cardinalities four and 7≤13−2, both sets are 4-term arithmetic progressions with the same step up to sign. The independent replay establishes the same implication (and converse) directly for every unordered pair allowing equality among the 715 four-subsets: 255,970 pairs, exactly 546 with difference-set size seven, all and only the same-step AP pairs. A 4-AP's step is unique up to sign here because its two oriented differences with ordered multiplicity three are ±s; all ±s,±2s,±3s are distinct in F13. Thus in every orientation represented more than once all rows share one physical vector step ±s.
+
+By mixed moments, Σ_y y^j C(y)=0 for 0≤j≤6. As in §1, the coordinate interpolation polynomials of C have degree at most five: only exponents 12 contribute, since the unfiltered product has degree at most 18. Therefore Σ_y C(y) C(y)^T=0, each entry a field sum of a polynomial of degree at most ten. Also Σ_E pp^T=0 by total-degree-two moments. The centered scatter matrices B_y=Σ_{p in row y}(p−C(y))(p−C(y))^T satisfy Σ_y B_y=Σ_E pp^T−4Σ_y C(y)C(y)^T=0. Each rank-at-most-one matrix is scalar along its row orientation. For an AP4 with vector step s it is precisely 5ss^T, since the four deviations in units of s are −3/2,−1/2,1/2,3/2. In dimension two the orientation matrices dd^T for at most three distinct directions are linearly independent: apply a common invertible coordinate map taking two directions to the axes via congruence; a third has both components nonzero, so its off-diagonal entry cannot cancel. If there is just one or two, the assertion is immediate. Every repeated orientation of multiplicity 2≤r≤12 would contribute 5r ss^T, a nonzero coefficient in F13, contrary to Σ_y B_y=0 and independence. Some orientation repeats by pigeonhole, so all thirteen rows share it.
+
+Now project along that common direction d to the affine quotient plane. The thirteen distinct row locations form a cap, because any three on a quotient line would lift to an affine plane containing twelve selected points, contrary to cap ten. The 78 unordered pairs among them support at most six pairs per direction (pairs of the same direction are disjoint in a cap), hence at least thirteen distinct quotient directions. Each quotient direction gives a distinct projective line through d in which D(E) contains d and at least seven other points. The lines through d have no overlap except d. Thus |D(E)|≥1+13·7=92, contradicting D(E)⊂U_A and |U_A|≤73.
+
+## Provenance, replay, and limits
+
+Run `node independent.js` and compare its stdout to `independent-expected.json`; it is independent of the authors’ coefficient sweep and verifies all tiny finite arithmetic using integers, no packages or tolerances. The full conclusion retains upstream dependencies, which should be distributed or referenced reproducibly: the size-52 plane and line caps / K10 exclusion, the complete full-layer exclusion, the K9 common shadow and mixed case, this note’s independently replayed K9 height exclusion, and the analytic degree-seven argument. Scope of exact originality remains ordinary limited literature checking. Ferguson–Iosevich’s Proposition 10.6 and Lemma 10.7 directly anticipate the projective occupancy and collinear-slice framework over F11, and Section 13 uses moment restrictions on interpolated plane profiles. Wang’s exactly-four-special-directions theorem is Boolean planar and eliminates K10 in the qualified reduction, not the three-dimensional size-52 branch. The centered second-moment contradiction after Vosper is separate from those earlier arguments, but no first-priority certification is attempted.
