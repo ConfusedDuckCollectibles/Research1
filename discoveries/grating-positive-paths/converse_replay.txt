@@ -1,0 +1,3 @@
+periodic test: same conditional occupations and averages at all test shifts
+two-speed test: passes the short cone and each marginal range, but is impossible jointly
+fixed-time converse exact controls passed

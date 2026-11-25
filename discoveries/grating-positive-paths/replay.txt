@@ -1,0 +1,6 @@
+collective model and both residuals are positive; exact D1 in (1047,1048)*1e-6
+exact D2 in (478,479)*1e-6; passive two-tone inequality violation >13/10000
+absolute errors of 1/2500 on each residual still leave strict separation
+resistive-only stationary-reset control satisfies both finite cone edges
+exact early-time coefficients verify strict 32-to-1 threshold for the moment test
+PASS
