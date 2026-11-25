@@ -1,0 +1,4 @@
+full two-lead |S_ij|^2 match; transmission 9/25; det r = -256/625 and +256/625
+two-basis full local law and individual inputs match; det r = +16/625 and -649/22500
+normal/Andreev/singular + 12 complex controls; neutral-pair workaround; statistical margin <0.075
+all exact Gaussian-rational checks passed

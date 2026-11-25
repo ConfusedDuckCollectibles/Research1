@@ -1,0 +1,5 @@
+# Fixed scope and gates
+
+The target is the orientation of a finite zero-energy left reflection block r in coherent class-D BdG scattering, with two calibrated physical electron modes and their particle-hole partners in that lead. Another lead is open; r need not be unitary. Any detector must operate on unconditional events, use no coherent e-vs-h mixing and no superconducting phase reference. Calibrate ordinary electron-mode rotations and the conjugate hole rotation, energy and detector floors. A positive result must identify sign(det r) without inferring a bulk invariant, long-wire topological protection, or rejection of all ordinary Andreev models.
+
+Required checks: independent pair-probability derivation; nonzero leakage and exact class-D matrix realizations; full fixed-basis local data ambiguity or sharper multi-terminal same-conductance pair, no hidden extra modes; known isolated one-channel / unitary and singular controls. Exact algebra/replay and an operating-stability bound under documented energy, mode and readout errors. No experimental acquisition, proprietary data, public release or claims on any specific platform.

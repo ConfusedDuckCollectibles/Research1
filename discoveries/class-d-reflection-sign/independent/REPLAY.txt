@@ -1,0 +1,4 @@
+same fixed Nambu |S_ij|² and leakage 9/25 | det -256/625 | x/y/z scores [-512/625, -128/625, -128/625]
+same fixed Nambu |S_ij|² and leakage 9/25 | det 256/625 | x/y/z scores [256/625, 256/625, 256/625]
+two exact local laws (both mixed bases) equal for opposite determinants 16/625 -649/22500
+isolated +/- unit norm, nontrivial singular, and 15 complex rational contraction controls: PASS
