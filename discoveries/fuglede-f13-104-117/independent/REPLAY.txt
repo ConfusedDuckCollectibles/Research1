@@ -1,0 +1,5 @@
+points 8 cap 5 budget 5: states 1 64 317 36 9 0 ; survivors 0
+points 8 cap 3 budget 7: states 1 162 4290 7639 1479 0 ; survivors 0
+points 9 cap 4 budget 7: states 1 161 4417 12601 4654 9 0 ; survivors 0
+points 8 cap 5 budget 6: states 1 162 1484 1714 350 72 ; survivors 72 [6 directions: 72] ; one witness (0,0) (1,2) (3,1) (0,1) (1,1) (3,6) (7,1) (11,1)
+points 8 cap 4 budget 7: states 1 162 4445 12866 5070 9 ; survivors 9 [6 directions: 9] ; one witness (0,0) (1,2) (3,1) (0,1) (1,1) (3,6) (11,1) (11,9)
