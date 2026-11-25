@@ -1,0 +1,42 @@
+{
+  "movedGraphCensus": [
+    {
+      "fixed": 38,
+      "orbitCount": 1,
+      "masks": 2,
+      "triangleFree": 2,
+      "passesPairNecessities": 0,
+      "degreeHist": {}
+    },
+    {
+      "fixed": 36,
+      "orbitCount": 4,
+      "masks": 16,
+      "triangleFree": 13,
+      "passesPairNecessities": 0,
+      "degreeHist": {}
+    },
+    {
+      "fixed": 34,
+      "orbitCount": 9,
+      "masks": 512,
+      "triangleFree": 217,
+      "passesPairNecessities": 4,
+      "degreeHist": {
+        "2,2,2,2,2,2": 4
+      }
+    }
+  ],
+  "budget": {
+    "integerTriples": 174752,
+    "max": 249,
+    "maximizers": 43,
+    "firstMaximizer": [
+      15,
+      117,
+      0
+    ],
+    "minimumUsingPublishedInput": 255,
+    "margin": 6
+  }
+}

@@ -1,0 +1,28 @@
+# No (3,10;40)-graph has an involution moving at most six vertices
+
+**Statement.** If a simple triangle-free graph G has 40 vertices and no independent 10-set, then each involution of G fixes at most 32 vertices. In particular the (2,34) symmetry class is empty. This does not exclude the asymmetric case or any involution fixing 32 or fewer vertices, and does not decide whether R(3,10)=40 or 41.
+
+**Published inputs.** We use R(3,2)=3, R(3,6)=18, R(3,8)=28, R(3,9)=36, and the established minimum e(3,8,27)=85. Here e(3,k,n) is the minimum number of edges of an n-vertex triangle-free graph with no independent k-set. Goedgebeur–Radziszowski, *New Computational Upper Bounds for Ramsey Numbers R(3,k)*, EJC 20(1) (2013), #P30, Table 1 (Ramsey numbers) and Table 3 (edge minima), pp. 5 and 10, https://backoffice.biblio.ugent.be/download/3235132/4134285 . Brinkmann–Goedgebeur–Schlage-Puchta, *Ramsey Numbers R(K3,G) for Graphs of Order 10*, EJC 19(4) (2012), #P36, the “Classical Ramsey numbers” subsection and Table 3, in the Classical Ramsey Numbers subsection of §3, https://arxiv.org/pdf/1208.0501 gives the underlying complete enumeration of 477,142 graphs of type (3,8;27). Our proof uses the published minimum as an input rather than rerunning that census.
+
+## Argument
+
+1. Every degree is at most 9, because every vertex neighborhood is independent. Every degree is at least 4: deleting a vertex together with its neighbors leaves a triangle-free graph with independence number at most 8 and hence order at most 35. Further, G has no K_{2,8}. Indeed, if A,B are the two sides (of sizes 2 and 8), an outside vertex cannot have neighbors in both, by triangle-freeness. The outside vertices anticomplete to A are at most 27, because A together with an independent 8-set there would give 10; those anticomplete to B are at most 2, because B together with a pair of nonadjacent vertices there would give 10. These two sets cover the 30 outside vertices, but 27+2=29. Equivalently, two distinct vertices have at most seven common neighbors.
+
+2. Let F be the fixed set of an involution, and assume |F|≥34; the nontrivial involution has at most three swapped pairs. No swapped pair has its own edge: if it did, it could have no fixed neighbor (a fixed neighbor is adjacent to both its vertices), and each vertex of the pair could have at most one neighbor in each other swapped pair (otherwise by symmetry some vertex of that other pair forms a triangle with the internal edge). Its degree would be at most 3, impossible.
+
+3. For a swapped pair X_i, let B_i be its fixed neighbors, each adjacent to both vertices of X_i. Then 7≥|B_i|≥|F|−27, because F∖B_i is anticomplete to the independent pair X_i, and hence has no independent 8-set and order at most 27. This already excludes |F|=36,38. For |F|=34 there are exactly three pairs, and |B_i|=7 for each.
+
+4. Between any two swapped pairs there is an edge. Otherwise the two pairs make an independent 4-set, anticomplete to the at least 34−14=20 fixed vertices outside their fixed neighborhoods, while R(3,6)=18. In particular the three B_i are pairwise disjoint: a fixed vertex common to B_i and B_j would make a triangle with any edge between X_i and X_j. Each B_i is independent since it is contained in a vertex neighborhood. We need no further structure on the six moved vertices. For reference, the cross-edges between two swapped pairs form one matching or both; the latter is impossible because all three pairs are linked, and any vertex in the third pair has neighbors in both joined pairs by the involution. Three matchings without a triangle form a 6-cycle.
+
+5. Write T=F∖(B_1∪B_2∪B_3); |T|=13. Let a be the number of edges between distinct B_i, b between their union and T, and c within T. Summing fixed degrees over the 21 vertices of the B_i yields 2a+b≤21·7=147, since each has its two moved neighbors. Over T we similarly get b+2c≤13·9=117. Each of the three induced graphs on F∖B_i is a (3,8;27)-graph, hence has at least 85 edges. In their total edge count, an edge of type a, b, c is counted respectively one, two, three times. Therefore
+   255 ≤ a+2b+3c = ((2a+b)+3(b+2c))/2 ≤ (147+3·117)/2 =249,
+   impossible.
+
+No saturation, regularity, catalogue matching, SAT or assumption on an extension procedure is used beyond those established Ramsey data.
+
+## Frontier and scope of source comparison
+
+- Vigleik Angeltveit, *R(3,10)≤41*, EJC 32(4) (2025), #P4.30, https://arxiv.org/abs/2401.00392 , establishes the upper end of 40≤R(3,10)≤41. Its 39-vertex search does not cover all graphs or this involution class.
+- Dinesh Pandey and Peruvemba Sundaram Ravi, *On structural properties of some probable R(3,10)-critical graphs*, arXiv:2601.03572, §3, https://arxiv.org/html/2601.03572#S3 studies graph structure including remarks for 40 vertices. The specific involution argument was not found there.
+- Unsolved Lab, *The Ramsey number R(3,10): the lab's report*, https://unsolvedlab.com/problems/ramsey-r310 , sections “The 60 symmetry classes, prime by prime” and “Theorem B,” explicitly lists (2,34) as open after certifying about half its cubes, and treats 36 and 38 as excluded. That online report is not peer-reviewed. The present argument closes its displayed residual (2,34) class without building on those cubes. This is a source-relative comparison, not a claim of first historical priority.
+- The named Kalbfleisch C35 embedding exclusion in Research1 and the previous degree-5/6 sparse-core work are independent and not assumed. The public vertex-transitive/Cayley search reported in parallel is not an exclusion of arbitrary graphs with a single involution of this cycle type.
