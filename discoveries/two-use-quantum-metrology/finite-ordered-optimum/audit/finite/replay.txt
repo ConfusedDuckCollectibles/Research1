@@ -1,0 +1,6 @@
+Complex effect direct SLD: 317288232/165761875 positive flag CFI: 2286144/165761875
+Realification preserves classical + base QFI and raises both tangents; sign flip raises surviving tangent
+Two-call physical block SLD agrees with recursive classical chain rule; total = 12667133600696808/4053395849609375
+Rank-change control: zero-mass pointwise SLD 576/625 while positive-mass limit 36/25
+Endpoint survivals 0 and 1 agree with physical direct SLD
+Six-slot noiseless/dummy saturation of the centered-generator bound: 676/25

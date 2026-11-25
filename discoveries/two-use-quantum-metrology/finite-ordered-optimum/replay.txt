@@ -1,0 +1,6 @@
+symbolic: Bellman mean, CFI, real reduction, capacity, square, saturation
+physical witness (1,1/4,1): saturated <= 16/3; actual > 590377/110000; gap > 11131/330000
+witness value (display only): 5.3689421921247
+physical controls: complex score, null-probability jet, parking, unitary end
+no-record controls: seed q=1/16, next warmup q=25/208; high-q increment=14/45
+PASS

@@ -1,0 +1,5 @@
+p=decay | three Bellman slots | author comb | absolute difference
+0.10   7.9237733224   7.9237733225   9.11e-11
+0.40   4.9796835593   4.9796835593   7.25e-12
+0.80   1.6412146972   1.6412146972   9.53e-13
+PASS (numerical comparison only)

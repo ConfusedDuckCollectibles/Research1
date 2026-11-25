@@ -1,0 +1,10 @@
+Seed physical erasure 1/4 carrier q 1/16
+Seed physical erasure 1/2 carrier q 1/8
+Seed physical erasure 16/25 carrier q 4/25
+Startup physical erasure q, y, SLD: (25/208, 25/52, 25/52)
+Large-mode physical erasure q, y, SLD: (33/2, 35/64, 66)
+Sufficient exact startup steps after seed 1/100: 401
+Sufficient exact startup steps after seed 1/4: 30
+Sufficient exact startup steps after seed 1/2: 149
+Sufficient exact startup steps after seed 9/10: 7487
+Sufficient exact startup steps after seed 99/100: 842687

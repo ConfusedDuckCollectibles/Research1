@@ -11,3 +11,4 @@ This is a local precision result in an idealized model. This first proof shows a
 - [Proof, exact examples, and sources](PROOF.md)
 - [Exact replay](verify.py): run `python3 verify.py` with SymPy.
 - [Independent proof audit](audit/AUDIT.md) and [second exact verifier](audit/verify.py): `python3 audit/verify.py` uses only the standard library. It also checks a fixed input for which reversing the order improves the specific feedback protocol; it does not prescribe a globally best order.
+- [Any finite ordered sequence and a fixed-memory asymptotic construction](finite-ordered-optimum/): exact two-variable recursion per call, an obstruction to greedy middle controls, and a three-qubit policy that attains the known asymptotic coefficient with no retained measurement record. Requires ideal reset controls.
