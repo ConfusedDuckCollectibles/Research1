@@ -30,7 +30,7 @@ For p=13 it already excludes 104 and 117 in that branch, leaving a parallel
 full-layer alternative. The argument here is unconditional and does not
 assume away that alternative. The [separate size-26 note](../fuglede-f13-26/)
 rules out 26, and the [subsequent size-39 proof](../fuglede-f13-39/)
-rules out 39. The residual sizes in this ledger are **52, 65, 78, 91**.
+rules out 39. The [updated ledger](../fuglede-f13-39/STATUS.md) records the classical determinant exclusion at 65 and 91, leaving **52 and 78**.
 
 The primary model is Ferguson–Iosevich’s proof at p=11, specifically
 Lemma 8.2, Lemma 8.5 and Proposition 13.1. This is an AI-assisted research

@@ -300,6 +300,5 @@ method and other uses of line-factor multiplicities in Section 11. The [Malikios
 does not exclude 39. A bounded current primary search found no previous
 size-39 exclusion in \(\mathbb F_{13}^3\), and no priority claim is made.
 After the separate [size-26](../fuglede-f13-26/) and
-[size-104 and size-117](../fuglede-f13-104-117/) exclusions and the primary general reductions, the unresolved cardinalities
-in this \(\mathbb F_{13}^3\) ledger are **52, 65, 78 and 91**. This is
+[size-104 and size-117](../fuglede-f13-104-117/) exclusions and the primary general reductions, the initially listed candidates were 52, 65, 78 and 91. The [updated ledger](STATUS.md) applies the existing Butson determinant obstruction at 65 and 91, leaving **52 and 78**. This is
 not full Fuglede for \(p=13\).
