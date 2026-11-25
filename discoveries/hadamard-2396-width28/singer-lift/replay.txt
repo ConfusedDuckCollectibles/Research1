@@ -1,0 +1,4 @@
+positive width-12 control: direct PAF [16,4,4,4]; B4 plus/minus energies (7,3)
+order 7: one block lower 2664, full four-block upper 2396 or 2364
+order 3 on transverse B4: all 148 differences +4; one defect implies 22201>599
+old C37 compression remains positive (16/16), but every Singer lift fails the transverse norm

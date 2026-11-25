@@ -12,3 +12,7 @@ The proof does not rule out other symmetries, a core with no such symmetry, or o
 ### Mixed symmetries and search patterns
 
 [The follow-up](mixed/ADDENDUM.md) rules out certain ninth-order scalar symmetries even when they also move slices or swap sign patterns. It works out the 32 normalized search patterns for one of the possible small quotients, respecting the actual row sums. Those are compressed search inputs, not complete matrices.
+
+### Transverse lift obstruction
+
+[A separate compression](singer-lift/ADDENDUM.md) proves that the surviving Singer-symmetric compressed example cannot come from a full core with that symmetry. It also excludes a common pure order-three rotation of the 16-element factor. These are restrictions on the symmetry search, not a proof against all width-28 cores.
