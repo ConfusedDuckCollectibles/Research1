@@ -1,0 +1,6 @@
+finite connected (1,4) star pair: both complex admittances exactly equal
+restoring gap >199/900, <2/9 (display only: 0.221166050845)
+explicit minimax estimator expansion exact; complex component error factor 7/3
+one-tone finite band width exactly 1/50; ceiling width tends to 1/6 on one fixed record
+reciprocally coupled nonstar exact nodal phasor matches spectral star
+PASS

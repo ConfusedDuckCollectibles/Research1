@@ -1,0 +1,5 @@
+m=1 whole-axis: exact matching; width -> 1/2
+m=2 frequencies 1,4: exact matching; width -> 2/9; expansion verifies slope -9
+m=1 ceiling 3/4: exact matching; width -> 1/6
+m=1 window [3/4,4/3]: exact matching; width 1/50 attained
+Exact nonstar Schur control: total hidden capacity recovered before diagonalization
