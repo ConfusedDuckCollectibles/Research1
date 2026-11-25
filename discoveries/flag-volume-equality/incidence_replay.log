@@ -1,0 +1,44 @@
+d=1 cs=1: exact difference inclusion 1, exact signed-support failure 0; 2 successful incidences
+   equality indices [1]
+d=2 cs=1: exact difference inclusion 1, exact signed-support failure 0; 12 successful incidences
+   equality indices [2]
+d=3 cs=2: exact difference inclusion 2, exact signed-support failure 0; 110 successful incidences
+   equality indices [2, 5]
+d=4 cs=4: exact difference inclusion 4, exact signed-support failure 0; 886 successful incidences
+   equality indices [3, 8, 11, 19]
+d=5 cs=13: exact difference inclusion 8, exact signed-support failure 5; 7252 successful incidences
+   equality indices [2, 10, 14, 47, 52, 68, 85, 106]
+   reject row 5: parent=f81, facet=d80, plus=1b, minus=30c0
+   reject row 23: parent=7f80, facet=2980, plus=4188, minus=262
+   reject row 32: parent=1ff00, facet=a600, plus=1188, minus=262
+   reject row 37: parent=7fe00, facet=6c000, plus=c12, minus=264
+   reject row 59: parent=1fc0, facet=1340, plus=28028, minus=14084
+d=6 cs=45: exact difference inclusion 18, exact signed-support failure 27; 60596 successful incidences
+   equality indices [4, 10, 33, 90, 99, 146, 381, 434, 514, 517, 532, 544, 614, 763, 849, 889, 1104, 1150]
+   reject row 14: parent=479, facet=449, plus=80a0504014, minus=51a0a080
+   reject row 22: parent=7980, facet=6900, plus=80224222, minus=2118188
+   reject row 28: parent=5e8000, facet=168000, plus=229000, minus=12022
+   reject row 45: parent=7fe00, facet=24e00, plus=5010990, minus=a022442
+   reject row 65: parent=1ffc00, facet=19a800, plus=980212, minus=242188
+   reject row 80: parent=7ff800, facet=66a000, plus=260212, minus=90988
+   reject row 109: parent=1ff00, facet=d900, plus=22884140, minus=11408222
+   reject row 127: parent=7fe00, facet=2e600, plus=2a24100, minus=508222
+   reject row 158: parent=ff00, facet=5300, plus=5104a090, minus=a00a5044
+   reject row 235: parent=3fc000, facet=14c000, plus=54210, minus=20944
+   reject row 253: parent=3fc00000, facet=cc00000, plus=6028, minus=9084
+   reject row 258: parent=3fe00, facet=14c00, plus=d045014, minus=21aa0c0
+   reject row 347: parent=3fe000000, facet=9a000000, plus=4124, minus=3240
+   reject row 350: parent=ffc00, facet=d8000, plus=a4046c, minus=5b0a80
+   reject row 374: parent=3ff0000000, facet=ca0000000, plus=894, minus=628
+   reject row 396: parent=6e62000, facet=4822000, plus=c0024, minus=300c0
+   reject row 412: parent=17e0c000, facet=14c00000, plus=22422, minus=8990
+   reject row 420: parent=5f838000, facet=b020000, plus=4198, minus=8a42
+   reject row 549: parent=3f80, facet=2680, plus=2a0004a50, minus=55000a408
+   reject row 569: parent=fe00, facet=9a00, plus=2a01250, minus=5502808
+   reject row 595: parent=3f800, facet=26800, plus=2804d0, minus=540a08
+   reject row 606: parent=3f80000, facet=2680000, plus=200d0, minus=50208
+   reject row 627: parent=7ff800, facet=153800, plus=80934, minus=342402
+   reject row 657: parent=66a800, facet=442800, plus=30880, minus=200034
+   reject row 682: parent=154f000, facet=40d000, plus=11190, minus=a2802
+   reject row 729: parent=60fe000, facet=2058000, plus=15022, minus=a144
+   reject row 859: parent=196c00, facet=92400, plus=904880, minus=20840a

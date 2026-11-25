@@ -1,0 +1,8 @@
+P4: facet rank 4; widths 1,2
+C4: facet rank 4; widths 1,2
+d=1: all=1, cs=1, equality=1, strict=0, least positive scaled gap=n/a; equality indices [1]
+d=2: all=2, cs=1, equality=1, strict=0, least positive scaled gap=n/a; equality indices [2]
+d=3: all=5, cs=2, equality=2, strict=0, least positive scaled gap=n/a; equality indices [2, 5]
+d=4: all=19, cs=4, equality=4, strict=0, least positive scaled gap=n/a; equality indices [3, 8, 11, 19]
+d=5: all=106, cs=13, equality=8, strict=5, least positive scaled gap=3072; equality indices [2, 10, 14, 47, 52, 68, 85, 106]
+d=6: all=1150, cs=45, equality=18, strict=27, least positive scaled gap=24576; equality indices [4, 10, 33, 90, 99, 146, 381, 434, 514, 517, 532, 544, 614, 763, 849, 889, 1104, 1150]
