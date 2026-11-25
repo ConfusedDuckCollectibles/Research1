@@ -13,9 +13,10 @@ test case, not a measurement or evidence that real experiments will
 achieve those percentages. A zero bound does not prove equilibrium.
 
 The result assumes a stationary finite-state Markov jump process and
-ordinary time reversal. The contribution is the equal-marginal closed form of the Bernoulli
-optimization for this three-snapshot problem. The underlying
-variational program, balanced special case and related persistence tests are prior work.
+ordinary time reversal. The scalar formula and its optimizer already appear in [Petkov's
+marked-excursion calculation](https://hexagonmath.org/pdf/2611.00657v1).
+This note applies that formula to three fixed-lag readings and proves
+its comparison with an earlier bound using those same readings.
 See the [proof and prior comparisons](proof.md) and [independent audit](audit.md).
 Not peer reviewed.
 
