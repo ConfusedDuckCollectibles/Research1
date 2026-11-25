@@ -1,0 +1,3 @@
+Matched diagonal and unequal GHZ exact controls; untagged diagonal GHZ loses QFI (27/14 < 9/4).
+Unequal high loss: cap 149825737/156250000 noisy first 3360283141/3449460000 less noisy first 9944872779/10204652500 order difference 101407/256452000 certified gap 9986716030943/637790781250000
+Noiseless/damped edge: 144/49 parallel, 625/196 noisy-first; replacer and two-unitary controls pass.

@@ -1,0 +1,5 @@
+Symbolic identities: heterogeneous residual, diagonal and edge contradictions, GHZ and one-call certificates: PASS.
+Exact physical density/SLD witness at (3/5, 3/5): parallel upper 9/4, adaptive 2421/992, absolute gap 189/992.
+Exact physical density/SLD witness at (16/25, 81/100): parallel upper 5184/1849, adaptive 1996812/667489, absolute gap 2916/15523.
+Exact physical density/SLD witness at (1/4, 1/4): parallel upper 967669/1000000, adaptive 1087/1100, absolute gap 225641/11000000.
+All checks passed; no floating-point optimizer or channel-environment readout.
