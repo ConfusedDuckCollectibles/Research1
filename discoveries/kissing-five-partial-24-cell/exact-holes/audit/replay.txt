@@ -1,0 +1,8 @@
+Exact sharp deletion witnesses: all 276 pairs and all 2024 triples
+All 2024 triple masks by adjacency edge count: {0: 488, 1: 1056, 2: 384, 3: 96}
+Nonadjacent zero-dot never co-violates with <=3 holes; all 1928 nontriangle three-hole ray systems pass
+Exact nonpositive subsets of polar F at size 6 : 84 ; all within one frame
+Exact nonpositive subsets of polar F at size 7 : 24 ; all within one frame
+Exact nonpositive subsets of polar F at size 8 : 3 ; all within one frame
+Nonpolar seven-high layer exists; no assumption that all high are polar
+Triangle: exact 38-point counterexample to universal 37; per-type low conflict also fails at dot 9/10

@@ -1,0 +1,5 @@
+6/7/8 polar layers: 84 24 3 ; singular polar triples: 32
+Nonpolar 7-high control and W conflicts incl. obeyed adjacent hole pass
+Exact 38-point witnesses for all 276 pairs, both aligned families
+Exact 37-point witnesses for all 1928 nontriangles; [(0, 488), (1, 1056), (2, 384), (3, 96)]
+Transported exact 38-point constructions for all 96 triangular masks
