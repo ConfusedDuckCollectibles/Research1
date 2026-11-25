@@ -10,3 +10,7 @@ This is a result about a particular periodic model and a particular transformati
 - [Primary sources](SOURCES.md)
 - [Exact interval replay](verify.py): `python3 verify.py`
 - [Independent proof audit and exact fixed-frequency counts](audit/AUDIT.md): `python3 audit/exact_replay.py`
+
+### Fixed-depth rounding
+
+[The follow-up](fixed-depth/ADDENDUM.md) holds the depth fixed and quantifies how close the same family comes to resonance. It proves a rational–irrational split in the scaled mismatches, including an exact positive floor on one side and smaller-than-inverse-power-one mismatches infinitely often on the other. It concerns this family only.
