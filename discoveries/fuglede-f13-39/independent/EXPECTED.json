@@ -1,0 +1,407 @@
+{
+  "finish": {
+    "heavyDirections13MeansVertical": [
+      1,
+      2,
+      4,
+      8,
+      10,
+      13
+    ],
+    "maximumSliceSizes": [
+      3,
+      7,
+      8,
+      3,
+      7,
+      3,
+      3,
+      3,
+      7,
+      3,
+      7,
+      3,
+      3,
+      7
+    ],
+    "levelZeroSizes": [
+      3,
+      7,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      7
+    ],
+    "remainingDirections": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12
+    ],
+    "connectivity28": [
+      {
+        "q": 0,
+        "r": 3,
+        "components": 1
+      },
+      {
+        "q": 0,
+        "r": 5,
+        "components": 1
+      },
+      {
+        "q": 0,
+        "r": 6,
+        "components": 1
+      },
+      {
+        "q": 0,
+        "r": 7,
+        "components": 1
+      },
+      {
+        "q": 0,
+        "r": 9,
+        "components": 1
+      },
+      {
+        "q": 0,
+        "r": 11,
+        "components": 1
+      },
+      {
+        "q": 0,
+        "r": 12,
+        "components": 1
+      },
+      {
+        "q": 3,
+        "r": 5,
+        "components": 1
+      },
+      {
+        "q": 3,
+        "r": 6,
+        "components": 1
+      },
+      {
+        "q": 3,
+        "r": 7,
+        "components": 1
+      },
+      {
+        "q": 3,
+        "r": 9,
+        "components": 1
+      },
+      {
+        "q": 3,
+        "r": 11,
+        "components": 1
+      },
+      {
+        "q": 3,
+        "r": 12,
+        "components": 1
+      },
+      {
+        "q": 5,
+        "r": 6,
+        "components": 1
+      },
+      {
+        "q": 5,
+        "r": 7,
+        "components": 1
+      },
+      {
+        "q": 5,
+        "r": 9,
+        "components": 1
+      },
+      {
+        "q": 5,
+        "r": 11,
+        "components": 1
+      },
+      {
+        "q": 5,
+        "r": 12,
+        "components": 1
+      },
+      {
+        "q": 6,
+        "r": 7,
+        "components": 1
+      },
+      {
+        "q": 6,
+        "r": 9,
+        "components": 1
+      },
+      {
+        "q": 6,
+        "r": 11,
+        "components": 1
+      },
+      {
+        "q": 6,
+        "r": 12,
+        "components": 1
+      },
+      {
+        "q": 7,
+        "r": 9,
+        "components": 1
+      },
+      {
+        "q": 7,
+        "r": 11,
+        "components": 1
+      },
+      {
+        "q": 7,
+        "r": 12,
+        "components": 1
+      },
+      {
+        "q": 9,
+        "r": 11,
+        "components": 1
+      },
+      {
+        "q": 9,
+        "r": 12,
+        "components": 1
+      },
+      {
+        "q": 11,
+        "r": 12,
+        "components": 1
+      }
+    ],
+    "heightGate": {
+      "T": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        11,
+        12
+      ],
+      "total": 371293,
+      "valid": 308544,
+      "directionCountsByValue": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        72,
+        1140,
+        9684,
+        48528,
+        105228,
+        106620,
+        37272
+      ],
+      "minimum": 7,
+      "witness": [
+        0,
+        1,
+        2,
+        2,
+        11,
+        0,
+        0
+      ],
+      "failingSmallDirWithCap": 0,
+      "anySmallDirWithoutCap": 1
+    },
+    "moments": {
+      "evenDim": 3,
+      "oddDimAfterShear": 5,
+      "projectiveEven": 183,
+      "fullOddRank": 183,
+      "evenObstructed": 183,
+      "baseMomentFailures": []
+    }
+  },
+  "planar": [
+    {
+      "n": 7,
+      "d": 5,
+      "visits": [
+        1,
+        77,
+        1617,
+        2557,
+        72,
+        0
+      ],
+      "hits": 0
+    },
+    {
+      "n": 8,
+      "d": 7,
+      "visits": [
+        1,
+        66,
+        2289,
+        26919,
+        37990,
+        7794,
+        0
+      ],
+      "hits": 0
+    },
+    {
+      "n": 10,
+      "d": 9,
+      "visits": [
+        1,
+        44,
+        1090,
+        18446,
+        130545,
+        213132,
+        82128,
+        8482,
+        0
+      ],
+      "hits": 0
+    },
+    {
+      "n": 12,
+      "d": 10,
+      "visits": [
+        1,
+        22,
+        327,
+        3796,
+        29962,
+        95084,
+        99822,
+        35388,
+        4770,
+        480,
+        0
+      ],
+      "hits": 0
+    }
+  ],
+  "skeleton": {
+    "tightTriplePairs": 1014,
+    "quintetAffineStabilizer": [
+      [
+        1,
+        0
+      ],
+      [
+        12,
+        0
+      ]
+    ],
+    "minima": [
+      {
+        "degree": 1,
+        "least": 78,
+        "at39": []
+      },
+      {
+        "degree": 2,
+        "least": 52,
+        "at39": []
+      },
+      {
+        "degree": 3,
+        "least": 39,
+        "at39": [
+          {
+            "a": 2,
+            "b": 0,
+            "c": 3
+          },
+          {
+            "a": 3,
+            "b": 0,
+            "c": 3
+          },
+          {
+            "a": 4,
+            "b": 0,
+            "c": 9
+          },
+          {
+            "a": 6,
+            "b": 0,
+            "c": 9
+          },
+          {
+            "a": 7,
+            "b": 0,
+            "c": 9
+          },
+          {
+            "a": 9,
+            "b": 0,
+            "c": 9
+          },
+          {
+            "a": 10,
+            "b": 0,
+            "c": 3
+          },
+          {
+            "a": 11,
+            "b": 0,
+            "c": 3
+          }
+        ]
+      }
+    ],
+    "skeleton": {
+      "caps": 210,
+      "dims": {
+        "1": 210
+      },
+      "vis": [
+        0,
+        0,
+        0,
+        1,
+        103,
+        1560,
+        1260,
+        210
+      ],
+      "normalizedHeights": 2730,
+      "heightsHisto": {
+        "12": 2730
+      }
+    }
+  },
+  "grids": {
+    "rows": 60,
+    "distinctRows": 60,
+    "uniformCount8": 60,
+    "peak8": 60,
+    "canonicalBase": 60,
+    "centerFailures": 0
+  }
+}

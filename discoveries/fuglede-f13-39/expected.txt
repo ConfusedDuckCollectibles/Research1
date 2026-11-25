@@ -1,0 +1,74 @@
+12 10 3 masks=55 visits=55,830,6783,33417,96600,152190,115164,36474,4770,480,0
+10 9 3 masks=165 visits=165,4020,38696,173016,358284,308256,94728,10552,0
+8 7 3 masks=462 visits=462,10332,60564,109914,58320,10944,0
+7 5 3 masks=330 visits=330,4830,9240,3376,72,0
+L 6 bound 9 profiles 1040
+TOTAL masks 14 tuples 1032 survivors 60
+doubles 0 max 8 count 60
+60 (0, 1, 2, 3, 10, 11, 12, 13, 14, 16, 17, 20, 28, 30, 31, 56, 58, 59, 73, 79, 86, 88, 89, 93, 94, 96, 103, 109, 123, 124, 126, 151, 152, 154, 156, 162, 165, 166, 168)
+L 7 bound 7 profiles 3328
+TOTAL masks 14 tuples 736 survivors 0
+triple differences: exact tight pairs 1014
+degree 1 mass histogram [(78, 12)] extreme []
+degree 2 mass histogram [(52, 12), (65, 36), (78, 60), (91, 36), (104, 12)] extreme []
+degree 3 mass histogram [(39, 8), (52, 136), (65, 476), (78, 788), (91, 476), (104, 136), (117, 8)] extreme [(3, 0, 0, 2), (3, 0, 0, 3), (9, 0, 0, 4), (9, 0, 0, 6), (9, 0, 0, 7), (9, 0, 0, 9), (3, 0, 0, 10), (3, 0, 0, 11)]
+7-cap normalized skeletons 210 height histogram {12: 2730}
+{
+  "maxima": [
+    3,
+    7,
+    8,
+    3,
+    7,
+    3,
+    3,
+    3,
+    7,
+    3,
+    7,
+    3,
+    3,
+    7
+  ],
+  "q8": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    11,
+    12
+  ],
+  "normalizedLiftNodes": [
+    0,
+    0,
+    1,
+    13,
+    168,
+    336,
+    60,
+    0
+  ],
+  "connected": [
+    [
+      0,
+      3,
+      39
+    ],
+    [
+      0,
+      5,
+      39
+    ],
+    [
+      3,
+      5,
+      39
+    ]
+  ],
+  "evenDimension": 3,
+  "oddDimension": 5,
+  "nonzeroEvenVectors": 2196,
+  "nontrivialOddKernels": 0,
+  "quadraticSurvivors": 0
+}
