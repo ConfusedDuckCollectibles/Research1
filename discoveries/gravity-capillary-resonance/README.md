@@ -30,3 +30,7 @@ python3 independent.py
 Both scripts use only the Python standard library. They verify exact
 resonances, detunings, and mapping arithmetic; finiteness itself comes
 from the mathematical proof, not the search.
+
+### Finite-depth companion
+
+[At fixed algebraic normalized depth and tension](finite-depth/ADDENDUM.md), exact frequency matches balance separately at every radius. The note gives an explicit mixed triad at a tuned transcendental depth and shows how pure-gravity quartets can get exponentially close to resonance. It credits Kartashova's finite-depth approach and related normal-form work; it is not a PDE or priority claim.

@@ -1,0 +1,9 @@
+triad: exact polynomial signs, frequencies and momentum; critical h ≈ 0.441531380361972637862211652550
+cubic: six ordered placements give terms {(0, 0, 1): Fraction(64, 1), (1, 1, 1): Fraction(-2, 1), (0, 0, 0): Fraction(7, 1), (2, 0, 0): Fraction(1, 1)} ; positive, > 92/9
+commensurate control: merged 25 monomials into 11 nonzero terms; leading coefficient 16 at degree 11
+trident: h=1 , exact negative detuning and leading −3 certified at N=1,2,4,8
+trident: h=log(2)/2 , exact negative detuning and leading −3 certified at N=1,2,4,8
+
+real	0m1.144s
+user	0m1.101s
+sys	0m0.041s
