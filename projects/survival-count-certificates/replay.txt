@@ -1,0 +1,12 @@
+PERSEUS | D-VRd | N=355, OS deaths at data cutoff=34
+  elapsed months → cumulative recorded-death outer sets: 12: 8, 24: 13, 36: 20, 48: 22-34
+  36mo using baseline-to-36mo alone: 20
+  recorded deaths with elapsed time >36mo by cutoff: 14
+PERSEUS | VRd | N=354, OS deaths at data cutoff=44
+  elapsed months → cumulative recorded-death outer sets: 12: 17, 24: 26, 36: 38, 48: 39-43
+  36mo using baseline-to-36mo alone: 37-39
+  recorded deaths with elapsed time >36mo by cutoff: 6
+DESTINY-Breast09 | T-DXd + pertuzumab | N=383, OS deaths at data cutoff=58
+  elapsed months → cumulative recorded-death outer sets: 6: 13, 12: 20, 18: 31-32, 24: 41-45, 30: 45-56
+DESTINY-Breast09 | THP | N=387, OS deaths at data cutoff=68
+  elapsed months → cumulative recorded-death outer sets: 6: 5, 12: 16, 18: 31-33, 24: 42-48, 30: 48-62

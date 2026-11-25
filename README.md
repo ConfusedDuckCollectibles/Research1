@@ -4,3 +4,4 @@ An archive of research notes and reproducible checks. Each project explains what
 
 - [Discoveries](discoveries/): original, reproducible results with a clear scope.
 - [Breakthroughs](breakthroughs/): results that resolve or materially advance a major research question and withstand independent verification. None recorded yet.
+- [Projects](projects/): open research tools, reproducibility work, and work in progress.
