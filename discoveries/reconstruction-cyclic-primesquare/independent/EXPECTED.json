@@ -1,0 +1,82 @@
+{
+  "finite": [
+    {
+      "n": 9,
+      "noFull": false,
+      "scanned": 14,
+      "edgePairs": 0,
+      "equalPairs": 0,
+      "quarterHosts": 0,
+      "halfHosts": 0
+    },
+    {
+      "n": 25,
+      "noFull": false,
+      "scanned": 4092,
+      "edgePairs": 660,
+      "equalPairs": 30,
+      "quarterHosts": 0,
+      "halfHosts": 0
+    },
+    {
+      "n": 16,
+      "noFull": true,
+      "scanned": 48,
+      "edgePairs": 124,
+      "equalPairs": 0,
+      "quarterHosts": 0,
+      "halfHosts": 24
+    },
+    {
+      "n": 27,
+      "noFull": true,
+      "scanned": 4788,
+      "edgePairs": 68193,
+      "equalPairs": 0,
+      "quarterHosts": 0,
+      "halfHosts": 0
+    }
+  ],
+  "rankTwo": {
+    "base": "582169",
+    "adjugate02": "62566",
+    "endpointsRemoved": "42117",
+    "edgeRemoved": "665184"
+  },
+  "p17": {
+    "n": 289,
+    "degree": 42,
+    "primitiveClass": [
+      1,
+      38,
+      251,
+      288
+    ],
+    "lowerClass": [
+      17,
+      272
+    ],
+    "equalSpectralSteps": [
+      17,
+      68
+    ],
+    "nonisoProfileCounts": [
+      30,
+      32
+    ],
+    "triangleFree": [
+      1,
+      38,
+      251,
+      288
+    ],
+    "thirdWalks": [
+      469,
+      177
+    ],
+    "triangleCardDeficient": [
+      0,
+      17
+    ]
+  }
+}

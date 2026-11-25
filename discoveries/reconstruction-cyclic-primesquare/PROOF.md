@@ -1,0 +1,76 @@
+# Vertex reconstruction after deleting one edge from a prime-square circulant
+
+**Theorem.** Let \(F\) be a finite simple connected circulant on \(p^2\) vertices, for a prime \(p\). For every edge \(e\) of \(F\), \(F-e\) is determined up to isomorphism among **all finite simple graphs** by its ordinary multiset of one-vertex-deleted unlabelled cards.
+
+**Companion.** Let \(F=\mathrm{Cay}(\mathbb Z_{p^a},S)\) be connected, where \(a\ge2\), \(p^a\ge3\), and \(S=-S\subset \mathbb Z_{p^a}\setminus\{0\}\). If no fibre of the reduction modulo \(p^{a-1}\) is wholly contained in \(S\), the same conclusion holds for every edge. This includes all such connected odd-prime-power circulants of valency less than \(p\); the no-full-fibre assertion also holds at \(p=2\). The prime-order case holds for every prime \(p\ge3\), using the classical prime-order orbital separation of Beezer or the short Fourier proof below.
+
+No claim is made for all consecutive bidegreed graphs, all general vertex-transitive graphs of order \(p^2\), all composite-order circulants, or reconstruction from a fixed small number of cards.
+
+## 1. Absolute reduction from the ordinary deck
+
+Write \(G=F-e\); its degrees are \(r\) except for exactly two vertices of degree \(r-1\), the endpoints of \(e\), which are not adjacent in \(G\). The full ordinary deck of a graph on \(n\ge3\) determines its edge count via the sum of card edge counts divided by \(n-2\). Subtracting each card edge count from that total recovers the deleted vertex degree for that card, hence the degree multiset.
+
+Choose the card deleting a deficient vertex \(u\) of \(G\). It has no vertex of degree \(r-2\). Thus a same-deck graph \(G'\) has the same degree profile, and its two deficient vertices are nonadjacent: otherwise in every deficient-deletion card the surviving deficient vertex would have degree \(r-2\). The chosen card \(G-u=F-u\), as well as its match in \(G'\), determines a unique \(r\)-regular parent, formed by adjoining a vertex adjacent to all \(r\) card vertices of degree \(r-1\). This identifies the same unlabelled completion \(F\) for \(G'\) and \(G\). Hence \(G'=F-f\) up to isomorphism for some \(f\). This is the regular completion in Kocay's almost-regular analysis; do not count it as new.
+
+If \(e\) belongs to a triangle of \(F\), a common neighbour of its endpoints in \(G\) has degree \(r\). Its card has exactly two vertices of degree \(r-2\); these must be the surviving deficient pair, and the deleted vertex is adjacent to both. Every other card vertex with degree \(r-1\) must originally have degree \(r\) and have lost its edge to the removed vertex. Thus adjoining the deleted vertex to exactly the vertices below degree \(r\) is the unique reconstruction with this deck. In the rest it suffices to compare triangle-free \(e,f\); if either edge is triangular the result for that deletion applies.
+
+## 2. The deck supplies the cross-resolvent without its constant coefficient
+
+Let \(P_X(z)=\det(zI-A_X)\) and \(R(z)=(zI-A_F)^{-1}\). Differentiating the determinant gives \(P_X'(z)=\sum_v P_{X-v}(z)\), so \(P_{F-e}-P_{F-f}\) is constant for same-deck deletions. By vertex transitivity (or walk regularity), \(R_{uu}=\rho\) is independent of \(u\). For \(e=\{u,v\}\), the rank-two determinant lemma gives
+\[
+P_{F-e}(z)=P_F(z)\big((1+R_{uv}(z))^2-\rho(z)^2\big).
+\]
+Indeed \(zI-A_{F-e}=(zI-A_F)+e_u e_v^T+e_v e_u^T\); the two-dimensional determinant is that of the matrix with diagonal \(1+R_{uv}\) and off-diagonal \(\rho\). Consequently
+\[
+(R_e-R_f)(2+R_e+R_f)=\frac{\text{constant}}{P_F(z)}.
+\]
+Here \(R_e=R_{uv}\) for an edge with endpoints \(u,v\). The second factor tends to \(2\) at infinity, so \(R_e-R_f=O(z^{-n})\); there is no sign ambiguity. Since \(F\) is undirected, the real symmetric spectral decomposition shows that each resolvent entry is a combination of at most \(d\) simple fractions \(1/(z-\theta)\), where \(d\) is the number of distinct eigenvalues of \(F\). In a circulant \(\lambda_j=\lambda_{-j}\), giving \(d\le\lfloor n/2\rfloor+1<n\) for \(n\ge3\). A nonzero combination of \(d<n\) such fractions has a common monic denominator of degree \(d\) and cannot be \(O(z^{-n})\). Therefore \(R_e=R_f\). This step uses only the deck derivative, not full characteristic-polynomial reconstruction.
+
+For a circulant write \(\zeta=\exp(2\pi i/n)\), \(\lambda_j=\sum_{c\in S}\zeta^{jc}\). By translation put both candidate edges at \(0\), with nonzero steps \(t,s\in S\). Fourier diagonalization writes the coefficient of \(1/(z-\theta)\) in \(R_{0t}\) as \(n^{-1}\sum_{\lambda_j=\theta}\zeta^{jt}\) (the opposite sign is equivalent by \(j\leftrightarrow -j\)). Thus equality of resolvents yields equality of every such sum.
+
+## 3. A cyclotomic coefficient test
+
+For \(n=p^a\), let \(d=n/p\). If two rational coefficient vectors indexed by \(0,\ldots,n-1\) have equal evaluation at \(\zeta\), their difference is constant on each fibre modulo \(d\). To see this, use the minimal polynomial \(1+X^d+\cdots+X^{(p-1)d}\): any polynomial of degree below \(n\) vanishing at \(\zeta\) is this polynomial times one of degree below \(d\).
+
+At prime order \(n=p\), equality \(\lambda_j=\lambda_1\) for \(j\ne0\) is therefore equivalent to \(jS=S\), since the constant difference of indicators is zero at index \(0\). Also \(\lambda_0=r\) differs from \(\lambda_1\) for \(S\ne\varnothing\). If \(M\) is the multiplier group preserving \(S\), the residue at \(\lambda_1\) compares \(\sum_{j\in M}\zeta^{jt}\) against the sum with \(s\). There are no repetitions for \(t,s\ne0\), and both sets omit \(0\), so \(Mt=Ms\). Hence some multiplier preserving \(F\) takes \(t\) to \(s\). A vertex-transitive graph of prime order is circulant by Cauchy's theorem applied to its transitive automorphism group.
+
+## 4. The no-full-fibre prime-power companion
+
+Suppose \(a\ge2\), the graph is connected (so \(S\) contains a unit), and no whole reduction fibre is in \(S\). The cyclotomic test says that for a unit \(j\), \(\lambda_j=\lambda_1\) holds exactly when \(jS=S\): a nonzero constant difference on any fibre would require one whole fibre and one empty fibre. Thus the primitive spectral stabilizer is the actual multiplier group \(M\). The element \(1+d\) acts transitively on each fibre meeting the units; such a fibre is partial for at least one member of \(S\). Consequently \(1+d\notin M\), and \(\lambda_1\) is not in the lower conductor field \(\mathbb Q(\zeta^p)\). Every non-unit frequency has eigenvalue in that field. Thus the full frequency set for \(\lambda_1\) is exactly \(M\).
+
+For odd \(p\), \(M\) avoids the unique order-\(p\) subgroup of \((\mathbb Z/p^a)^\times\); hence its image modulo \(p\) is injective (the kernel is a \(p\)-group). For every nonzero \(t\), there are no repetitions in \(Mt\); and unless \(t\) is divisible by \(d\), distinct elements of \(Mt\) lie in distinct fibres modulo \(d\). Indeed if \(v_p(t)\le a-2\), equality of two products modulo \(d\) implies equality of the multipliers modulo \(p\). When \(d\mid t\), all products lie in the zero fibre and none is zero. Equality of residues at \(\lambda_1\) applied to \(Mt,Ms\) now implies equality of the sets. For a nonzero fibre, a nonzero constant difference would require a whole fibre, whereas each orbit contributes at most one member there. In the zero fibre a constant difference is ruled out by its zero at index \(0\). Thus some \(m\in M\) sends \(t\) to \(s\) and extends to an automorphism.
+
+For \(p=2,a\ge3\), the unit group is generated by \(-1\) and a cyclic subgroup generated by \(5\), whose unique element of order two is \(1+d\). As \(-1\in M\) and \(1+d\notin M\), it follows that \(M=\{1,-1\}\). Use the frequency sum \(\zeta^t+\zeta^{-t}\) with multiplicity: a half-turn \(t=n/2\) contributes coefficient 2 at \(n/2\), while its coefficient at 0 is zero. The only nonzero-step pair filling a nonzero fibre would be \(\{n/4,3n/4\}\), but neither is an edge because symmetry would insert that entire fibre into \(S\). Hence for two edge steps the coefficient difference cannot be a nonzero constant on any nonzero fibre. Its zero at index 0 rules out a nonzero constant on the zero fibre as well. The frequency multiset determines the step up to sign. At \(a=2\) the no-full-fibre hypothesis is empty for connected graphs because both odd steps occur together; the main theorem at order \(4\) follows directly (a connected circulant with an edge is \(C_4\) or \(K_4\), with edge-transitive completions).
+
+## 5. All connected prime-square circulants
+
+Let \(n=p^2\), \(p\) odd. Case 4 handles the absence of any full fibre, so assume a fibre modulo \(p\) is wholly contained in \(S\). It is a nonzero fibre because \(0\notin S\). Any nonzero step divisible by \(p\) has a triangle, since a vertex \(w\) in that full fibre has both \(w,w-t\in S\). We therefore only need to compare **unit** steps.
+
+### At least one partial nonzero fibre
+
+Let \(M=\{j\in(\mathbb Z/p^2)^\times:\lambda_j=\lambda_1\}\). This is the Galois stabilizer of \(\lambda_1\); the coefficient test means that \(j\in M\) preserves the connection pattern on every partial fibre, permitting whole and empty fibres to be interchanged. The element \(1+p\) cannot preserve a nonempty proper subset of a nonzero fibre because its action there is transitive. Consequently \(M\) projects injectively modulo \(p\) and \(\lambda_1\notin\mathbb Q(\zeta^p)\), so its complete frequency set is \(M\) (no nonprimitive frequency joins it). For units \(t,s\), the residue equality therefore gives \(Mt=Ms\): each orbit has at most one member in each \(p\)-fibre, and the coefficient test forces equality. Since \(t\) is a unit there is a unique multiplier \(m=s/t\bmod p^2\) carrying it to \(s\), and \(m\in M\).
+
+Write \(w_r=|\{c\in S:c\equiv r\bmod p\}|\), \(\xi=\zeta^p\), and \(H=\{u\in\mathbb F_p^\times:w_{ur}=w_r\ \forall r\}\). The order-\(p\) frequency \(pu\) has eigenvalue \(\sum_r w_r\xi^{ur}\). Its equality with the frequency \(p\) occurs exactly when \(u\in H\) by the prime coefficient test, since the coefficient difference at \(0\) is zero. This eigenvalue differs from \(\lambda_0\) because there is a unit step, and differs from primitive eigenvalues by the conductor separation. Thus the equality of residues at this additional eigenvalue gives \(H(t\bmod p)=H(s\bmod p)\), again by the prime coefficient test. It follows that \(m\bmod p\in H\). The element \(m\) preserves each matched partial pattern by membership in \(M\) and matches full fibres to full and empty to empty by membership modulo \(p\) in \(H\). Therefore \(mS=S\) and this multiplier is the required automorphism.
+
+### No partial nonzero fibre
+
+All inter-fibre edges are complete joins or absent. The graph is a lexicographic product \(B[K]\), with \(B\) a connected prime-order circulant, and \(K\) the prime-order circulant in each fibre. If \(K\) has an edge, every inter-fibre edge lies in a triangle using an internal neighbour, and every internal edge lies in a triangle using a neighbouring fibre. If \(K\) is empty, \(\lambda_j=0\) at every primitive frequency. At \(pu\) the eigenvalue is \(p\sum_{r\in S_B}\xi^{ur}\) where \(S_B\ne\varnothing\) is the quotient connection set; for \(u\ne0\) this is nonzero by the prime coefficient test (a zero would force the indicator constant, hence zero by the coefficient at \(0\)), and also differs from \(\lambda_0\). The residue at \(\lambda_p\) compares exactly the orbits under the quotient multiplier group preserving \(S_B\). Since \(t,s\) are units, comparison proves that \(s/t\bmod p\) preserves \(S_B\). Its lift \(s/t\bmod p^2\) preserves the original full-fibre set and gives the desired automorphism. This finishes the prime-square theorem.
+
+## 6. Exact controls and limits of the spectral route
+
+The verifier exhausts all connected labelled circulant connection sets at order \(9\) and \(25\) (14 and 4092). Among triangle-free step pairs, exact integer walk-count signatures never merged two non-multiplier pairs. These are controls, not the proof.
+
+For a control not implied by generic orbit-polynomial hypotheses, take \(n=17^2=289\) and
+\[
+S=\{\pm1,\pm38,\pm17,\pm68\}\ \cup\ \{v\in\mathbb Z_{289}:v\bmod17\in\{6,11\}\}.
+\]
+The multiplier \(38\) squares to \(-1\), preserving the partial patterns but not all full fibres. Its orbit sends the nonunit difference \(17\) to \(68\); the primitive resolvent sums for these steps agree, while lower-conductor sums cannot distinguish any two nonunit steps. Independent exact integer walk counts agree at lengths \(0,\ldots,288\). Therefore the two edge deletions are adjacency cospectral, but exact joint degree-initialized colour refinement distinguishes them in the third round: one colour occurs twice on one graph and four times on the other. Isomorphism preserves each refinement histogram. They are both handled by the triangular-edge card argument. In the same host, unit steps \(\pm1,\pm38\) are triangle-free, and steps \(1,38\) have respectively 469 and 177 walks of length three. This specific graph is neither covered by a universal edge-orbital adjacency-polynomial premise nor by the no-full-fibre hypothesis. Cospectral deletions here are **not** counterexamples to ordinary vertex reconstruction.
+
+## References and scope
+
+* W. L. Kocay, [Partial automorphisms and the reconstruction conjecture](https://doi.org/10.1017/S1446788700022291), 1984, especially §1 and Theorem 4.17, uses the regular completion for two-deficient graphs, proves the cubic case (referring to earlier work) and treats specific degree-four subcases. The short degree-forcing argument used here is an instance of the standard value-separated-card mechanism; see also [Schlesinger's formalization](https://github.com/SamuelSchlesinger/reconstruction-conjecture/blob/main/Reconstruction/ValueSeparated.lean).
+* R. A. Beezer, [Orbit polynomial graphs of prime order](https://doi.org/10.1016/0012-365X(87)90023-9), 1987, gives the prime-order spectral orbit separation underpinning the easier prime case. See also [Fiol, Quotient-polynomial graphs](https://doi.org/10.1016/j.laa.2015.09.053) §5.3; coherent closure in general is not the same as the ordinary adjacency algebra.
+* C. Godsil, W. Sun, X. Zhang, [Cospectral graphs obtained by edge deletion](https://arxiv.org/abs/2302.03854), 2023, treats the closely related matrix-update identity and spectral equality in walk-regular families, not ordinary deck equality. Y.-Z. Fan, W. Wang, K. Zhang, [Orthogonal degree-similarity of edge-deleted strongly regular graphs](https://arxiv.org/abs/2606.10404), 2026, sharpens the related spectral result rather than identifying ordinary vertex decks.
+* Dufresne et al., [Shuffling the Deck](https://arxiv.org/abs/2604.16567), 2026, is a modern status baseline; Myrvold–Ellingham–Hoffman [prove edge-deck reconstructibility of bidegreed graphs](https://doi.org/10.1002/jgt.3190110304), a distinct theorem. No matching ordinary prime-square vertex-deck theorem was located in this bounded primary comparison; this note makes no priority claim. AI-assisted, not peer reviewed.
+
+Reproduction: run `node check.js`; `EXPECTED.json` records exact output. The separate cyclotomic replay is documented in `independent/`. No third-party graph tables or solver are required.

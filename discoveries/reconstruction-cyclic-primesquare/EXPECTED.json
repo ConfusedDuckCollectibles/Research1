@@ -1,0 +1,62 @@
+{
+  "finiteControls": [
+    {
+      "p": 3,
+      "connected": 14,
+      "full": 2,
+      "partial": 12,
+      "blowup": 2,
+      "triFree": 6,
+      "equalPairs": 0
+    },
+    {
+      "p": 5,
+      "connected": 4092,
+      "full": 252,
+      "partial": 4080,
+      "blowup": 12,
+      "triFree": 1130,
+      "equalPairs": 30
+    }
+  ],
+  "explicitMixedControl": {
+    "p": 17,
+    "n": 289,
+    "valency": 42,
+    "fullFibres": [
+      6,
+      11
+    ],
+    "triangularEdges": [
+      17,
+      68
+    ],
+    "commonNeighbours": [
+      34,
+      34
+    ],
+    "triangleFreeSteps": [
+      1,
+      38,
+      251,
+      288
+    ],
+    "firstDifferentWalkLengthForUnitSteps": 3,
+    "unitWalkCounts": [
+      "469",
+      "177"
+    ],
+    "equalWalkMomentsThrough": 288,
+    "refinement": {
+      "step": 3,
+      "classes": 46,
+      "firstMismatch": {
+        "color": 3,
+        "multiplicities": [
+          2,
+          4
+        ]
+      }
+    }
+  }
+}
