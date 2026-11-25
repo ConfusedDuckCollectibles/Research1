@@ -34,3 +34,5 @@ from the mathematical proof, not the search.
 ### Finite-depth companion
 
 [At fixed algebraic normalized depth and tension](finite-depth/ADDENDUM.md), exact frequency matches balance separately at every radius. The note gives an explicit mixed triad at a tuned transcendental depth and shows how pure-gravity quartets can get exponentially close to resonance. It credits Kartashova's finite-depth approach and related normal-form work; it is not a PDE or priority claim.
+
+[Separate finite-depth result](../dense-water-wave-resonances/): at fixed positive tension, directly coupled noncollinear cubic resonance depths are dense even though an algebraic depth at algebraic tension has no such exact resonance. The follow-up also quantifies near resonances without drawing full dynamics conclusions.

@@ -1,0 +1,8 @@
+alpha=0.5 pair=(100,14105) certified root (0.5999911374537900,0.5999911374537902); 1.749999<C/b<1.750001; G1 Fourier coefficient positive
+alpha=2 pair=(100,101759) certified root (0.1499997535178385,0.1499997535178388); 2.999997<C/b<2.999999; G1 Fourier coefficient positive
+alpha=0.35 pair=(103,16446) certified root (0.4000034182185347,0.4000034182185350); 1.6249<C/b<1.6251; G1 Fourier coefficient positive
+alpha=1/2 I=[0.3,0.8] b=1024: 10 pairwise-distinct active roots, m=20..29
+alpha=1/2 I=[0.3,0.8] b=4096: 20 pairwise-distinct active roots, m=40..59
+alpha=1/2 I=[0.3,0.8] b=16384: 40 pairwise-distinct active roots, m=80..119
+alpha=1/2 I=[0.3,0.8] b=65536: 81 pairwise-distinct active roots, m=160..240
+alpha=0: exact negative phase control
