@@ -1,0 +1,12 @@
+half-window tau: 2.772588722240
+conditional uncensored rare pair mass: 0.0001147710317916
+new EPR rate lower bound: 0.00009384585085908
+Petkov Eq11 rate ceiling: 0.00004123477217913
+guaranteed improvement factor: 2.275891096267
+actual EPR rate: 0.0006717183575408
+true rate fraction certified: 0.1397101177980
+richer uncensored excursion EPR lower bound: 0.0005920903343693
+true rate fraction with richer excursion rate data: 0.8814562349270
+matched noise L_inf allowance: 1.576140268134E-8
+noisy guaranteed improvement factor: 2.173713158980
+PASS: exact finite table, 64 blind binary partitions, equilibrium control, and interval gates.

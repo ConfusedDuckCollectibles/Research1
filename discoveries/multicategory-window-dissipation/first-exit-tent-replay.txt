@@ -1,0 +1,7 @@
+nonuniform hidden-jump ring: first 14 coefficients agree for ordinary and geometric tent integration
+specialized rate lower bound: 0.0001876917017182
+optimized prior rate ceiling: 0.00004123477217913
+guaranteed improvement: 4.551782192534
+certified fraction of actual model rate: 0.2794202355959
+limiting certified fraction in witness family: 0.3169984220703
+PASS: all outward-rounded thresholds are strict for rational interval endpoints.
