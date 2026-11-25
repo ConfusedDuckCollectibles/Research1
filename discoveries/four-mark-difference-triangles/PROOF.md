@@ -20,7 +20,7 @@ Up to reversal of each individual ruler, take a<b (equality is forbidden by dist
 
 Each row is the six-value set {a,b,s,s+a,s+b,s+a+b}. It has six distinct entries because a<b and the two intervals do not meet. An exact cover of [1,6n] by these rows gives a witness. Conversely every simultaneously optimal set has this representation. The search can therefore test these rows directly after imposing the two equalities. No structural condition besides necessary saturation and orientation was imposed.
 
-The original search uses bit masks and branches on an uncovered value in the fewest remaining rows. The six witnesses are supplied as plain integer coordinates. The separate checker recomputes the actual six pairwise differences by enumerating pairs of marks, not by trusting the search test. It also recomputes the sum, all the outer gaps, and every positive difference in one nontrivial product. The following successful search runs recover the five original case files (random generator seeded; row shuffling can be standard-library-dependent). A cutoff is not an exclusion.
+The original search uses bit masks and branches on an uncovered value in the fewest remaining rows. The seven witnesses are supplied as plain integer coordinates. The separate checker recomputes the actual six pairwise differences by enumerating pairs of marks, not by trusting the search test. It also recomputes the sum, all the outer gaps, and every positive difference in one nontrivial product. The following successful search runs recover the five original case files (random generator seeded; row shuffling can be standard-library-dependent). A cutoff is not an exclusion.
 
     g++ -O3 -std=c++17 search.cpp -o search
     ./search 16 3500000 1
@@ -29,7 +29,7 @@ The original search uses bit masks and branches on an uncovered value in the few
     ./search 20 200000 3
     ./search 21 700000 7
 
-An additional exact-cover search produced the size-19 file. It used a separate smallest-column dancing-links implementation with xorshift32 row ordering; the search itself is not needed for verification. Both independent distance replays check the supplied file directly, including the full intervals 1–114 and 1–38, scope 114 and total span 1824.
+An additional exact-cover search produced the size-19 file. It used a separate smallest-column dancing-links implementation with xorshift32 row ordering; the search itself is not needed for verification. Both independent distance replays check the supplied file directly, including the full intervals 1–114 and 1–38, scope 114 and total span 1824. A further search for size 22 retained ten compatible rows from shifted size-21 seeds and completed the cover around the pinned ruler (0,43,88,132). The supplied witness is validated directly without relying on this construction heuristic.
 
 ## 3. Infinite perfect sequence with smaller total span
 
@@ -43,13 +43,13 @@ For each positive difference d of A, coming from one specific ruler and one pair
 
 For each X,Y, the sum of the endpoint perturbations over pi is zero: each Y mark occurs three times at each endpoint. Hence the total span is exactly v² S_A+S_B and there are vn+b rulers.
 
-Use the checked b=21 seed, S_B=2226, on the right at every step. With j=1 for the seed, the recurrence gives
+Use the checked b=22 seed, S_B=2442, on the right at every step. With j=1 for the seed, the recurrence gives
 
-    n_j = (253^j−1)/12,
-    S_j = 2226 * (253^(2j)−1)/(253^2−1)
-        = (5+1/127)*n_j^2 + (1−21/127)*n_j.
+    n_j = (265^j−1)/12,
+    S_j = 2442 * (265^(2j)−1)/(265^2−1)
+        = (5+1/133)*n_j^2 + (1−22/133)*n_j.
 
-Every family is perfect. The j=2 case has 5,334 rulers, 32,004 distinct differences and total span 142,486,260, all verified by replay. The formula for all j follows by the product proof. For nonseed j this does not claim the exact total-span lower bound, and the product itself is not new.
+Every family is perfect. The j=2 case has 5,852 rulers, 35,112 distinct differences and total span 171,491,892, all verified by replay. The formula for all j follows by the product proof. For nonseed j this does not claim the exact total-span lower bound, and the product itself is not new.
 
 ## 4. Prior literature and scope
 

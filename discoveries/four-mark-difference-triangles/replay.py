@@ -41,17 +41,17 @@ def wild(a,b):
 
 def main():
     base = Path(__file__).resolve().parent
-    for n in (16,17,18,19,20,21):
+    for n in (16,17,18,19,20,21,22):
         r = read_rulers(base/f"rulers-{n}.txt")
         assert len(r)==n
         print(f"n={n} scope={6*n} sum={check(r,require_double=True)}")
-    base21 = r
-    t = wild(base21,base21)
+    base22 = r
+    t = wild(base22,base22)
     total = check(t)
     n = len(t)
-    assert n==21*253+21==5334
-    assert total==2226*(253*253+1)
-    assert total==(5+Fraction(1,127))*n*n+(1-Fraction(21,127))*n
+    assert n==22*265+22==5852
+    assert total==2442*(265*265+1)==171491892
+    assert total==(5+Fraction(1,133))*n*n+(1-Fraction(22,133))*n
     print(f"n={n} scope={6*n} sum={total}: Wild lift checked")
 
 

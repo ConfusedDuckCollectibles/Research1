@@ -56,17 +56,17 @@ def coefficient(B):
 
 def main():
     seeds = {}
-    for n in (6, 10, 15, 16, 17, 18, 19, 20, 21):
+    for n in (6, 10, 15, 16, 17, 18, 19, 20, 21, 22):
         seeds[n] = seed(n)
         ans = certify(seeds[n], minimum_sum=True)
         assert ans[0] == n
         print("simultaneously optimal:", *ans)
-    for a, b in ((16,18), (18,16), (18,18), (15,15), (21,21)):
+    for a, b in ((16,18), (18,16), (18,18), (15,15), (21,21), (22,22)):
         ans = certify(lift(seeds[a], seeds[b]))
         v = 12*b + 1
         assert ans == (v*a+b, 6*(v*a+b), v*v*(5*a*a+a)+(5*b*b+b))
         print(f"independent exact product {a} × {b}:", *ans)
-    for base in (15, 16, 18, 21):
+    for base in (15, 16, 18, 21, 22):
         coef_quad, coef_lin = coefficient(base)
         v = 12*base + 1
         for j in range(1, 12):

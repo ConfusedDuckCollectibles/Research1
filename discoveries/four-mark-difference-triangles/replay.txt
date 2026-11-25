@@ -4,4 +4,5 @@ n=18 scope=108 sum=1638
 n=19 scope=114 sum=1824
 n=20 scope=120 sum=2020
 n=21 scope=126 sum=2226
-n=5334 scope=32004 sum=142486260: Wild lift checked
+n=22 scope=132 sum=2442
+n=5852 scope=35112 sum=171491892: Wild lift checked

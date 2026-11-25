@@ -7,13 +7,16 @@ simultaneously optimal: 18 108 1638
 simultaneously optimal: 19 114 1824
 simultaneously optimal: 20 120 2020
 simultaneously optimal: 21 126 2226
+simultaneously optimal: 22 132 2442
 independent exact product 16 × 18: 3490 20940 61028982
 independent exact product 18 × 16: 3490 20940 61015158
 independent exact product 18 × 18: 3924 23544 77133420
 independent exact product 15 × 15: 2730 16380 37348680
 independent exact product 21 × 21: 5334 32004 142486260
+independent exact product 22 × 22: 5852 35112 171491892
 base 15 => quadratic coefficient 456/91 linear coefficient 76/91
 base 16 => quadratic coefficient 486/97 linear coefficient 81/97
 base 18 => quadratic coefficient 546/109 linear coefficient 91/109
 base 21 => quadratic coefficient 636/127 linear coefficient 106/127
+base 22 => quadratic coefficient 666/133 linear coefficient 111/133
 negative control: duplicate ruler correctly rejected
