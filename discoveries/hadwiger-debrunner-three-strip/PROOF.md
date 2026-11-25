@@ -1,0 +1,45 @@
+# Three strips suffice for sharp three-point (4,3) piercing
+
+**Theorem.** Let ℱ be a finite family of at least four nonempty compact convex plane sets, each defined by strips with at most three fixed unoriented normal directions (the locations and widths may vary). If some three of each four members meet, then three points pierce ℱ. This is sharp, even for pairwise-intersecting hexagons with six active edges and differing shapes.
+
+Work in the plane of coordinates x_1+x_2+x_3=0. Rescale and sign the three normal forms to make their unique dependence have these coefficients. With only two directions, add a redundant third strip; any absent strip can receive finite bounds without changing its compact member. A strip member is a coordinate box restricted to this plane.
+
+The disjointness graph of a (4,3) family is empty or a star: two disjoint edges contradict (4,3) on their four vertices, and a triangle does so with any fourth vertex. Remove its hub A if there is one; write R for the pairwise-intersecting remainder (or the full family when there is no hub).
+
+In x coordinates, write L_i for the largest lower and U_i for the smallest upper bound over R. Pairwise intersection and interval Helly give L_i≤U_i. If the common intersection of R is nonempty, one point for R and one for the hub suffice. Otherwise reverse all x signs if necessary to make s=ΣL_i>0. Substituting y_i=(L_i−x_i)/s gives Σy_i=1. Each X∈R now has lower endpoints ≤0 and upper endpoints d_i(X)≥0. Let Δ={y_i≥0, Σy_i=1}, with vertices e_i. Every intersecting subfamily of R intersects in Δ: common upper caps D_i=min_X d_i(X) are nonnegative and sum to at least 1, so coordinates 0≤y_i≤D_i can sum to 1, and all lower bounds are automatic. Consequently replacing R members by one-orientation triangles {y∈plane:y_i≤d_i(X)} preserves their entire nerve and exact piercing number, and each feasible triangle covering partition can be realized in the original polygons within Δ.
+
+For each i choose B_i∈R with d_i(B_i)=0. They are distinct, for otherwise two members together would force all three coordinates nonpositive, contradicting pairwise intersection. For each pair B_j,B_k, all points of their common intersection have y_i≥1 for i outside the pair; e_i therefore belongs to both. For other X∈R, the quartet on X and the three anchors forces X to intersect two anchors, since their triple is empty; it follows that X contains the corresponding e_i. Thus the three vertices pierce R.
+
+If there is a hub A and A meets Δ, one of these vertices also belongs to A. Indeed, (4,3) applied to the anchors and A supplies q∈A∩B_j∩B_k, and choose b∈A∩Δ. The corresponding e_i lies between b and q in every coordinate (q_j,q_k≤0 and q_i≥1; b_j,b_k≥0 and b_i≤1). Since A is a box slice, e_i∈A.
+
+Suppose then A misses Δ. If A is entirely in y_i>1 for some i, all X∈R not containing e_i are disjoint from A (their d_i<1). These sets share a point: for any three, apply (4,3) with A, then planar Helly; if there are at most two, use R pairwise or nonemptiness. Add that point to e_i and any point in A.
+
+We can thus assume A has no lower coordinate bound exceeding 1; use tight A bounds a_i≤y_i≤b_i. The following simple geometry reduces A to a segment without changing the nerve. If all b_i≥0, then Σb_i≥1 by nonemptiness of A, so absence of intersection with Δ would require Σmax(a_i,0)>1. But the anchor quartet gives q∈A with two coordinates ≤0, so at most one a_i is positive, contradicting a_i≤1. Hence some b_i<0, say c=b_3<0. No other b_i is negative, for two uniformly negative coordinates would force the third uniformly above 1.
+
+Take any nonempty intersection A∩⋂X with X∈S⊆R, including S empty, and set t=1−c>1. We can move a common point to y_3=c by decreasing y_1,y_2. Its current y_1+y_2 is ≥t, and the sum of their joint lower endpoints is at most max(a_1,0)+max(a_2,0)≤t. For two positive a_i the last inequality follows because the top face y_3=c exists; otherwise use a_i≤1. The upper bounds on y_1,y_2 remain satisfied, and the new y_3=c is below the upper bound d_3(X)≥0 of each R member. If one of y_1,y_2 is negative on the top face, raise it to zero (all relevant upper bounds are nonnegative) and lower the other to t (larger than every relevant lower bound). This stays within every participating box. Therefore
+A' = A∩{y_3=c, y_1,y_2≥0}
+is nonempty and can replace A without changing any intersection. Parametrize this segment by y_1∈[l,u]⊆[0,t]. Any nonempty X trace on A' is the closed interval
+[l_X,r_X]=[max(l,t−d_2(X)), min(u,d_1(X))].
+The y_3 bounds can make a trace empty but do not affect the interval endpoints if it is nonempty.
+
+Let M be the leaves disjoint from A'. They share a point as above. If every R member is a leaf, two points suffice. Otherwise among nonempty traces choose U with smallest r_U and V with largest l_V. If r_U≥l_V, one point pierces all nonempty traces and another covers M. If r_U<l_V, pierce with the two A' points of parameters r_U,l_V and a third point described next.
+
+Set Z=M∪{U,V}. All distinct pairs in Z have disjoint traces on A'. Any triple of Z consequently intersects, by using the quartet with A'. Since Z is a subfamily of R, its whole intersection P is nonempty by planar Helly (with one or two members using the immediate condition). In P∩Δ choose a point p with minimum y_3, namely
+y_3(p)=max(0,1−D_1−D_2),   D_i=min_{X∈Z}d_i(X).
+This follows simply by filling coordinates y_1,y_2 up to D_1,D_2; feasibility in Δ ensures y_3≤D_3.
+
+If S∈R is not yet pierced and has a nonempty trace, then r_U<l_S≤r_S<l_V, as all its points are between the two selected parameters. In particular
+d_1(S)>d_1(U)=r_U,  d_2(S)>d_2(V)=t−l_V.
+Here r_U<u and l_V>l because r_U<l_V, so the endpoint clipping did not affect the displayed equalities. Hence p already satisfies S's upper bounds on the first two coordinates and all its lower bounds. To check only d_3(S), choose W_1,W_2∈Z attaining D_1,D_2. If distinct, the quartet A',W_1,W_2,S forces W_1∩W_2∩S nonempty: all three possible A' triples have disjoint traces, since either a leaf participates or the respective A' intervals are disjoint. If W_1=W_2 use pairwise intersection in R. Every such witness has y_3≥1−D_1−D_2, so d_3(S)≥max(0,1−D_1−D_2). This proves p∈S and completes the upper bound.
+
+## Sharpness and attribution
+
+The classical Kynčl–Tancer nine-triangle family (Theorem 8, 2008) is obtainable by translations of x,y≥0, x+y≤10 by (0,0), (10,0), (0,10), (1,0), (9,0), (0,1), (0,9), (1,9), (9,1). They have (4,3), are pairwise intersecting, and need three piercing points. For the translated triangle at (a,b), replace it by the hexagon
+`a−δ≤x≤a+10+δ`, `b−δ≤y≤b+10+δ`, `a+b−δ≤x+y≤a+b+10+δ`,
+using differing positive δ≤3/40. Each old triangle is contained in its hexagon. An empty original subfamily has the sum of the strongest x,y lower bounds strictly exceeding the strongest x+y upper bound, with deficit an integer at least one. Widening changes this deficit by at most 9/40, so the full nerve is unchanged. A family and its nerve determine the minimum number of intersecting parts in a partition, which equals its piercing number. Each hexagon has six active edges. The length of its upper x face divided by its x width is δ/(10+2δ), so differing δ ensure the family is not a family of positive homothets.
+
+- [Kleitman, Gyárfás and Tóth (2001), §§2,4](https://users.renyi.hu/~gyarfas/Cikkek/97_threeoffourconvex.pdf) supply the disjointness-star argument and exact two-track interval observation. Their Observation 1 yields the separate two-disjoint-segment result directly: for every two other members the quartet with the two segments makes their traces share a point on one of the tracks. They explicitly handle empty components by fictitious intervals.
+- [Chakerian and Stein (1967), §3](https://www.jstor.org/stable/2035233) already give the three edge-midpoint argument for pairwise-intersecting positive homothets of one triangle, without (4,3).
+- [Kynčl and Tancer (2008), Theorems 7–9](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v15i1r27/pdf/) prove exact three for positive homothets of a triangle, without requiring pairwise intersection. The segment-trace endpoint argument through the joint intersection of the leaves and extreme traces above directly adapts their Theorem 7. The additional ingredients are the exact box-slice reduction (both for R and the hub), and transfer back to boxes with both upper and lower strip constraints. Their one-orientation theorem alone does not give this without that reduction.
+- [Nielsen (2001), §§2,3.2](https://www.lix.polytechnique.fr/Labo/Frank.Nielsen/pdf/2001-PiercingOrientedPolygons-TCS.pdf) defines the broader class of fixed-direction polygons; these are 3-stripped, hence 6-oriented in his directed normal convention. His general setting does not itself give this sharp result.
+- This only settles a fixed-normal-direction subclass. It does not improve the general planar (4,3) nine-point bound or claim a priority determination. 
