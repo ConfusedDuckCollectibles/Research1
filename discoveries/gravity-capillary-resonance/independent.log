@@ -1,0 +1,13 @@
+crossover square: (q,rho,ell,j) [(1, 31746, 13, 1), (1, 31746, 13, 1), (1, 31746, 24, 2)]; sector charges [(1007808516, 0)]
+collinear repeated input: (q,rho,ell,j) [(1, 3, 1, 1), (1, 3, 1, 1), (1, 3, 2, 2)]; sector charges [(9, 0)]
+one-squarefree-label false positive: (q,rho,ell,j) [(1, 2, 1, 1), (1, 2, 1, 1), (1, 10, 2, 1)]; sector charges [(4, 2), (100, -1)]
+irrational aspect / rational squared aspect: (q,rho,ell,j) [(2, 171190, 19, 1), (2, 171190, 19, 1), (2, 171190, 34, 2)]; sector charges [(58612032200, 0)]
+non-diagonal Gram control: (q,rho,ell,j) [(1, 31746, 52, 8), (1, 31746, 52, 8), (1, 31746, 96, 16)]; sector charges [(1007808516, 0)]
+angular two-sector quartic: (q,rho,ell,j) [(2, 3, 1, 1), (5, 6, 1, 1), (2, 3, 1, 1), (5, 6, 1, 1)]; sector charges [(18, 0), (180, 0)]
+tuned square: (q,rho,ell,j) [(1, 130, 5, 1), (1, 130, 5, 1), (1, 130, 8, 2)]; sector charges [(16900, 0)]
+formal quintic with triad and a distinct conjugate pair: (q,rho,ell,j) [(1, 130, 5, 1), (1, 130, 5, 1), (1, 130, 8, 2), (2, 3, 1, 1), (2, 3, 1, 1)]; sector charges [(18, 0), (16900, 0)]
+detuned same geometry M=7: (q,rho,ell,j) [(1, 115, 5, 3), (1, 115, 5, 3), (1, 1038, 8, 2)]; sector charges [(13225, 6), (1077444, -2)]
+detuned same geometry M=101: (q,rho,ell,j) [(1, 13255, 5, 1), (1, 13255, 5, 1), (1, 13258, 8, 2)]; sector charges [(175695025, 2), (175774564, -2)]
+detuned same geometry M=100001: (q,rho,ell,j) [(1, 13000255, 5, 1), (1, 13000255, 5, 1), (1, 13000258, 8, 2)]; sector charges [(169006630065025, 2), (169006708066564, -2)]
+square angular shell 5**10: 44 distinct modes in one sector
+PASS: independent integer/fraction arithmetic on all fixed controls.
