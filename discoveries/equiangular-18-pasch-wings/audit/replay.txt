@@ -1,0 +1,5 @@
+960 actual normalized seven-cliques; physical signed-block orbit sizes [8, 8, 24, 24]
+(0, 0, 0) 36 864 profile classes 4 certificates {(216, '36-color'): 4}
+(0, 0, 1) 12 1053 profile classes 39 certificates {(93, '8:4x6,15:4x3'): 36, (216, '36-color'): 4}
+(0, 0, 2) 36 864 profile classes 4 certificates {(216, '36-color'): 4}
+(0, 0, 3) 12 1053 profile classes 39 certificates {(93, '8:4x6,15:4x3'): 36, (216, '36-color'): 4}

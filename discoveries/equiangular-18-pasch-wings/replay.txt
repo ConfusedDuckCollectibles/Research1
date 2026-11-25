@@ -1,0 +1,5 @@
+((0, 0, 0), 8, 36, 864, {216: 4})
+((0, 0, 1), 8, 12, 1053, {93: 36, 216: 4})
+((0, 0, 2), 24, 36, 864, {216: 4})
+((0, 0, 3), 24, 12, 1053, {93: 36, 216: 4})
+PASS: all three-wing extensions have at most 57; known 57 positive control checked.
