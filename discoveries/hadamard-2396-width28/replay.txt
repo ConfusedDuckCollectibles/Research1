@@ -1,0 +1,6 @@
+Orders 4 and 6 both pass the prerequisite two pair norms (positive controls).
+Orders 9, 12, 18, 36 fail the two pair norms (independent residual-budget check).
+Order 4: 14 sorted four-square reps of 599, minimum total lower bound 82 > 81.
+Order 6: every admissible single quotient block has t<=8, four give <81.
+Synthetic native core: C8, target order 60, R(0)=32 and seven off-subgroup R=4.
+Orders 1, 2, 3 pass all 16 shifts of a Singer-symmetric compressed witness (no full lift).
