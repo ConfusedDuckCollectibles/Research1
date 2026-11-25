@@ -1,0 +1,157 @@
+{
+  "q2": {
+    "norm": [
+      0,
+      4,
+      5
+    ],
+    "b": 2,
+    "opt": [
+      0,
+      2,
+      3
+    ],
+    "k": 0
+  },
+  "q17": {
+    "norm": [
+      0,
+      18,
+      23,
+      37,
+      58,
+      62,
+      75,
+      86,
+      177,
+      179,
+      187,
+      199,
+      230,
+      233,
+      259,
+      260,
+      266,
+      275
+    ],
+    "b": 1,
+    "opt": [
+      0,
+      18,
+      23,
+      37,
+      58,
+      62,
+      75,
+      86,
+      176,
+      178,
+      186,
+      198,
+      229,
+      232,
+      258,
+      259,
+      265,
+      274
+    ],
+    "k": 7
+  },
+  "multiGap": {
+    "pds": true,
+    "sameChamber": true,
+    "cert": {
+      "sum": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "weights": 19,
+      "rankRows": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "det": -1,
+      "blocked": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "largestCutLength": 21
+  },
+  "enumerated": [
+    {
+      "pdsAnchored": 6,
+      "uniqueSecondCuts": 2,
+      "shortened": 2,
+      "certifiedUnique": 2
+    },
+    {
+      "pdsAnchored": 16,
+      "uniqueSecondCuts": 4,
+      "shortened": 4,
+      "certifiedUnique": 4
+    },
+    {
+      "pdsAnchored": 10,
+      "uniqueSecondCuts": 2,
+      "shortened": 2,
+      "certifiedUnique": 2
+    },
+    {
+      "pdsAnchored": 60,
+      "uniqueSecondCuts": 10,
+      "shortened": 6,
+      "certifiedUnique": 10
+    }
+  ],
+  "BosePrior": {
+    "preserves": true,
+    "blocked": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  }
+}
