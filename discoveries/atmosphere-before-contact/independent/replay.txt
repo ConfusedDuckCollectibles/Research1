@@ -1,0 +1,6 @@
+native RSR: 548 ratios, lower 0.4565424 rigorous integral upper 0.17719174747352628
+independent IRSA Gator source and 21 covered/detected W2 frames match exactly
+conditional ideal incident-rate cap: < 8603501.942611853
+baseline: 10 KL < 1.1126264020485983 17 KL < 1.891464883482617 power <.591, >=18 visits necessary
+optional refined: 10 KL < 1.0010081570371108 19 KL < 1.9019154983705104 power <.556, >=20 visits necessary
+PASS

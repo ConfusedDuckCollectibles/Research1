@@ -1,0 +1,3 @@
+10-visit information ceiling < 1.113 nats; 17-visit ceiling < 1.892 nats
+size 0.05: power < 0.591 at 10 visits; >=18 visits necessary for power 0.8
+all rational certificate checks passed
