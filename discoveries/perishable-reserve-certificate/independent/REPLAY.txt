@@ -1,0 +1,7 @@
+Exact minimum neighbor union against every rank permutation for 66067 scopes, N=0..4.
+All-completion assignment, fixed robust request IDs, partition quotas and binary matroids: 4312 graph checks.
+Unique reversed tails and disjoint minimum scenario families exhaustively checked through N=8.
+N=20: all 28 latent tables, exact totals [(11, 3), (12, 3), (13, 3), (14, 3), (15, 3), (16, 3), (17, 3), (18, 3), (19, 3), (20, 1)] ; quota pair region i+j<=10 verified.
+Negative controls pass: no universal coupling, nonmatroid adaptive gap, and 3-axis obstruction.
+Both stock and demand margins hidden: 640 direct joint-world assignment checks.
+Best coupling path-flow and no integer holes under hereditary constraints: 225 batches.

@@ -1,0 +1,5 @@
+Frozen motif, exact supported total / 2x3 tables / robust protected mix: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20] 28 A<=10, B<=9, A+B<=10
+Tiny known-demand instances/couplings/matroid comparisons/floor vectors: 240 1862 1862 1895
+Both-unlinked joint completions / checked floor vectors: 662 507
+Tier/wave bound margin checks and sharp examples: 4323 49
+Scenario-menu permutation controls: 5912 ; three-axis worst=1, not 0
