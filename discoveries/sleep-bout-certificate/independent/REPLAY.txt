@@ -1,0 +1,5 @@
+Stage 1: matched K=5 histogram, W dwells, confusion (828,36,36,60); 0/6 vs 5/6; exact hit set 0..5.
+Stage 2: fixed reference, all dwells, K=4 histogram, confusion (844,36,36,44); 0/8 vs 4/8.
+Stage 2: scanned all 390625 absolute states; 31752 eligible summary classes, 11 selected trajectories, exact hit set 0..4.
+Any K controls through K=T+1 pass, including m=1 zero-gap. At N=960: (760,4,4,192), 8/12 vs 2/12, both W=196.
+Independent graph matching and reconstruction through floor(4U/3)+2: 604 exact controls, including inclusive equality and lower-threshold ambiguity.

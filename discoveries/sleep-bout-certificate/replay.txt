@@ -1,0 +1,13 @@
+Frozen 1 lo: hits=0, bouts=6,6, awake_min=48,48, confusion[SS,SW,WS,WW]=(828, 36, 36, 60), accuracy=37/40, wake_sensitivity=5/8
+Frozen 1 hi: hits=5, bouts=6,6, awake_min=48,48, confusion[SS,SW,WS,WW]=(828, 36, 36, 60), accuracy=37/40, wake_sensitivity=5/8
+Frozen 1 exact support: [0, 1, 2, 3, 4, 5]
+Frozen 2 lo: hits=0, bouts=8,8, awake_min=40,40, confusion[SS,SW,WS,WW]=(844, 36, 36, 44), accuracy=37/40, wake_sensitivity=11/20
+Frozen 2 hi: hits=4, bouts=8,8, awake_min=40,40, confusion[SS,SW,WS,WW]=(844, 36, 36, 44), accuracy=37/40, wake_sensitivity=11/20
+Frozen 2 exact support: [0, 1, 2, 3, 4] ; 11 feasible trajectories
+Split trade mirror=False gap=1 lo: hits=1, bouts=4,8, awake_min=50,48, confusion[SS,SW,WS,WW]=(860, 0, 4, 96), accuracy=239/240, wake_sensitivity=24/25
+Split trade mirror=False gap=1 hi: hits=4, bouts=4,8, awake_min=50,48, confusion[SS,SW,WS,WW]=(860, 0, 4, 96), accuracy=239/240, wake_sensitivity=24/25
+Split trade mirror=True gap=1 lo: hits=2, bouts=12,12, awake_min=98,98, confusion[SS,SW,WS,WW]=(760, 4, 4, 192), accuracy=119/120, wake_sensitivity=48/49
+Split trade mirror=True gap=1 hi: hits=8, bouts=12,12, awake_min=98,98, confusion[SS,SW,WS,WW]=(760, 4, 4, 192), accuracy=119/120, wake_sensitivity=48/49
+Split trade mirror=True gap=3 lo: hits=2, bouts=12,12, awake_min=118,118, confusion[SS,SW,WS,WW]=(712, 12, 12, 224), accuracy=39/40, wake_sensitivity=56/59
+Split trade mirror=True gap=3 hi: hits=8, bouts=12,12, awake_min=118,118, confusion[SS,SW,WS,WW]=(712, 12, 12, 224), accuracy=39/40, wake_sensitivity=56/59
+Checked finite support by two independent strategies, scalable exact trades, 1,500 sufficient order conditions, and collision below IoU 1/2.
