@@ -56,7 +56,7 @@ def coefficient(B):
 
 def main():
     seeds = {}
-    for n in (6, 10, 15, 16, 17, 18, 20, 21):
+    for n in (6, 10, 15, 16, 17, 18, 19, 20, 21):
         seeds[n] = seed(n)
         ans = certify(seeds[n], minimum_sum=True)
         assert ans[0] == n

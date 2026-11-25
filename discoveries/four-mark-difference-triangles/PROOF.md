@@ -20,7 +20,7 @@ Up to reversal of each individual ruler, take a<b (equality is forbidden by dist
 
 Each row is the six-value set {a,b,s,s+a,s+b,s+a+b}. It has six distinct entries because a<b and the two intervals do not meet. An exact cover of [1,6n] by these rows gives a witness. Conversely every simultaneously optimal set has this representation. The search can therefore test these rows directly after imposing the two equalities. No structural condition besides necessary saturation and orientation was imposed.
 
-The original search uses bit masks and branches on an uncovered value in the fewest remaining rows. The five witnesses are supplied as plain integer coordinates. The separate checker recomputes the actual six pairwise differences by enumerating pairs of marks, not by trusting the search test. It also recomputes the sum, all the outer gaps, and every positive difference in one nontrivial product. The following successful search runs recover each file (random generator seeded; row shuffling can be standard-library-dependent). A cutoff is not an exclusion.
+The original search uses bit masks and branches on an uncovered value in the fewest remaining rows. The six witnesses are supplied as plain integer coordinates. The separate checker recomputes the actual six pairwise differences by enumerating pairs of marks, not by trusting the search test. It also recomputes the sum, all the outer gaps, and every positive difference in one nontrivial product. The following successful search runs recover the five original case files (random generator seeded; row shuffling can be standard-library-dependent). A cutoff is not an exclusion.
 
     g++ -O3 -std=c++17 search.cpp -o search
     ./search 16 3500000 1
@@ -28,6 +28,8 @@ The original search uses bit masks and branches on an uncovered value in the few
     ./search 18 3500000 1
     ./search 20 200000 3
     ./search 21 700000 7
+
+An additional exact-cover search produced the size-19 file. It used a separate smallest-column dancing-links implementation with xorshift32 row ordering; the search itself is not needed for verification. Both independent distance replays check the supplied file directly, including the full intervals 1–114 and 1–38, scope 114 and total span 1824.
 
 ## 3. Infinite perfect sequence with smaller total span
 

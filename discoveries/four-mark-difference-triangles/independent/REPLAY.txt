@@ -4,6 +4,7 @@ simultaneously optimal: 15 90 1140
 simultaneously optimal: 16 96 1296
 simultaneously optimal: 17 102 1462
 simultaneously optimal: 18 108 1638
+simultaneously optimal: 19 114 1824
 simultaneously optimal: 20 120 2020
 simultaneously optimal: 21 126 2226
 independent exact product 16 × 18: 3490 20940 61028982

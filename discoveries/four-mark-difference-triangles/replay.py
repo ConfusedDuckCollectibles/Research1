@@ -41,7 +41,7 @@ def wild(a,b):
 
 def main():
     base = Path(__file__).resolve().parent
-    for n in (16,17,18,20,21):
+    for n in (16,17,18,19,20,21):
         r = read_rulers(base/f"rulers-{n}.txt")
         assert len(r)==n
         print(f"n={n} scope={6*n} sum={check(r,require_double=True)}")
