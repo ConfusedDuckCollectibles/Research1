@@ -1,0 +1,6 @@
+36 exact two-phase laminate controls; includes both signs of contrast and omitted-correction negative controls.
+Anisotropic layer fixture: (Fraction(1, 1), Fraction(81, 242), Fraction(-405, 14641)) 141/484
+32 exact radial controls; finite illustrative gap: (Fraction(1, 1), Fraction(343, 262), Fraction(121, 1048), Fraction(307533, 253616), Fraction(107, 88), Fraction(841, 253616))
+Bogdan edge moment/Jensen comparison is strictly sharper: (Fraction(61, 50), Fraction(387, 322), Fraction(73, 4025))
+Exact anisotropic confocal control (inner 5,1; outer 7,5): (Fraction(1, 7), (Fraction(1, 8), Fraction(7, 8)), Fraction(81, 19208), Fraction(81, 2744), Fraction(309, 5488))
+Confocal shell endpoint-derivative cancellation checked in dimensions 2, 3, 4.

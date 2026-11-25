@@ -1,0 +1,10 @@
+direct layer benchmark (B0,b,||c||^2,Q): 1 81/242 81/242 141/484
+direct layer benchmark (B0,b,||c||^2,Q): 415/266 75/141512 225/566048 1215/4256
+direct layer benchmark (B0,b,||c||^2,Q): 2003/791 35721/127690 321489/638450 999/2825
+direct layer benchmark (B0,b,||c||^2,Q): 19/3 0 0 594/4459
+bulk goal 1.30 exact shear cap: 21143/17424
+hard simultaneous reading-error excess margin: 1493/5227200
+separate finite-layout guaranteed S and B: 267491/220000 85357/65500
+exact confocal ellipse core shape (g,M eigenvalues): 7/32 1/15 14/15
+3D confocal rigorous enclosure for small M eigenvalue: (.158,.163)
+All checks passed.
