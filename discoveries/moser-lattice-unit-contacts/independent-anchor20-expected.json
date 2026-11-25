@@ -1,0 +1,87 @@
+{
+  "coreEdges": 54,
+  "result": [
+    {
+      "reflection": false,
+      "rotationSign": 1,
+      "radiusOne": 306,
+      "internal": 302,
+      "external": 4,
+      "contacts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "equilateralExternal": 0,
+      "antipodal": 0
+    },
+    {
+      "reflection": false,
+      "rotationSign": -1,
+      "radiusOne": 306,
+      "internal": 302,
+      "external": 4,
+      "contacts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "equilateralExternal": 0,
+      "antipodal": 0
+    },
+    {
+      "reflection": true,
+      "rotationSign": 1,
+      "radiusOne": 306,
+      "internal": 302,
+      "external": 4,
+      "contacts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "equilateralExternal": 0,
+      "antipodal": 0
+    },
+    {
+      "reflection": true,
+      "rotationSign": -1,
+      "radiusOne": 306,
+      "internal": 302,
+      "external": 4,
+      "contacts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "equilateralExternal": 0,
+      "antipodal": 0
+    }
+  ],
+  "nativeGraph6Permutation": [
+    13,
+    5,
+    3,
+    14,
+    7,
+    0,
+    4,
+    8,
+    11,
+    15,
+    6,
+    12,
+    18,
+    17,
+    16,
+    19,
+    9,
+    1,
+    2,
+    10
+  ]
+}
