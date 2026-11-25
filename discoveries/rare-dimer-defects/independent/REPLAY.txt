@@ -1,0 +1,4 @@
+detected BB-count entries 316 exact K2 conditional 0.786229681154
+single lower 0.513139867671 four lower 0.943815457199 zero-size four upper 0.981775862895
+norm perturbation factor 0.024610655943 wide false <= 0.027374394926 wide power >= 0.955201122784
+commensurate v=1 two-defect T values by BB count modulo 3: [Fraction(3, 7), Fraction(1, 1), Fraction(3, 7)]
