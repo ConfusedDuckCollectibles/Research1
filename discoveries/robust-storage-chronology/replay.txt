@@ -1,0 +1,7 @@
+two-bin exact all-history reserve rho*E=21/100; worst full-cycle is interior
+boundary-only cycle check false-positive: +11655/10^6 vs interior -29001/10^6
+one-bin equality case: weighted full-cycle=0 yet exact reserve rho*E=1
+asymmetric clipped-conversion case and lossless limits cross-check
+zero-capacity coarse prediction vs no finite feasible reserve at 1% mean surplus
+separate gross records rescue net-only infinite case; exact rho*E=1296/3125
+PASS
