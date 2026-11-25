@@ -1,6 +1,6 @@
 # A 26-point exclusion for finite Fuglede at p=13
 
-There is no 26-point subset of F_13^3 whose characters contain an orthogonal basis. This rules out one of the candidate non-tiling spectral cardinalities at the next open three-dimensional odd prime. It does **not** settle the conjecture over F_13^3 or construct a Fuglede counterexample.
+There is no 26-point subset of F_13^3 whose characters contain an orthogonal basis. This rules out one of the candidate non-tiling spectral cardinalities for the three-dimensional field of order 13. This note treats only size 26. The [subsequent complete proof](../../breakthroughs/fuglede-f13/) settles the full finite grid.
 
 The [proof](PROOF.md) combines exact projection checks with a geometric argument using **both** members of a hypothetical spectral pair. A promising collection of projections actually survives the counting equations. It cannot occur on the partner where a nonuniform normal forces an injective projection, and the remaining mask types are incompatible with a six-point planar cap.
 

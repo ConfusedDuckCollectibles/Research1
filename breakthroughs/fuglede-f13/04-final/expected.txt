@@ -1,0 +1,5 @@
+{"supportMask":111,"support":[0,1,2,3,5,6],"pair":[0,1],"palettes":156,"count":{"0":1131,"1":156},"maxWidths":1,"recursive":49062}
+{"supportMask":187,"support":[0,1,3,4,5,7],"pair":[3,5],"palettes":78,"count":{"0":1209,"2":78},"maxWidths":1,"recursive":49218}
+{"supportMask":215,"support":[0,1,2,4,6,7],"pair":[0,1],"palettes":156,"count":{"0":1131,"1":156},"maxWidths":1,"recursive":47814}
+{"supportMask":311,"support":[0,1,2,4,5,8],"pair":[0,1],"palettes":156,"count":{"0":1131,"1":156},"maxWidths":1,"recursive":48126}
+{"supportMask":427,"support":[0,1,3,5,7,8],"pair":[3,5],"palettes":78,"count":{"0":1209,"2":78},"maxWidths":1,"recursive":47970}

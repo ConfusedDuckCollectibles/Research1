@@ -1,11 +1,13 @@
-# Which sizes are still open on the 13³ grid?
+# Complete cardinality ledger for Fuglede on the 13³ grid
 
 The standard reductions for `F₁₃³` already handle the tiling sizes 1, 13, 169 and 2197. All other possible spectral cardinalities are multiples of 13 from 26 to 156. Here is the current exclusion ledger:
 
 - **26, 39, 52, 104, 117:** the exact geometry and computation in the linked Research1 notes: [26](../fuglede-f13-26/), [39](proof.md), [52](../fuglede-f13-52/), [104 and 117](../fuglede-f13-104-117/).
 - **65, 91:** applications of the existing Butson determinant obstruction, not new discoveries.
 - **130, 143, 156:** [Malikiosis, Theorem 1.4](https://doi.org/10.1007/s43670-023-00078-2), since each exceeds 169−12√13.
-- **78:** the only cardinality not excluded by these arguments. Finite Fuglede on this grid remains open.
+- **78:** the last remaining size, now ruled out by the [full 78-point proof](../../breakthroughs/fuglede-f13/#the-78-point-case).
+
+All candidate sizes are decided. See [Fuglede’s conjecture on the 13³ grid](../../breakthroughs/fuglede-f13/) for the equivalence and replay guide.
 
 ## The existing obstruction at 65 and 91
 

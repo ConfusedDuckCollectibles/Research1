@@ -2,7 +2,7 @@
 
 No spectral subset of **F₁₃³** has size **104** or **117**. The proof rules
 out every set of those sizes, not merely sets having prescribed symmetries
-or slice patterns. It does not settle the full field.
+or slice patterns. This note treats only those cardinalities; the [subsequent full-grid proof](../../breakthroughs/fuglede-f13/) settles the finite instance.
 
 [Proof](PROOF.md) · [Exact Python replay](planar.py) ·
 [Second C++ replay](independent.cpp)
@@ -16,7 +16,7 @@ external dataset, or partial search.
 Run 'sh replay.sh' with Python 3.10+ and a C++17 compiler. The expected
 results are in [the recorded output](replay.txt).
 
-## What remains
+## Role in the full result
 
 Every tile in F₁₃³ is spectral, and every spectral set of cardinality 1,
 13, 169 or 2197 tiles. The standard reductions leave sizes 13m with
@@ -30,7 +30,7 @@ For p=13 it already excludes 104 and 117 in that branch, leaving a parallel
 full-layer alternative. The argument here is unconditional and does not
 assume away that alternative. The [separate size-26 note](../fuglede-f13-26/)
 rules out 26, and the [subsequent size-39 proof](../fuglede-f13-39/)
-rules out 39. The [updated ledger](../fuglede-f13-39/STATUS.md) records the classical determinant exclusion at 65 and 91, leaving **52 and 78**.
+rules out 39. The [updated ledger](../fuglede-f13-39/STATUS.md) records the classical determinant exclusion at 65 and 91, and the later proofs at 52 and 78.
 
 The primary model is Ferguson–Iosevich’s proof at p=11, specifically
 Lemma 8.2, Lemma 8.5 and Proposition 13.1. This is an AI-assisted research

@@ -4,7 +4,7 @@
 
 A set is spectral if you can choose as many Fourier waves as there are points, with the waves mutually orthogonal when restricted to those points. The Fuglede conjecture asks whether that condition is equivalent to being able to tile by translation. A set with 52 points cannot tile this 2,197-point grid by size alone, so any spectral example of size 52 would disprove this instance of the conjecture. The proof rules out every such example.
 
-This closes **52**, not the entire grid case. After the other known and linked exclusions, [only the possibility of 78 spectral points remains](../fuglede-f13-39/STATUS.md).
+This module closes **52**. The [subsequent 78-point exclusion](../../breakthroughs/fuglede-f13/#the-78-point-case) completes the entire finite grid case; see the [complete ledger](../fuglede-f13-39/STATUS.md).
 
 ## Proof map
 
