@@ -8,3 +8,4 @@ This settles the fixed-three-direction case of the planar Hadwiger–Debrunner `
 
 - [Theorem and proof](PROOF.md)
 - [Exact replay](exact_replay.py), run with `python3 exact_replay.py` (standard library only). It checks the nine-hexagon example that needs three points, the segment reduction in a nonpairwise example, and a near-miss that fails the overlap premise. The finite checks illustrate the theorem; the proof gives the general upper bound.
+- [Nonpairwise sharp example](verify_nonpairwise.py), run with `python3 verify_nonpairwise.py`. This checks ten rational hexagons with one disjoint pair, all 210 quadruples satisfying the premise, and piercing number exactly three. The printed strip endpoints are scaled by 40.
