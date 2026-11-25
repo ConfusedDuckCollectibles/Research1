@@ -1,0 +1,13 @@
+all joint moments & representative echo twirl pass; 4 midpoint checks
+all joint moments & representative echo twirl pass; 3 midpoint checks
+all joint moments & representative echo twirl pass; 2 midpoint checks
+single-site omitted edges () exact contrast 0
+single-site omitted edges (1,) exact contrast 0
+single-site omitted edges (2,) exact contrast 0
+single-site omitted edges (1, 2) exact contrast 65454105600/6569999366401
+whole-component r=1, no echo / echo hit probabilities: 0.009766038586 2.462783692e-09
+ideal example: 2000 shots, exact null size <=1/64, power >0.90
+whole-component r=2, no echo / echo hit probabilities: 4.913326575e-05 2.447407668e-07
+whole-component r=3, no echo / echo hit probabilities: 2.435277461e-07 1.213081762e-09
+reported-bit click gaps: single site 0.038016 rotating neighbor 0.0365105664
+All checks passed.

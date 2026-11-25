@@ -1,0 +1,7 @@
+Independent computational-vector exact replay: 1088 instruments, 116960 characters; coherent initial real/imaginary tests and twirl checks pass
+single endpoint: true no-echo minus echo gap=576/625; after readout q=1/7, gap=576/875
+matched component r=2: no-echo hit=165888/714025; echoed hit=0
+matched component r=3: no-echo hit=191102976/2385443281; echoed hit=0
+matched component r=4: no-echo hit=10787380789248/931813781640625; echoed hit=0
+even n=4, fully checked between slots: exact echo total variation=110075314176/152587890625; not an odd-block theorem
+singular erasing readout removes real signal, as expected
