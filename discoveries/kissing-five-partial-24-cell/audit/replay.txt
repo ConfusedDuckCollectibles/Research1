@@ -1,0 +1,10 @@
+One deletion: 8,855 active systems; vertices=24 polar units + missing root
+495 four-line choices: exactly axis/even/odd signed frames
+Nine 40-point completions and nine 39-point examples omitting r; {12: 6, 20: 3}
+Rational cone controls: same side conflict, opposite side dot=34/81; nonpolar high exists
+Adjacent deletions vertex inventory 26 [(Fraction(1, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1))] missing polar []
+All three triality frames admit a retained full-sign orthogonal matching
+Adjacent-hole control: two same-side lows compatible, dot=63/65
+Mixed W: actual two-violation low, augmented ray pair dots certified over Q(sqrt(2))
+Missing-pair inner products and counts: {-2: 12, -1: 96, 0: 72, 1: 96}
+Five signed-permutation pair templates: 26,26,26,25,25 vertices; norm-2 vertices are just the holes

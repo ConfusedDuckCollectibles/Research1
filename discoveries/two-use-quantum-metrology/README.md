@@ -6,7 +6,7 @@ In this two-qubit amplitude-damping model, **feedback strictly beats every paral
 
 At survival probabilities 64% and 81%, the replayed construction gives **6.70% more quantum Fisher information** than the exact parallel optimum. The proof covers all survival pairs in the stated model, including unequal losses. Prior work already observed the advantage numerically for equal losses and for a particular unequal-loss family, and conditional loss recycling is not new in general. The result here is an analytic proof for the full two-call domain.
 
-This is a local precision result in an idealized model. It does not give the optimal feedback strategy, a lab result, a general sensor claim, or an asymptotic advantage.
+This is a local precision result in an idealized model. This first proof shows a strict advantage, not optimality. The [ordered optimum companion](ordered-optimum/) gives the exact best possible feedback for either fixed order of these same two calls. Neither result is a lab demonstration, a general sensor claim, or an asymptotic advantage.
 
 - [Proof, exact examples, and sources](PROOF.md)
 - [Exact replay](verify.py): run `python3 verify.py` with SymPy.

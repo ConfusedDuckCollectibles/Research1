@@ -1,0 +1,4 @@
+24 polar directions and all 3 frames; missing pair counts [(-2, 12), (-1, 96), (0, 72), (1, 96)]
+seven-ray and eight-ray compatibility; exact mixed low violates only the adjacent two roots
+D5 exact 40-point witness; 40 points with an antipode
+L5 exact 40-point witness; 24 points with an antipode

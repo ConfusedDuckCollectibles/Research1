@@ -1,0 +1,3 @@
+Direct complex-overlap control: F=5679/4525, classical flag term=171/4525>0.
+Zero-mass jump at x=0 verified: SLD F=9/25; x=1 gives 4/9.
+Physical two-call parity-conditioned circuit: F=203724139/66974525, total probability exactly one.

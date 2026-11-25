@@ -1,0 +1,18 @@
+Symbolic branch QFI identity, unsaturated maximum, saturation and quartic: PASS.
+Exact rational witness J=203724139/66974525; gain over exact parallel >8.4937%.
+Certified 16/25 then 81/100: J in [3.04612987458271, 3.04612987458272], p in [0.5276497143, 0.5276497147].
+Certified 81/100 then 16/25: J in [2.95638347987805, 2.95638347987806], p in [0.5134589392, 0.5134589396].
+Certified 3/5 then 3/5: J in [2.55737781219901, 2.55737781219902], p in [0.5323770653, 0.5323770657].
+Certified 1/2 then 1/2: J in [2.17926669798591, 2.17926669798592], p in [0.5444588358, 0.5444588361].
+Certified 1/4 then 1: J in [2.41835635011737, 2.41835635011738], p in [0.5749167052, 0.5749167055].
+Certified 1 then 1/4: J in [2.03112583027372, 2.03112583027373], p in [0.5000000000, 0.5000000000].
+Certified unequal-order gap: [0.08974639470466, 0.08974639470467].
+SDP equal decay 0.000: source 3.999999999994, scalar 4.000000000000, absdiff 5.732e-12
+SDP equal decay 0.200: source 3.290412888052, scalar 3.290412888064, absdiff 1.146e-11
+SDP equal decay 0.400: source 2.557377812186, scalar 2.557377812199, absdiff 1.290e-11
+SDP equal decay 0.500: source 2.179266697979, scalar 2.179266697986, absdiff 7.050e-12
+SDP equal decay 0.750: source 1.183306589965, scalar 1.183306589967, absdiff 1.860e-12
+SDP equal decay 0.900: source 0.525972003052, scalar 0.525972003053, absdiff 1.008e-12
+SDP equal decay 0.995: source 0.035084856483, scalar 0.035084856480, absdiff 2.431e-12
+SDP equal decay 1.000: source -0.000000000000, scalar 0.000000000000, absdiff 8.882e-22
+Source comparison maximum interior difference 7.961304e-10 at decay 0.975 (199 rows).
