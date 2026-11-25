@@ -1,0 +1,6 @@
+n=16 scope=96 sum=1296
+n=17 scope=102 sum=1462
+n=18 scope=108 sum=1638
+n=20 scope=120 sum=2020
+n=21 scope=126 sum=2226
+n=5334 scope=32004 sum=142486260: Wild lift checked
