@@ -1,0 +1,28 @@
+{
+  "checks": "PASS",
+  "kMinPerM": [
+    8.078389e-7,
+    8.07839e-7
+  ],
+  "kMaxPerM": [
+    0.0000011460748,
+    0.0000011460749
+  ],
+  "reverseLimit": [
+    0.704874,
+    0.704875
+  ],
+  "minCirculationM2": [
+    14.541101,
+    14.541102
+  ],
+  "minPerimeterMicrometers": [
+    55.92731,
+    55.92732
+  ],
+  "outOfDiskFraction": [
+    0.196116,
+    0.196117
+  ],
+  "cornerPrecisionMmApprox": 0.08766641028154189
+}
