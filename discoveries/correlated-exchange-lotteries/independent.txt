@@ -1,0 +1,6 @@
+separate all-state and all-cut LP certificate 3 8 5/3
+separate all-state and all-cut LP certificate 5 32 8/5
+separate all-state and all-cut LP certificate 4 16 3/2
+separate all-state and all-cut LP certificate 2 8 3/2
+fresh p grid independently checked 61
+priority full-plan LP including optional atomic cycle: [Fraction(7, 15), Fraction(4, 15), Fraction(4, 15), Fraction(0, 1), Fraction(49, 30)]

@@ -1,0 +1,5 @@
+derived H [(0, 1), (0, 2), (1, 2)] exact game 5/3
+derived H [(0, 1), (0, 4), (1, 2), (2, 3), (3, 4)] exact game 8/5
+derived H [(0, 1), (0, 3), (1, 2), (2, 3)] exact game 3/2
+triangle p-grid exact 61 points x three tests; priority (Fraction(3, 5), Fraction(1, 2), Fraction(2, 5)) 49/30
+two-chain + atomic cycle: common rank law 19/6, pure adverse coupling 3
