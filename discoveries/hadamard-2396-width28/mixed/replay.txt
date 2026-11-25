@@ -1,0 +1,9 @@
+Independent inverse Walsh: 8 odd-normalized rows and 64 even-normalized rows.
+Four physical profiles: (1, 7, 15, 18) (2, 9, 15, 17) (6, 7, 15, 17) (7, 10, 15, 15)
+44,040,192 labeled signed quotient arrays; 32 translation/sign/permutation classes.
+Q (8,) aut, affine, affine order-dividing-3: (4, 32, 1)
+Q (4, 2) aut, affine, affine order-dividing-3: (8, 64, 1)
+Q (2, 2, 2) aut, affine, affine order-dividing-3: (168, 1344, 225)
+Liftable common automorphisms: 8 classes on C2^4 and 12 on C4 x C2^2 (four physical profiles).
+Scalar power control: all 888 field-affine maps with scalar order 9, 18 or 36 yield 1+4×9 orbits after removal of 2-part.
+Prior Singer compressed control passes all +148 off-pair shifts and physical profile (1,7,15,18).

@@ -8,3 +8,7 @@ The proof does not rule out other symmetries, a core with no such symmetry, or o
 
 - [Proof and primary sources](NOTE.md)
 - [Exact replay](verify.py): run `python3 verify.py` with the standard library. The order-2396 positive control passes only after compression; it is not a matrix of the unsolved size.
+
+### Mixed symmetries and search patterns
+
+[The follow-up](mixed/ADDENDUM.md) rules out certain ninth-order scalar symmetries even when they also move slices or swap sign patterns. It works out the 32 normalized search patterns for one of the possible small quotients, respecting the actual row sums. Those are compressed search inputs, not complete matrices.
