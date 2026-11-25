@@ -1,0 +1,2 @@
+{'downsets': 168, 'antichain certificate': 268, 'cover-pair stress': 324}
+PASS: all exact certificates and cover-pair stresses verified.

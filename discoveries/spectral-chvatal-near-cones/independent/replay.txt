@@ -1,0 +1,5 @@
+all 168 labelled downsets on four ground points, 672 cuts: 276 exact inertia, 396 exact chain stresses
+EFF 7-point rank-3 skeleton: inertia (22,42,0), fractional independence 91/4 witness > 22
+nonshiftable C4 off universal apex: inertia (5,9,0)
+disjoint 2-facets: fixed-B obstruction but alternate B inertia (2,5,0)
+PASS
