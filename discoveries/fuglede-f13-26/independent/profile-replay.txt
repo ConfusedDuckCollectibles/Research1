@@ -1,0 +1,15 @@
+nonconstant degree <=3, canonical mass <=26: NONE
+degree 1 canonical minimum 78
+degree 2 canonical minimum 52
+degree 3 canonical minimum 39
+slope mask 311 positive 3 [doubles 1 peak 6 count 3]
+L 6 M 8 DB 117 AGL representatives 14 positive tuples 3 RESULT 3
+L 7 M 7 DB 585 AGL representatives 14 positive tuples 12 RESULT 0
+slope mask 255 positive 24 [doubles 0 peak 6 count 24]
+slope mask 383 positive 12 [doubles 0 peak 6 count 12]
+slope mask 447 positive 12 [doubles 0 peak 6 count 12]
+slope mask 735 positive 12 [doubles 0 peak 6 count 12]
+slope mask 763 positive 24 [doubles 0 peak 6 count 24]
+L 8 M 6 DB 3497 AGL representatives 10 positive tuples 290 RESULT 84
+L 8 M 5 DB 1612 AGL representatives 10 positive tuples 20 RESULT 0
+L 9 M 4 DB 3562 AGL representatives 7 positive tuples 72 RESULT 0

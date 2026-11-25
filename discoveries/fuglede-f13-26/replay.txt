@@ -1,0 +1,4 @@
+planar checks: chord bound 7, no (8,8) or (5,5), six-cap direction orbit 189
+least masses of nonconstant degree 1, 2, 3 profiles: 78, 52, 39
+surviving six-good masks: PGL representatives 95, 111
+full run matches all independent mask and planar controls

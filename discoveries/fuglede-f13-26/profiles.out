@@ -1,0 +1,67 @@
+L 6 bound 8 profiles 117
+mask 63 tuples 0 survivors 0
+mask 95 tuples 0 survivors 0
+mask 111 tuples 0 survivors 0
+mask 119 tuples 0 survivors 0
+mask 159 tuples 0 survivors 0
+mask 175 tuples 0 survivors 0
+mask 183 tuples 0 survivors 0
+mask 187 tuples 0 survivors 0
+mask 189 tuples 0 survivors 0
+mask 215 tuples 0 survivors 0
+mask 287 tuples 0 survivors 0
+mask 303 tuples 0 survivors 0
+mask 311 tuples 3 survivors 3
+mask 427 tuples 0 survivors 0
+TOTAL masks 14 tuples 3 survivors 3
+doubles 1 max 6 count 3
+L 7 bound 7 profiles 585
+mask 127 tuples 0 survivors 0
+mask 191 tuples 0 survivors 0
+mask 223 tuples 0 survivors 0
+mask 239 tuples 0 survivors 0
+mask 319 tuples 0 survivors 0
+mask 351 tuples 0 survivors 0
+mask 367 tuples 0 survivors 0
+mask 375 tuples 0 survivors 0
+mask 381 tuples 0 survivors 0
+mask 431 tuples 0 survivors 0
+mask 443 tuples 0 survivors 0
+mask 471 tuples 12 survivors 0
+mask 607 tuples 0 survivors 0
+mask 623 tuples 0 survivors 0
+TOTAL masks 14 tuples 12 survivors 0
+L 8 bound 6 profiles 3497
+mask 255 tuples 72 survivors 24
+mask 383 tuples 12 survivors 12
+mask 447 tuples 12 survivors 12
+mask 479 tuples 6 survivors 0
+mask 495 tuples 92 survivors 0
+mask 639 tuples 6 survivors 0
+mask 735 tuples 12 survivors 12
+mask 763 tuples 72 survivors 24
+mask 831 tuples 6 survivors 0
+mask 951 tuples 0 survivors 0
+TOTAL masks 10 tuples 290 survivors 84
+doubles 0 max 6 count 84
+L 8 bound 5 profiles 1612
+mask 255 tuples 0 survivors 0
+mask 383 tuples 0 survivors 0
+mask 447 tuples 0 survivors 0
+mask 479 tuples 0 survivors 0
+mask 495 tuples 20 survivors 0
+mask 639 tuples 0 survivors 0
+mask 735 tuples 0 survivors 0
+mask 763 tuples 0 survivors 0
+mask 831 tuples 0 survivors 0
+mask 951 tuples 0 survivors 0
+TOTAL masks 10 tuples 20 survivors 0
+L 9 bound 4 profiles 3562
+mask 511 tuples 0 survivors 0
+mask 767 tuples 0 survivors 0
+mask 895 tuples 0 survivors 0
+mask 959 tuples 0 survivors 0
+mask 1279 tuples 36 survivors 0
+mask 1527 tuples 36 survivors 0
+mask 1533 tuples 0 survivors 0
+TOTAL masks 7 tuples 72 survivors 0

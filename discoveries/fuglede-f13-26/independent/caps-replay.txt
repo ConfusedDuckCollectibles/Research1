@@ -1,0 +1,10 @@
+cap 5 max-dir 5 masks 55 hits 0 calls 76 orbits
+cap 6 max-dir 6 masks 165 hits 10 calls 366 orbits 189
+cap 8 max-dir 8 masks 462 hits 0 calls 4897 orbits
+equal chord cap target 7 found 1 visited 5 (0,0) (0,1) (1,0) (1,1) (2,4) (2,5) (3,5)
+equal chord cap target 8 found 0 visited 2943
+profile 255 good PGL orbit 95
+profile 383 good PGL orbit 111
+profile 447 good PGL orbit 111
+profile 735 good PGL orbit 111
+profile 763 good PGL orbit 95
