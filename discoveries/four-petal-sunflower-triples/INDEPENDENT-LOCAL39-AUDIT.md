@@ -1,0 +1,32 @@
+# Independent audit: local non-extension of Axante et al.'s 39 triples
+
+**Result.** Independently verified that a simple 3-uniform family of size at least 40 with no four-petal sunflower cannot retain 34 or more triples from a relabelled copy of the 39-triple construction in Axante et al. This is an overlap restriction around one witness, not an improved global upper bound. Arbitrary fresh support points are included in both the proof and the replay. A four-petal sunflower here includes an empty core.
+
+## Input and independent proof of coverage
+
+Let \(W\) be the 13-element support of the original \(\mathcal E\), built from the three group triples \(V_i\), one special point \(a\) attached to every two-element subset within a group, and one point \(\ell_{ij}\) attached to every pair in \(V_i\times V_j\). In the code the three groups are 0–2, 3–5, 6–8, with \(a=9\), and \(\ell_{12},\ell_{13},\ell_{23}=10,11,12\). This is the formula in [Axante–Budala–Chitic–Dumitru–Nacu, arXiv:2609.06175v1, Theorem 5.1](https://arxiv.org/pdf/2609.06175v1), not a new construction. Verified its 39 distinct members and all 82,251 literal four-member tests (all six pairwise intersections) independently.
+
+Given a supposed counterexample with at least 34 of these 39 triples, let \(D=\mathcal E\setminus\mathcal F\), \(k=|D|\le5\). There are at least \(k+1\) new triples. Any subfamily keeping exactly \(k+1\) of them, and every retained old triple, still has size 40 and is sunflower-free. New triples never equal any original triple, including the removed ones, by definition. Relabeling the original witness is harmless.
+
+For any candidate new triple \(t\), a forbidden four-tuple consisting of \(t\) and three old triples occurs exactly when the three old ones already form a three-petal sunflower (core \(C\), union \(U\)) and \(t\cap U=C\). This criterion depends only on \(t\cap W\), even if \(t\) introduces up to three distinct fresh points. Enumerate all 339 possible old intersections: \(1+13+78+(286-39)\). The 910 old three-petal sunflowers give triples of old-edge indices that must each meet \(D\). For each input intersection, recursively choose an index from the first currently unhit triple. Every valid deletion contains some root-to-terminal transversal because at each tested node it must hit the chosen unhit triple. Prune only when a greedily constructed collection of pairwise disjoint unhit triples requires more additional indices than remain. At every terminal store its chosen indices and remove dominated ones. Extending every surviving transversal to size \(k\) produces all and only deletion sets permitting that old-intersection type against three old members. Deletion sets never permitting even one new edge can be discarded.
+
+The exact code finds **no** eligible type with fewer than two old points at \(k\le5\); 18 two-old types are first eligible at \(k=5\). In the joint stage a new triple can therefore use at most one fresh point. For each deletion set separately, sort candidate old-intersection types in a fixed order. A type of size three appears at most once; every repeated size-two type uses distinct fresh labels. Labels are assigned 0,1,2,... on first occurrence across sorted types. Within a repeated type, arrange existent labels increasingly before truly new labels, then assign consecutive new labels. This is possible for every abstract equality pattern, can always permute labels globally outside \(W\), and covers shared fresh points between distinct types (though every special deletion set here actually permits just one size-two type). Conversely the canonical lists are valid distinct sets. On a trial append, directly check all six pairwise intersections with any three previous members that include at least one previous new member; their maximum new index is chosen as the loop's last index. Wholly-old triples were already checked by blocker hitting. This exhausts all configurations with arbitrary fresh points, not only those on the original 13-set support.
+
+## Exact outcomes
+
+Run standalone `independent-local39.cjs` as plain JavaScript (V8/Node) and compare `independent-local39-expected.json`. Independently replayed without author generator or solver.
+
+| Old deletions \(k\) | deletion bins with any individual type | max fully old candidate types | bins that require joint check |
+|---:|---:|---:|---:|
+| 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 |
+| 2 | 54 | 1 | 0 |
+| 3 | 1,998 | 3 | 0 |
+| 4 | 34,038 | 4 | 0 |
+| 5 | 353,349 | 6 | 297 |
+
+At \(k=5\), the 297 bins split into 243 with exactly six fully old types and no other type, and 54 with exactly one size-two type (accounting for fresh names) and possibly fully old types. Each checks up to six additions, with arbitrary distinct or shared fresh points as appropriate. The joint DFS visits 3,429 nodes across these bins with largest compatible append length 2, and never reaches the required 6. The small per-bin maximum is not a claim about every deletion bin skipped by the cardinality gate. Individual-type minimum-deletion histogram: 18 fully old types at 2; 9 fully old at 3; 99 fully old and 18 one-fresh at 5; all remaining 195 types require at least 6 (not an estimate of their exact minimum).
+
+## Direct prior and scope
+
+[Axante et al. Thms 5.1 and 5.10](https://arxiv.org/pdf/2609.06175v1) give 39≤f(3,4)≤49 (without the forcing-threshold offset); their [primary artifact repository](https://github.com/bogdan27182/sunflower-paper) documents rooted-block, routing and cross searches for 50, not an overlap theorem around F39 in the stated results. At November 26 I did not locate a direct duplicate for ≥34 overlap or a later general \(f(3,4)\) record. Limit priority to checked sources. [OpenAI's Nov. 24 fixed-petal manuscript](https://mathcommunity.github.io/oai-math-revised/papers/An-exponential-bound-for-sunflowers-November-24-2026/) states a general exponential-in-uniformity theorem; [Bucić–He–Lee Oct. 19](https://arxiv.org/abs/2610.26686) establishes the different fixed-ground-set Erdős–Szemerédi statement. Neither's stated theorem gives this exact small-case overlap exclusion. [Eriksson's Nov. 25 screened note](https://airr.science/papers/ARR-2026-47K7CK23GX8CAR3W/versions/v1/) concerns two-uniform constructions and a three-petal 20-triple example, not this case. A verified local obstruction is a reusable small benchmark but not a maximum for arbitrary 3-uniform four-petal families.

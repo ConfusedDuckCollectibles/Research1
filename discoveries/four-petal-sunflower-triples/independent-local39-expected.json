@@ -1,0 +1,99 @@
+{
+  "Dstats": [
+    {
+      "k": 0,
+      "bins": 0,
+      "large": 0,
+      "nodes": 0,
+      "maxAllOld": 0,
+      "hasFresh": 0,
+      "histFreshTypes": {},
+      "histLargeOld": {},
+      "maxPartial": 0,
+      "maxPartialFresh": 0
+    },
+    {
+      "k": 1,
+      "bins": 0,
+      "large": 0,
+      "nodes": 0,
+      "maxAllOld": 0,
+      "hasFresh": 0,
+      "histFreshTypes": {},
+      "histLargeOld": {},
+      "maxPartial": 0,
+      "maxPartialFresh": 0
+    },
+    {
+      "k": 2,
+      "bins": 54,
+      "large": 0,
+      "nodes": 0,
+      "maxAllOld": 1,
+      "hasFresh": 0,
+      "histFreshTypes": {
+        "0": 54
+      },
+      "histLargeOld": {},
+      "maxPartial": 0,
+      "maxPartialFresh": 0
+    },
+    {
+      "k": 3,
+      "bins": 1998,
+      "large": 0,
+      "nodes": 0,
+      "maxAllOld": 3,
+      "hasFresh": 0,
+      "histFreshTypes": {
+        "0": 1998
+      },
+      "histLargeOld": {},
+      "maxPartial": 0,
+      "maxPartialFresh": 0
+    },
+    {
+      "k": 4,
+      "bins": 34038,
+      "large": 0,
+      "nodes": 0,
+      "maxAllOld": 4,
+      "hasFresh": 0,
+      "histFreshTypes": {
+        "0": 34038
+      },
+      "histLargeOld": {},
+      "maxPartial": 0,
+      "maxPartialFresh": 0
+    },
+    {
+      "k": 5,
+      "bins": 353349,
+      "large": 297,
+      "nodes": 3429,
+      "maxAllOld": 6,
+      "hasFresh": 54,
+      "histFreshTypes": {
+        "0": 353295,
+        "1": 54
+      },
+      "histLargeOld": {
+        "6": 243
+      },
+      "maxPartial": 2,
+      "maxPartialFresh": 2
+    }
+  ],
+  "hist": {
+    "0:6": 1,
+    "1:6": 13,
+    "2:6": 60,
+    "3:5": 99,
+    "3:6": 121,
+    "3:2": 18,
+    "2:5": 18,
+    "3:3": 9
+  },
+  "nForb": 910,
+  "exactNoForty": true
+}
