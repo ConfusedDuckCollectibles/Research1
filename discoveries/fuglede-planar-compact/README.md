@@ -13,7 +13,7 @@ The **4,320-square** example uses about **131 times fewer squares** than the 564
 
 ## Check the result
 
-Read the [proof and construction formulas](PROOF.md) and the [independent audit](INDEPENDENT-AUDIT.md). Run both standard-library replays with Node.js 18 or later, from this directory:
+For the spectral non-tile, start with the [short parity and corner certificate](SHORT-PACKING.md). For both examples, read the [proof and construction formulas](PROOF.md) and the [independent audit](INDEPENDENT-AUDIT.md). Run both standard-library replays with Node.js 18 or later, from this directory:
 
 ```sh
 node verify.js
