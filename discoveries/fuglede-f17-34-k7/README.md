@@ -4,7 +4,7 @@ If a 34-point shape and its partner frequencies passed Fuglede’s wave test on 
 
 The plane bound follows from an earlier reduction and a known geometric theorem. For the pencil bound, we reduce the possible projection profiles to ten symmetry classes and check every possible maximal polynomial degree from six through nine using exact arithmetic. The degree-nine search kept ten candidates through the fifth-coefficient check; none passed the next coefficient. The [independent audit](INDEPENDENT-AUDIT.md) includes separate implementations for the planar check, profile inventories and the degree-six, seven and eight gates, and a fresh replay of the frozen degree-nine verifier. A published bound of [Ball](https://doi.org/10.1112/jlms/54.3.581) then gives at most 86 difference directions per member.
 
-**What this does not prove:** Size 34 remains open. This tightens necessary conditions from the [earlier prime-grid checkpoint](../fuglede-prime-cubic-moments/); it does not eliminate another size after the [204-point exclusion](../fuglede-f17-204/).
+**What this does not prove:** Size 34 remains open. This tightens necessary conditions from the [earlier prime-grid checkpoint](../fuglede-prime-cubic-moments/); it does not eliminate a full candidate size. The [204-point](../fuglede-f17-204/) and [170-point](../fuglede-f17-170/) exclusions are separate results.
 
 ## Proof and exact replay
 

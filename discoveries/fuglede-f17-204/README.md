@@ -22,4 +22,4 @@ node independent-atlas.cjs
 
 The 12-point direction test is an additional check, not a premise of the final contradiction. JSON expected outputs are alongside the code. The mathematical argument and the exact searches were reproduced independently within this AI-assisted project. No external peer review or priority claim.
 
-The sizes still not excluded by the checks in this repository are **34, 68, 102, 136, 153, and 170**. See the [earlier ledger and general cubic constraint](../fuglede-prime-cubic-moments/).
+The [later 170-point exclusion](../fuglede-f17-170/) leaves **34, 68, 102, 136, and 153**. See the [earlier ledger and general cubic constraint](../fuglede-prime-cubic-moments/).
