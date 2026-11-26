@@ -15,6 +15,10 @@ For example, the four-point integer set `{0,3,10,13}` has exactly five spectra c
 
 The [companion proof](MAXIMAL-ORTHOGONAL.md) answers a different question: can a set of mutually orthogonal waves be impossible to extend even though it is not a full basis? For every number of points at least four, some cyclic tile has such a maximal incomplete family. For tile sizes one, two, and three, this cannot happen. This corrects a proposed generalization in the literature, not Fuglede itself.
 
+## Follow-up: twice-prime sizes
+
+The [twice-prime proof](twice-prime/) extends the one-dimensional results to all finite cyclic orders at sizes twice an odd prime, and to the matching spectral periods on the real line. The two open-ended families are distinct; neither implies the unrestricted conjecture.
+
 ## Check the result
 
 Read the [proof](PROOF.md), then run the optional finite replays with Node.js:
