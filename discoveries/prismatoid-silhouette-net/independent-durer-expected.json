@@ -1,0 +1,46 @@
+{
+  "crossings": 10,
+  "obtuseAt30": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "nIntegerHeightChecks": 31,
+  "minimumApproxDetScaled": "485663051613242",
+  "detScale": "1000000000000",
+  "minimumAt": [
+    30,
+    0,
+    7
+  ],
+  "h13": {
+    "allCycles": 56,
+    "numGood": 33,
+    "cycles": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    "minCertifiedScaled": "817657629"
+  },
+  "h14": {
+    "allCycles": 56,
+    "numGood": 32,
+    "cycles": [],
+    "minCertifiedScaled": "871678838"
+  }
+}
