@@ -1,0 +1,50 @@
+# Independent audit: size 204 in \(\mathbb F_{17}^3\), layered and perpendicular
+
+**Verified scope.** If a spectral pair of size 204 exists, both members consist of twelve 17-point parallel planar layers, and one may choose their two layer normals to be perpendicular under the spectral pairing. Both can then be put in linked graph coordinates. Two independent finite planar replays and the exact Fourier chart restriction are recorded below. This is a reduction, not exclusion of size 204.
+
+## Native source and blockers
+
+[Malikiosis, §6, equation (6.1)](https://arxiv.org/html/2212.13592) is conditional: a nonlayered spectral member of size \(pm\) would have its projective nonuniform set \(V\) a 3-fold blocker. Indeed a pencil with at most two nonuniform normals has at least \(p-1\) uniform normals, and [Fallon–Mayeli–Villano, Lemma 3](https://arxiv.org/abs/1902.02936) puts that same member in \(m\) parallel planes. Both members are spectral since the square character matrix is unitary up to scale. At \(p=17,m=12\), equation (6.1) applies (\(5(\sqrt{46}+1)<48\)); thus each is layered, not merely one.
+
+The exact LP derivation independently checks a minor nuance in the prose immediately after equation (6.1). Let \(V'\subseteq V\) be a minimal 3-fold blocker of size \(b\). The [Bishnoi–Mattheus–Schillewaert bound](https://doi.org/10.37236/7810) gives \(b\le p(\sqrt{3p-5}+1)+3\), **including** \(+3\). For the balanced witness \(h=\mathbf1_{V'}+(b-3p)\delta_0\) on vector space (extend \(V'\) by scalar directions), \(\widehat h(v)=p(|V'\cap v^\perp|-3)\ge0\) at nonzero \(v\), and \(\widehat h(0)=p(b-3)\). It vanishes on all nonzero counterpart differences. The Fourier LP identity gives \(|E|\le p^2(b-3p)/(b-3)\); the \(+3\) allowance cancels in \(b-3\), giving exactly (6.1), approximately 184.15 at \(p=17\). Thus no sharper source bound is needed. This is not an unconditional size-204 exclusion.
+
+The elementary bounds (for example [Ferguson–Iosevich, Lemma 8.2](https://arxiv.org/html/2610.30712v1)) give affine-plane cap \(17\), and affine-line cap \(\min(12,17-12)=5\) for each member. Hence the twelve layers each have exactly 17 points.
+
+## Independent planar 17-point census
+
+**Claim.** A set of 17 points in \(\mathbb F_{17}^2\), with at most five on any affine line, determines at least 14 of the 18 projective directions.
+
+If at most 13 directions were determined, select five missing ones. Projective permutations of directions lift to invertible affine linear coordinate transformations of the plane. Translations put one of the selected points at \((0,0)\) without changing direction or line caps. Direct orbit-queue enumeration across all \(\binom{18}{5}=8568\) masks under \(s\mapsto s+1,3s,1/s\) gives four orbits; they generate \(\mathrm{PGL}(2,17)\) because a nonaffine fractional linear map decomposes into affine substitutions and inversion. Three-transitivity allows each representative to include horizontal, slope one, and vertical. The independently chosen 18-bit masks are \(131099,131155,131087,131111\) (vertical encoded as bit 17). Their missing sets are \(\{0,1,3,4,\infty\}, \{0,1,4,6,\infty\}, \{0,1,2,3,\infty\}, \{0,1,2,5,\infty\}\).
+
+Every one of the five missing directions has 17 parallel affine lines. As no line in these classes may contain more than one chosen point, each such line must contain one at a 17-point solution. The exact search fixes the origin, repeatedly picks the remaining line with the smallest number of available points across all five parallel classes, branches on every available point, and stops if a required line is empty. Adding a point removes all other points on its five missing-direction lines, and removes any remaining points on a line of another direction once occupancy reaches five. Thus no completion is lost and a completed search branch would give a valid set. The four trees had \(8881,8410,9131,9063\) nodes, max depths 9,10,10,9, and no complete graph. The cap-17 positive control on the first mask returns 115 complete graphs. This is independent of the author's graph normalization and follows exact cover, not an affine orbit list of graphs.
+
+## Boolean quotient and perpendicular linkage
+
+View \(E\) in a 3-dimensional primal space \(V\) and \(A\) in \(V^*\). Let \(a\in V\setminus0\) be one of \(A\)'s layer normals; all \(A\) layers lie in cosets of \(a^\perp\subset V^*\). A nonzero Fourier zero of a prime-order indicator corresponds to uniform plane counts, so \(D(A)\subseteq U_E\) and \(D(E)\subseteq U_A\). In particular \([a]\notin U_A\) (its profile is twelve 17s and five zeros), hence \([a]\notin D(E)\). Thus projection along \(a\) to \(V/\langle a\rangle\) is injective, and its image is a **Boolean** set of size 204. This injectivity can also be read off from the pencil count for a fiber of occupancy \(n\), \(204+17n\le14\cdot12+4\cdot17=236\), since a layer of \(A\) has at least 14 differences in the pencil \(a^\perp\) by the planar census. These are uniform normals for the quotient. A projective normal and the planar direction given by its kernel are in bijection; exactly the same number of nonuniform parallel classes is counted in this way.
+
+The complement \(C\) of this image has size \(85=5\cdot17\) and the same nonuniform parallel classes, at most four. [Ghidelli, Theorem 1.3](https://arxiv.org/abs/1903.03881) says that unless \(C\) is covered by five lines, it must have at least \(\lceil(17+5+2)/(5+1)\rceil=4\) special directions. Here “special” means nonuniform since the mass is a multiple of 17; ordinary Boolean subsets are essential both here and in the next step. [Wang v2, Theorem 1.2, Table 1](https://arxiv.org/html/2609.20495v2) says that Boolean sets with exactly four special directions over \(\mathbb F_{17}\) have sizes \(8\cdot17=136\) or \(9\cdot17=153\) only (Table 3 row 27 and its complement). This excludes both 85 and 204; it does not say four special directions never occur at \(p=17\). Therefore \(C\) is covered by five lines and equality in the union bound forces five disjoint full parallel lines. Its complement is twelve full parallel lines. Lifting them shows that \(E\) has a layer normal \(e\in a^\perp\). In particular \(\langle e,a\rangle=0\), without needing the original \(E\)-normal to be the new one or requiring any nonisotropy.
+
+Choose a primal basis \(v_1,v_2,v_3\) with \(v_2=a,\ e(v_3)=1,\ v_1\in\ker e\) independent of \(v_2\), and its dual basis in \(V^*\). Then \(e=v_3^*\). As \(e\notin U_E\) and \(a\notin U_A\), \(A\) has no \(v_3^*\)-parallel secant and \(E\) has no \(v_2\)-parallel secant. Thus after the corresponding paired coordinate changes, exactly
+\[
+E=\{(x,f_s(x),s):x\in\mathbb F_{17},\ s\in S\},\qquad
+A=\{(u,t,g_t(u)):u\in\mathbb F_{17},\ t\in T\},\quad |S|=|T|=12.
+\]
+Passing to a dual basis preserves the character pairing. The argument remains valid if the two perpendicular projective points happen to identify as the same isotropic coordinate point under a preselected dot product.
+
+## Exact cross chart check and 12-point finite gate
+
+Let \(\zeta\) be a primitive 17th root and \(C_s(r)=\sum_x\zeta^{rx+f_s(x)}\). For \(t\ne t'\) and \(u'=u-r(t-t')\), the difference of their two \(A\)-points has normalized direction \((r,1,w)\) with \(w=(g_t(u)-g_{t'}(u'))/(t-t')\). Write \(I_r\) for the union of these \(w\)'s over all distinct layer pairs and all \(u\). Every one supplies the exact same coefficient sequence:
+\[
+\sum_{s\in S} C_s(r)\zeta^{ws}=0.
+\]
+Equidistribution is attached to a projective direction, so dividing by the field scalar \(t-t'\) meets the same Fourier zero by the prime cyclotomic relation. If a coefficient is nonzero, the [Chebotarev–Tao prime Fourier minor bound](https://arxiv.org/abs/math/0308286) gives \(|I_r|\le a(r)-1\le11\), with \(a(r)=\#\{s:C_s(r)\ne0\}\). No shadow assertion for inactive \(r\) follows. The field polynomial \(\sum_x Z^{rx+f_s(x)}\) at \(Z=\zeta\) vanishes exactly when \(rx+f_s(x)\) is a permutation; in particular each \(f_s\) alone gives at least 14 active \(r\)'s by the plane lemma under sign change.
+
+For fixed \(r\) and \(u_0\), the branch \(u=u_0+r t\) gives a planar graph of 12 points \((t,g_t(u_0+r t))\), whose directions lie in \(I_r\) and whose line cap is five. An independent graph-clique replay proves any 12-point cap-5 planar set determines at least ten directions. In fact, if determined directions are at most nine, choose nine missing, projectively enumerate their \(\binom{18}{9}=48620\) masks into 17 orbits, and translate a point to the origin. Form the graph on actual 289 points allowing pairs whose slope is not in the missing mask. A complete branch is a clique of size 12 through the origin, with at most five on each affine line. The independent exact search uses bitset adjacency, greedy proper coloring as an upper bound on the remaining clique number, and deletes unchosen points of a saturated line. All 47,533 recursion nodes in those 17 independent trees yield no witness. Thus for an active \(r\), \(10\le|I_r|\le a(r)-1\le11\), and \(a(r)\ge11\). The lower direction bound is sharp, as checked separately: the following points have ten directions and line cap five:
+\[
+(0,0),(16,3),(15,8),(13,12),(16,1),(13,4),(9,15),(8,2),(4,13),(4,5),(2,9),(1,16).
+\]
+These assertions are symmetric under exchanging the pair. They do not force a unique set of 12-point graph shapes, nor do they prove a size-204 exclusion.
+
+## Replay
+
+Remove Markdown fences from independent-planar17.cjs and independent-planar12.cjs and run with Node.js. Transcripts are named with suffix expected.json. The exact V8 runs took approximately 1.1 s and 0.47 s respectively. Both standalone checks use no external files. This audit independently checked the cited source text and algebraic applicability; it does not reprove the imported classification of every four-special-direction set over every prime.

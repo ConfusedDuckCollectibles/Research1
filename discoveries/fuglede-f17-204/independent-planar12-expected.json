@@ -1,0 +1,161 @@
+{
+  "reps": [
+    511,
+    767,
+    895,
+    959,
+    991,
+    1407,
+    1503,
+    1663,
+    1727,
+    1787,
+    1887,
+    1903,
+    1911,
+    2687,
+    2799,
+    3695,
+    5099
+  ],
+  "sizes": [
+    2448,
+    4896,
+    4896,
+    4896,
+    4896,
+    2448,
+    2448,
+    2448,
+    4896,
+    272,
+    4896,
+    2448,
+    1224,
+    1632,
+    2448,
+    612,
+    816
+  ],
+  "result": [
+    {
+      "mask": 511,
+      "nodes": 2609,
+      "branches": 2608,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 767,
+      "nodes": 2738,
+      "branches": 2737,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 895,
+      "nodes": 2827,
+      "branches": 2826,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 959,
+      "nodes": 2756,
+      "branches": 2755,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 991,
+      "nodes": 2882,
+      "branches": 2881,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1407,
+      "nodes": 2558,
+      "branches": 2557,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1503,
+      "nodes": 3368,
+      "branches": 3367,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1663,
+      "nodes": 2569,
+      "branches": 2568,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1727,
+      "nodes": 2915,
+      "branches": 2914,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1787,
+      "nodes": 2873,
+      "branches": 2872,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1887,
+      "nodes": 2802,
+      "branches": 2801,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1903,
+      "nodes": 3211,
+      "branches": 3210,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 1911,
+      "nodes": 2574,
+      "branches": 2573,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 2687,
+      "nodes": 2591,
+      "branches": 2590,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 2799,
+      "nodes": 2764,
+      "branches": 2763,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 3695,
+      "nodes": 2690,
+      "branches": 2689,
+      "maxdepth": 5,
+      "witness": null
+    },
+    {
+      "mask": 5099,
+      "nodes": 2806,
+      "branches": 2805,
+      "maxdepth": 5,
+      "witness": null
+    }
+  ]
+}
