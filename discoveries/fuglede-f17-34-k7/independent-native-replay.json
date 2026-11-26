@@ -1,0 +1,34 @@
+{
+  "source": "/research1/fuglede-f17-34-k7/verify-k7.js.md",
+  "stage8": {
+    "ms": 83166,
+    "sum": {
+      "lead": 377,
+      "base": 2283597,
+      "poly": 2059611,
+      "phase": 35013387,
+      "divisible": 2059283,
+      "pool": 2052278,
+      "first5": 28469722,
+      "c5": 30644,
+      "c4": 0,
+      "constant": 0,
+      "formal": 0,
+      "actual": 0
+    }
+  },
+  "stage9": {
+    "ms": 58434,
+    "sum": {
+      "quadratic": 49130,
+      "first4": 132509280,
+      "cubic": 2807552,
+      "first5": 2828549,
+      "quintic": 10,
+      "quartic": 0,
+      "constant": 0,
+      "formal": 0,
+      "actual": 0
+    }
+  }
+}

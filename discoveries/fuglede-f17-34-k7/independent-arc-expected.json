@@ -1,0 +1,60 @@
+{
+  "seven": {
+    "masks": 1365,
+    "initialCandidates": 6720,
+    "nodes": 4068,
+    "branches": 2703,
+    "complete": 0,
+    "maxDepth": 5,
+    "witness": null,
+    "witnessDirections": null
+  },
+  "control": {
+    "masks": 41,
+    "initialCandidates": 417,
+    "nodes": 348,
+    "branches": 307,
+    "complete": 1,
+    "maxDepth": 7,
+    "witness": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        16,
+        1
+      ]
+    ],
+    "witnessDirections": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      11,
+      16,
+      17
+    ]
+  }
+}

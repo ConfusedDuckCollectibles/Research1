@@ -4,7 +4,7 @@ On the 13 × 13 × 13 wraparound grid, our earlier proof needed several argument
 
 **The general step.** If a non-tiling-sized shape passed Fuglede’s wave test on such a grid, its coordinates would have to satisfy a family of exact arithmetic cancellation rules through degree three. These rules apply to both the shape and its wave frequencies. The proof uses geometry rather than a grid search, and the underlying geometric bound is sharp.
 
-**What changed for 17.** Classical obstructions leave seven candidate sizes: 34, 68, 102, 136, 153, 170 and 204. Two separate exact computations narrow the first one: a hypothetical 34-point example cannot put three of its points on a line or eight in a plane. This note does not eliminate any of the seven. A [subsequent proof excludes size 204](../fuglede-f17-204/), leaving six sizes in the checked ledger.
+**What changed for 17.** Classical obstructions leave seven candidate sizes: 34, 68, 102, 136, 153, 170 and 204. Two separate exact computations narrow the first one: a hypothetical 34-point example cannot put three of its points on a line or eight in a plane. This note does not eliminate any of the seven. A [subsequent proof excludes size 204](../fuglede-f17-204/), leaving six sizes in the checked ledger. A [later exact check tightens the 34-point plane and uniform-pencil caps to six](../fuglede-f17-34-k7/).
 
 - [General, computer-free geometric proof](CUBIC-MOMENTS.md)
 - [Exact 17-grid case breakdown and coverage](CHECKPOINT.md)
