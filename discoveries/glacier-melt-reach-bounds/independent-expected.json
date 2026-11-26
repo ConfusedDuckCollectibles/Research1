@@ -1,0 +1,23 @@
+{
+  "tide_W1_cm": 160,
+  "tide_Peano_cm2": "3000",
+  "tide_box_endpoint_abs_cm": 20,
+  "moment_grid_feasible_three_supports": 1651,
+  "moment_grid_distal": [
+    "3/50",
+    "2/15"
+  ],
+  "interior_upper_rational": [
+    "899/245",
+    "29/5",
+    "81/580",
+    "22707/164221"
+  ],
+  "effective_fixed_ramp_moments": [
+    "2",
+    "3",
+    "43/6",
+    "9/2",
+    "8/9"
+  ]
+}
