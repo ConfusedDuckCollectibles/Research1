@@ -1,0 +1,386 @@
+{
+  "profile": [
+    {
+      "d": 1,
+      "minimum": 136,
+      "normalized": 1,
+      "lowNormalized": 0,
+      "lowAllLead": 0,
+      "lowNormalizedBySum": {}
+    },
+    {
+      "d": 2,
+      "minimum": 102,
+      "normalized": 2,
+      "lowNormalized": 0,
+      "lowAllLead": 0,
+      "lowNormalizedBySum": {}
+    },
+    {
+      "d": 3,
+      "minimum": 85,
+      "normalized": 17,
+      "lowNormalized": 0,
+      "lowAllLead": 0,
+      "lowNormalizedBySum": {}
+    },
+    {
+      "d": 4,
+      "minimum": 51,
+      "normalized": 1156,
+      "lowNormalized": 0,
+      "lowAllLead": 0,
+      "lowNormalizedBySum": {}
+    },
+    {
+      "d": 5,
+      "minimum": 51,
+      "normalized": 4913,
+      "lowNormalized": 0,
+      "lowAllLead": 0,
+      "lowNormalizedBySum": {}
+    },
+    {
+      "d": 6,
+      "minimum": 34,
+      "normalized": 167042,
+      "lowNormalized": 2,
+      "lowAllLead": 16,
+      "lowNormalizedBySum": {
+        "34": 2
+      }
+    },
+    {
+      "d": 7,
+      "minimum": 34,
+      "normalized": 1419857,
+      "lowNormalized": 5,
+      "lowAllLead": 80,
+      "lowNormalizedBySum": {
+        "34": 5
+      }
+    }
+  ],
+  "sexticCatalogue": [
+    [
+      1,
+      [
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1
+      ]
+    ],
+    [
+      2,
+      [
+        2,
+        0,
+        8,
+        0,
+        9,
+        0,
+        2
+      ]
+    ],
+    [
+      3,
+      [
+        6,
+        0,
+        13,
+        0,
+        12,
+        0,
+        3
+      ]
+    ],
+    [
+      4,
+      [
+        2,
+        0,
+        13,
+        0,
+        15,
+        0,
+        4
+      ]
+    ],
+    [
+      5,
+      [
+        6,
+        0,
+        1,
+        0,
+        5,
+        0,
+        5
+      ]
+    ],
+    [
+      6,
+      [
+        6,
+        0,
+        2,
+        0,
+        3,
+        0,
+        6
+      ]
+    ],
+    [
+      7,
+      [
+        6,
+        0,
+        9,
+        0,
+        14,
+        0,
+        7
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        0,
+        2,
+        0,
+        8,
+        0,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        2,
+        0,
+        15,
+        0,
+        8,
+        0,
+        9
+      ]
+    ],
+    [
+      10,
+      [
+        6,
+        0,
+        8,
+        0,
+        14,
+        0,
+        10
+      ]
+    ],
+    [
+      11,
+      [
+        6,
+        0,
+        15,
+        0,
+        3,
+        0,
+        11
+      ]
+    ],
+    [
+      12,
+      [
+        6,
+        0,
+        16,
+        0,
+        5,
+        0,
+        12
+      ]
+    ],
+    [
+      13,
+      [
+        2,
+        0,
+        4,
+        0,
+        15,
+        0,
+        13
+      ]
+    ],
+    [
+      14,
+      [
+        6,
+        0,
+        4,
+        0,
+        12,
+        0,
+        14
+      ]
+    ],
+    [
+      15,
+      [
+        2,
+        0,
+        9,
+        0,
+        9,
+        0,
+        15
+      ]
+    ],
+    [
+      16,
+      [
+        2,
+        0,
+        16,
+        0,
+        2,
+        0,
+        16
+      ]
+    ]
+  ],
+  "leadOneSeptics": [
+    {
+      "c": [
+        6,
+        16,
+        0,
+        8,
+        14,
+        6,
+        0,
+        1
+      ],
+      "max": 6
+    },
+    {
+      "c": [
+        2,
+        1,
+        0,
+        7,
+        0,
+        7,
+        0,
+        1
+      ],
+      "max": 4
+    },
+    {
+      "c": [
+        1,
+        13,
+        0,
+        10,
+        0,
+        11,
+        0,
+        1
+      ],
+      "max": 10
+    },
+    {
+      "c": [
+        3,
+        0,
+        9,
+        3,
+        8,
+        12,
+        0,
+        1
+      ],
+      "max": 6
+    },
+    {
+      "c": [
+        0,
+        6,
+        4,
+        15,
+        13,
+        12,
+        0,
+        1
+      ],
+      "max": 8
+    }
+  ],
+  "labelStats": {
+    "nMasks": 24310,
+    "nTuples": 388960,
+    "nConstants": 1360,
+    "nD4": 0,
+    "firstRejectExponent": [
+      1088,
+      0,
+      272,
+      0,
+      0
+    ]
+  },
+  "stats9": {
+    "masks": 6435,
+    "septic": {
+      "quadraticAllowances": 984555,
+      "compatibleQuadratics": 513,
+      "compatibleAssignments": 18909,
+      "constants": 81,
+      "degree4": 0,
+      "firstReject": [
+        81,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "sextic": {
+      "choices": 218790,
+      "constants": 12538,
+      "degree4": 0,
+      "firstReject": [
+        11694,
+        700,
+        144,
+        0,
+        0
+      ]
+    }
+  },
+  "primeArith": {
+    "3": "self-conjugate 3",
+    "5": "self-conjugate 5",
+    "7": "self-conjugate 7",
+    "11": "self-conjugate 11",
+    "13": "self-conjugate 13",
+    "14": "Malikiosis",
+    "15": "Malikiosis",
+    "16": "Malikiosis"
+  },
+  "rest": [
+    2,
+    4,
+    6,
+    8,
+    9,
+    10,
+    12
+  ]
+}
