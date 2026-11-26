@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 132" role="img" aria-labelledby="title desc">
+<title id="title">4,320-square planar spectral non-tile</title><desc id="desc">Sixty occupied unit squares in a 60 by 12 cell motif, repeated eight by nine.</desc>
+<rect width="500" height="132" rx="6" fill="#101c2c"/>
+<defs><pattern id="cells" width="60" height="12" patternUnits="userSpaceOnUse">
+<rect width="60" height="12" fill="#172b42" stroke="#31475e" stroke-width=".27"/><path fill="#67e0cb" d="M37 0h1v1h-1zM52 8h1v1h-1zM7 4h1v1h-1zM22 0h1v1h-1zM37 8h1v1h-1zM52 4h1v1h-1zM7 0h1v1h-1zM22 8h1v1h-1zM37 4h1v1h-1zM52 0h1v1h-1zM7 8h1v1h-1zM22 4h1v1h-1zM49 0h1v1h-1zM4 8h1v1h-1zM19 4h1v1h-1zM34 0h1v1h-1zM49 8h1v1h-1zM4 4h1v1h-1zM19 0h1v1h-1zM34 8h1v1h-1zM49 4h1v1h-1zM4 0h1v1h-1zM19 8h1v1h-1zM34 4h1v1h-1zM1 0h1v1h-1zM16 8h1v1h-1zM31 4h1v1h-1zM46 0h1v1h-1zM1 8h1v1h-1zM16 4h1v1h-1zM31 0h1v1h-1zM46 8h1v1h-1zM1 4h1v1h-1zM16 0h1v1h-1zM31 8h1v1h-1zM46 4h1v1h-1zM13 0h1v1h-1zM3 8h1v1h-1zM53 4h1v1h-1zM43 0h1v1h-1zM33 8h1v1h-1zM23 4h1v1h-1zM33 5h1v1h-1zM23 1h1v1h-1zM13 9h1v1h-1zM3 5h1v1h-1zM53 1h1v1h-1zM43 9h1v1h-1zM25 0h1v1h-1zM30 9h1v1h-1zM35 6h1v1h-1zM40 3h1v1h-1zM45 0h1v1h-1zM50 9h1v1h-1zM55 6h1v1h-1zM0 3h1v1h-1zM5 0h1v1h-1zM10 9h1v1h-1zM15 6h1v1h-1zM20 3h1v1h-1z"/>
+</pattern></defs>
+<g transform="translate(10 10)" shape-rendering="crispEdges"><rect width="480" height="108" fill="url(#cells)"/></g>
+<text x="10" y="128" fill="#b4cad8" font-size="7" font-family="system-ui,sans-serif">60-square motif · 8 by 9 repeats</text>
+</svg>

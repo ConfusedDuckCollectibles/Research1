@@ -1,0 +1,132 @@
+[
+  {
+    "positiveFiniteSpectralPairs": 1770,
+    "negativeFourierChecks": 144,
+    "packing": {
+      "maximum": 10,
+      "witness": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "nodes": 66684
+    },
+    "commonSpec": {
+      "maximum": 10,
+      "witness": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "nodes": 66684
+    },
+    "residuesChecked": 171981,
+    "conflictsChecked": 146755,
+    "squares": 4320,
+    "kx": 8,
+    "ky": 9,
+    "Lx": 437,
+    "Ly": 99,
+    "windowArea": 43263,
+    "threshold": 43200
+  },
+  [
+    4210,
+    4232,
+    4272,
+    7350,
+    7296,
+    4228,
+    4224,
+    7232,
+    7214,
+    4272,
+    4188
+  ],
+  {
+    "nonzero": 191,
+    "lowestSquaredBoundNumerator": "2750150124",
+    "lowestSquaredBoundDenominator": "100000000",
+    "fourierAbsThreshold": "131/25",
+    "sx": 720,
+    "sy": 108,
+    "variationUpperBound": "1276/245",
+    "kx": 30,
+    "ky": 21,
+    "squares": 37800
+  }
+]
