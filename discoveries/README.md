@@ -2,6 +2,8 @@
 
 Original, reproducible findings whose scope and limits are documented.
 
+- [Fuglede on the 17×17×17 grid: the 34-point case](fuglede-f17-size34/): rules out spectral sets with 34 points. Includes the complete argument and exact replays. The 68-point case and the full grid theorem are not claimed.
+
 - [Reproducibility check on a stroke-treatment evidence network](stroke-therapy-evidence-network/): checks a regimen-duration classification and independently tests the indirect path reported for a 2026 review. No treatment estimates or recommendations.
 
 - [A sharp volume bound for superconducting magnetic screening](london-screening-volume-bound/): proves the strongest possible three-axis response at a fixed stiffness and material budget in a spherical London model. Includes an exact thin-shell/full-ball exterior-field match and independent numerical certificates.
