@@ -2,6 +2,8 @@
 
 Original, reproducible findings whose scope and limits are documented.
 
+- [Reproducibility check on a stroke-treatment evidence network](stroke-therapy-evidence-network/): checks a regimen-duration classification and independently tests the indirect path reported for a 2026 review. No treatment estimates or recommendations.
+
 - [A sharp volume bound for superconducting magnetic screening](london-screening-volume-bound/): proves the strongest possible three-axis response at a fixed stiffness and material budget in a spherical London model. Includes an exact thin-shell/full-ball exterior-field match and independent numerical certificates.
 
 - [Least periods for power-of-two wrapped grids](wrapped-grid/): proves that half the width squared is the shortest repeat length in the toric no-three-in-line problem at every power-of-two width. Includes the proof, prior work, and a dependency-free verifier.

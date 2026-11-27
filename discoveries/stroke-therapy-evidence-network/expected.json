@@ -1,0 +1,42 @@
+{
+  "published": {
+    "nodes": 6,
+    "distinctEdges": 5,
+    "heldOutTrials": [
+      "CHANCE-2",
+      "PRINCE"
+    ],
+    "reachableFromT21": [
+      "T21"
+    ],
+    "indirectPath": false
+  },
+  "reclassified": {
+    "nodes": 6,
+    "distinctEdges": 5,
+    "heldOutTrials": [
+      "CHANCE-2",
+      "PRINCE"
+    ],
+    "reachableFromT21": [
+      "T21"
+    ],
+    "indirectPath": false
+  },
+  "coarsePositiveControl": {
+    "nodes": 5,
+    "distinctEdges": 5,
+    "heldOutTrials": [
+      "CHANCE-2",
+      "PRINCE"
+    ],
+    "reachableFromT21": [
+      "A",
+      "C21",
+      "C90",
+      "T21",
+      "TM"
+    ],
+    "indirectPath": true
+  }
+}
