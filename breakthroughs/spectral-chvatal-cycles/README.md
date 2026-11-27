@@ -1,36 +1,40 @@
-# Weighted Spectral Chvátal: the large-size cycle family
+# Weighted Spectral Chvátal: the cycle family
 
-**Scope: a proved special case of Conjecture H, not a proof of Conjecture H.** This Research1 note is not peer reviewed, and does not claim priority over other work.
+**Complete for the family below. Full Conjecture H is still open.** This Research1 work is not peer reviewed and makes no priority claim.
 
-Think of a box of sticker cards. A valid hand is one in which every pair of cards shares a sticker. The best obvious hand takes every card with one chosen sticker. Conjecture H asks whether a particular mathematical upper bound always matches that strategy for a broad class of weighted boxes. We prove it for a family built from loops, once the box has at least 26 original sticker types and enough points to fit the loops.
+Imagine cards with stickers. You want the best-scoring pile in which every pair of cards shares a sticker. The obvious strategy is to pick one sticker and take all the cards that have it. Conjecture H asks whether a mathematical upper bound always matches the score of the best such strategy for weighted boxes of cards with a particular closure property. We prove equality for a family whose deletion pattern consists of one or more loops.
 
-## Stronger cutoff: 26 old points
+## Exact theorem
 
-The [triple-type refinement](cutoff-26.md) extends the result to all admissible n ≥ 26, and some cases with n from 22 to 25. Every r ≥ 13 is covered at every admissible size. The exact [cutoff replay](cutoff-replay.cjs) certifies 327 of the 468 cases on the original finite checklist, leaving 141 before crediting separately settled cases. The original 32-point proof below is unchanged and supplies the large-size part of the refinement.
+Take any simple 2-regular graph on r ≥ 3 anchors: a cycle, or a disjoint union of cycles. Choose any n ≥ 2r+1 old points, assigning a distinct old tip to each edge. Remove each triple made from the endpoints of an edge and its tip, give all surviving old triples weight 1, and add a weight-2 pair from each anchor to the same fresh marker. In the graph where two sets are adjacent when they are disjoint, the weighted Lovász theta is exactly the largest star weight, `binom(n−1,2)`. The same equality holds at every nonnegative weight ratio in the associated two-layer downset defined in [the proof](proof.md). This includes the smallest allowed n and disconnected anchor graphs.
 
-## Original 32-point theorem
+The theorem does not cover arbitrary deletion patterns, arbitrary weights, or all downsets.
 
-Take any simple 2-regular graph on r ≥ 5 anchors, with possibly disconnected cycles. On n ≥ max(32, 2r+1) old points, assign a distinct tip to each anchor edge. Delete the triple consisting of that edge and tip; give surviving triples weight 1. Add the r pairs joining each anchor to the same fresh marker, of weight 2. The weighted Lovász theta of the disjointness graph is exactly the largest star weight, `binom(n−1,2)`. The certificate also proves equality for all nonnegative weight ratios in the associated two-layer downset. In particular, for at least 16 anchors the result applies at every admissible size.
+## How the proof fits together
 
-The proof separates the exact weighted-star equations from positivity. A projection and a norm bound construct a certificate for the **whole** matrix, including the interaction between the different parts. It is not a numerical extrapolation. The analytic proof reduces the small-size work for this family to 468 cases up to cycle partition and old-point count for (5 ≤ r ≤ 15 and 2r+1 ≤ n ≤ 31), before crediting separately settled cases. The small cases are not certified by the large-size proof, and unrelated weighted downsets remain outside its scope.
+- **All r ≥ 5:** [analytic proof for large n](proof.md), [sharper cutoff](cutoff-26.md), and [exact closure of the remaining 141 cases](completion.md). Of those 141, a rational bound certifies 133 and rational residual repair certifies eight. Floating-point routines only propose certificates; exact arithmetic accepts or rejects them.
+- **Four anchors:** [independent exact square proof](square.md), using coupled rational repair and bounds, independent of Gemini’s earlier square certificate.
+- **Three anchors:** [Gemini Carbon’s all-size triangle construction](https://share.gemini.google/uSwHOzDoj5t7), checked independently in [triangle-replay.py](triangle-replay.py). The checker tests the exact star equations and the base cases n=7–11, then verifies 46 polynomial minors for all n≥12 by exact forward differences. Its integer seed is from Carbon’s construction; the verifier was reconstructed independently.
 
-## Proof and replay
+The [range theorem](range.md) explains why the star equations can be solved, but is not a positivity proof by itself. Background: [Ellis, Filmus, and Friedgut, §5](https://arxiv.org/html/2609.28404v3#S5).
 
-- [Full proof of the large-size theorem](proof.md)
-- [Exact correction-equation proof](range.md), which by itself does not establish positivity
-- [Conjecture H and context](https://arxiv.org/html/2609.28404v3#S5), by David Ellis, Yuval Filmus, and Ehud Friedgut
+## Run the checks
 
-With Node.js installed, run these **from this directory**. No packages or network are needed.
+Run the Node.js commands from this directory. The full actual-defect check can take several minutes and accepts optional start/end n for sharding. Expected outputs and summary counts are included.
 
 ```sh
 node replay.cjs | diff - expected.json
 node range-replay.cjs
+node cutoff-replay.cjs
+node actual-defect.cjs
+node small-repair.cjs
+node square-small.cjs
+node square-actual.cjs
+node square-typed.cjs
 ```
 
-The first command reproduces the exact rational cutoff inequality and smaller algebraic controls. The second checks the correction equations on connected and disconnected examples, and verifies an exact negative minor for one sparse correction to show why equation-solving alone is insufficient. The proofs, not sampled controls, establish the universal claims.
+For the triangle, run `python triangle-replay.py` with SymPy (checked with SymPy 1.14). See each proof note for the distinction between analytic results, exact certificate checks, and diagnostic output.
 
-## Credit and evidence boundaries
+## Credit
 
-James Bazan directed the investigation and iterated on the problem with Gemini and OpenAI's Dot. Gemini Carbon supplied the all-size three-anchor certificate (with calculations independently checked by Dot), explored the square, and developed a bridge formula for general cycles. [Triangle report](https://share.gemini.google/uSwHOzDoj5t7) · [Carbon’s cycle report](https://share.gemini.google/DVKV2JFxKpUc). Gemini Neon [included the corrected square verifier and reported its results](https://share.gemini.google/n5eDqTJABc29), and separately developed a range argument. The square verifier was inspected but not replayed end to end for this release; the square claim and other individual Gemini checks are not dependencies of the large-size theorem.
-
-The Research1 range proof and analytic large-size positivity proof were developed with Dot and checked separately against their exact arithmetic replays. The original research note and its replay code are included here. The linked Gemini reports remain separate source material. No claim of independent human peer review is made.
+James Bazan directed the investigation and iterated with Google Gemini and OpenAI’s Dot. [Gemini Carbon](https://share.gemini.google/DVKV2JFxKpUc) developed the triangle and square proofs and found a closed-form bridge step for general cycles. [Gemini Neon](https://share.gemini.google/n5eDqTJABc29) shared the corrected square source and a separate range argument. Dot developed and checked the analytic large-size proof, the sharper cutoff, an independent range proof, and the exact small-case closure, including the independent square proof included here. No external human peer review is claimed.
