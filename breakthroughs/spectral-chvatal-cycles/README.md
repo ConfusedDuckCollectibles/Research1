@@ -2,9 +2,13 @@
 
 **Scope: a proved special case of Conjecture H, not a proof of Conjecture H.** This Research1 note is not peer reviewed, and does not claim priority over other work.
 
-Think of a box of sticker cards. A valid hand is one in which every pair of cards shares a sticker. The best obvious hand takes every card with one chosen sticker. Conjecture H asks whether a particular mathematical upper bound always matches that strategy for a broad class of weighted boxes. We prove it for a family built from loops, once the box has at least 32 original sticker types and enough points to fit the loops.
+Think of a box of sticker cards. A valid hand is one in which every pair of cards shares a sticker. The best obvious hand takes every card with one chosen sticker. Conjecture H asks whether a particular mathematical upper bound always matches that strategy for a broad class of weighted boxes. We prove it for a family built from loops, once the box has at least 26 original sticker types and enough points to fit the loops.
 
-## Exact result
+## Stronger cutoff: 26 old points
+
+The [triple-type refinement](cutoff-26.md) extends the result to all admissible n ≥ 26, and some cases with n from 22 to 25. Every r ≥ 13 is covered at every admissible size. The exact [cutoff replay](cutoff-replay.cjs) certifies 327 of the 468 cases on the original finite checklist, leaving 141 before crediting separately settled cases. The original 32-point proof below is unchanged and supplies the large-size part of the refinement.
+
+## Original 32-point theorem
 
 Take any simple 2-regular graph on r ≥ 5 anchors, with possibly disconnected cycles. On n ≥ max(32, 2r+1) old points, assign a distinct tip to each anchor edge. Delete the triple consisting of that edge and tip; give surviving triples weight 1. Add the r pairs joining each anchor to the same fresh marker, of weight 2. The weighted Lovász theta of the disjointness graph is exactly the largest star weight, `binom(n−1,2)`. The certificate also proves equality for all nonnegative weight ratios in the associated two-layer downset. In particular, for at least 16 anchors the result applies at every admissible size.
 
