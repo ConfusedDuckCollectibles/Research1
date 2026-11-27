@@ -1,0 +1,75 @@
+{
+  "points": 342,
+  "exactLocalSymmetricMatrixRank": 5,
+  "kernel": "radial span only",
+  "finiteAllocation": [
+    {
+      "floor": 0,
+      "min": 0,
+      "saturation": 18,
+      "top": 27,
+      "saturatedValues": [
+        96,
+        96,
+        96,
+        96,
+        96,
+        96,
+        96,
+        96,
+        96,
+        96
+      ],
+      "saturatedMaximizers": [
+        1,
+        4,
+        10,
+        20,
+        32,
+        44,
+        54,
+        60,
+        63,
+        64
+      ]
+    },
+    {
+      "floor": 1,
+      "min": 9,
+      "saturation": 21,
+      "top": 27,
+      "saturatedValues": [
+        96,
+        96,
+        96,
+        96,
+        96,
+        96,
+        96
+      ],
+      "saturatedMaximizers": [
+        1,
+        4,
+        10,
+        17,
+        23,
+        26,
+        27
+      ]
+    }
+  ],
+  "fractions": [
+    [
+      7351,
+      125000
+    ],
+    [
+      7351,
+      187500
+    ],
+    [
+      69851,
+      187500
+    ]
+  ]
+}

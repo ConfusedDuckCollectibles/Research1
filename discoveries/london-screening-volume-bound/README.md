@@ -12,6 +12,14 @@ For one exact example, a shell occupying **5.8808%** of the ball and a fully act
 
 When a measurement is used to infer how much of a specimen is superconducting, a strong exterior signal can still be consistent with far less than a fully active sample. The bound says exactly how strong that ambiguity can be under the stated geometry and stiffness limit. A single-axis reading, hysteretic or trapped flux, a conducting path, or a sample inside an unmodeled pressure cell does not supply the conditions needed to apply the bound. No real specimen was fitted, and the note does not decide a claim about any specific superconducting material.
 
+## How much more can better measurements tell us?
+
+- **Any finite set of measurements can still miss activity in the core.** With room below the stiffness cap, a hollow shell and a ball with a weakly superconducting core can agree exactly on every prescribed finite set of static magnetic harmonics, even when their total integrated stiffness agrees. This does not contradict the earlier field-gradient example, which compared two particular profiles.
+- **An exact infinite tail distinguishes radial scalar profiles.** This follows by connecting the measurements to an established inverse boundary theorem.
+- **Direction-dependent stiffness can remain hidden even with every static harmonic.** Radial stiffness does not enter the tangential screening currents in the stated spherical model. This ambiguity survives even for strictly positive tensors with the same integrated stiffness and the same occupied volume.
+
+The [finite-scalar proof](FINITE-SCALAR.md) and [tensor proof](TENSOR.md) give the exact assumptions and limitations. The tensor note also gives a sharp resource bound and shows what a much stronger dataset, five exact quadrupole field maps **inside** the sample, can identify.
+
 ## Proof and replay
 
 - [Sharp volume bound and exact field counterexample](PROOF.md)
@@ -25,8 +33,10 @@ Run from this folder with Node.js. No packages or experimental datasets are requ
 node replay.cjs
 node replay-quadrupole.cjs
 node replay-independent.cjs
+node replay-finite-scalar.cjs
+node replay-tensor.cjs
 ```
 
-Expected outputs: [dipole](replay-expected.json), [quadrupole](replay-quadrupole-expected.json), and [independent interval check](replay-independent-expected.json). The independent check uses constant-potential bounds on 1,024 radial slices and a separate solid-sphere power series, rather than the closed-form shell response. All three scripts use exact arithmetic for their certified bounds.
+Expected outputs: [dipole](replay-expected.json), [quadrupole](replay-quadrupole-expected.json), and [independent interval check](replay-independent-expected.json). The independent check uses constant-potential bounds on 1,024 radial slices and a separate solid-sphere power series, rather than the closed-form shell response. The follow-up checks include an [exact scalar Jacobian certificate](replay-finite-scalar-expected.json) and [exact tensor controls](replay-tensor-expected.json). Floating-point illustrations are labeled separately.
 
 Research direction and public archive: James Bazan / ConfusedDuckCollectibles. AI-assisted derivation, code, and independent computational and proof checks within the project. Not externally peer reviewed.

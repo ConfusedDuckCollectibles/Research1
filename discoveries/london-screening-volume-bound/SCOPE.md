@@ -13,3 +13,7 @@ The result proved here is the global bound across arbitrary measurable scalar la
 - [Laurain, Winckler and Yousept, SIAM J. Control Optim. (2021)](https://doi.org/10.1137/19M1294150): superconductor shape optimization with a Bean critical-state law and an electric-field tracking objective. The governing model and objective differ from the static trace extremum here.
 
 A bounded primary-literature check did not find the same arbitrary-layout fixed-budget trace theorem. Priority has not been established by exhaustive review.
+
+## Scope of the extensions
+
+[Finite scalar data](FINITE-SCALAR.md) are contrasted with the exact high-degree tail, whose uniqueness is transferred from [Daudé et al., JLMS (2026)](https://doi.org/10.1112/jlms.70575). The finite construction uses stiffness strictly below the cap; the saturated extremizer is not such a counterexample. [Tensor stiffness](TENSOR.md) has a separate all-harmonic ambiguity, even with a positive eigenvalue floor, and a converse relative to a radial scalar reference from exact *interior* quadrupole maps. It does not imply an exterior-data converse or contradict the radial scalar theorem. These are mathematical results under a fixed-source static model, not new data about superconducting samples.
