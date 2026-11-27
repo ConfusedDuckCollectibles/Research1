@@ -1,0 +1,25 @@
+{
+  "exact": {
+    "active": "7351/125000",
+    "exp4": {
+      "lo": "153527/2835",
+      "hi": "464677/8505"
+    },
+    "shellS": {
+      "lo": "5091795923/5253410000",
+      "hi": "864644221/892070000"
+    },
+    "matchingSolidX": {
+      "lo": "193/2",
+      "hi": "483/5"
+    },
+    "halfGapUpper": "316248778897380864/1111258779489827634863494026458265625",
+    "halfGapUpperTightRounded": "2.846e-19"
+  },
+  "numericOnly": {
+    "S": 0.9692482051228127,
+    "shellDirectODE": 0.9692482051228126,
+    "matchingSolidX": 96.54481501627747,
+    "matchingSolidLambda_over_lambda_min": 1.0357884054481847
+  }
+}

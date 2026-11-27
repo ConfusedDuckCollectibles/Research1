@@ -1,0 +1,9 @@
+{
+  "exactDecimalsOnlyForDisplay": {
+    "xprimeLo": 96.544814,
+    "xprimeHi": 96.544816,
+    "deltaQ2Lo": 0.00003594140399998923,
+    "deltaQ2Hi": 0.000035942437023345086
+  },
+  "certified": "0.000035 < shell S2 - dipole-matched sphere S2 < 0.000037"
+}
