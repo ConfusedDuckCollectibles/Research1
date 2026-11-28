@@ -1,0 +1,113 @@
+{
+  "constants": {
+    "entryFirst": "4975/396",
+    "entryQuadratic": "25/32",
+    "matrixScaleH": "25/6",
+    "matrixScaleGamma": "25/2376",
+    "combinedEntry": "16043/500",
+    "weightedGapLower": "107414783/107421875",
+    "rho": "99/320",
+    "correctionAtExactRho": "3168/5525",
+    "correctionLoose": "66/115"
+  },
+  "weightedSmall": {
+    "n": 10,
+    "deletions": 8,
+    "degrees": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "anchors": [
+      1,
+      4,
+      7
+    ],
+    "tight": [
+      0,
+      1
+    ],
+    "slack": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "incidenceFits": 110,
+    "normalizedLocks": 360,
+    "p0null": 1200,
+    "comp": 360,
+    "omittedOff": 360,
+    "directFirstAndQuadraticProducts": [
+      14400,
+      14400
+    ],
+    "gapTrade": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        2,
+        8
+      ]
+    ],
+    "normSquared": [
+      "5/1",
+      "0/1"
+    ],
+    "unweightedProjectionSquared": [
+      "1/4",
+      "-1/6"
+    ],
+    "gapLowerRay": [
+      "-7/3",
+      "14/3"
+    ],
+    "actualRay": [
+      "59/12",
+      "1/18"
+    ]
+  },
+  "aboveBudget": {
+    "n": 1020,
+    "m": 879427,
+    "deletionFraction": "51731/10373420",
+    "D": 2601,
+    "d0": 2312,
+    "k": 289,
+    "A": 969,
+    "actual": 280041,
+    "oldCap": 130050,
+    "normalized": "280041/290",
+    "effectiveD": "2601/290",
+    "beta": "289/290",
+    "crossing": 150708078,
+    "markerMass": 280330,
+    "certifiedCorrectionUpper": 0.2377632102,
+    "weightedGapLower": 0.99998617
+  }
+}

@@ -1,5 +1,7 @@
 # Fixed positive density of triple deletions
 
+**Companion result.** [The weighted crossing argument](weighted-crossing.md) removes the crossing budget for the two-layer theorem. The residual certificate below keeps its original budget for arbitrary individual bridge weights.
+
 **Theorem.** The $n\ge1000,\ D\le n^2/400$ range is sufficient. The pure inner equality holds for every simple 3-uniform deletion pattern in that range. The weighted residual admits individual real weights $0\le w_i\le d_i-d_0$ at a common marker and needs the additional **actual weight budget** $\sum_i w_i\le n^2/8$. The two-layer lift uses this budget at its crossing, so the sufficient condition for a nonempty anchor set $A$ is $|A|\min_{i\in A}(d_i-d_0)\le n^2/8$. No extra restriction applies to an empty anchor set. This is not general Conjecture H, arbitrary downsets, nor arbitrary face weights.
 
 ## 1. Fit and tight stars with slacked positive bridges
