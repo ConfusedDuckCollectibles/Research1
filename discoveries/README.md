@@ -3,6 +3,7 @@
 Original, reproducible findings whose scope and limits are documented.
 
 - [Two source-label discrepancies in ENRICH reporting](enrich-reporting-check/): verifies reversed subgroup count labels and distinguishes a guideline's day-30 prose from its source's day-180 counts. No change to treatment estimates or pooled analysis is claimed.
+- [Three reporting checks in refractory cardiac arrest studies](ohca-reporting-check/): verifies a baseline-rhythm percentage, a mislabeled follow-up row, and the distinction between discharge survival and neurological status. No inference about treatment or the pooled analysis.
 
 - [Weighted Spectral Chvátal with growing triple deletions](spectral-chvatal-growing-deletions/): proves a largest-star certificate even when the irregular deletion pattern grows quadratically in size under a uniform degree bound. General Conjecture H remains open.
 

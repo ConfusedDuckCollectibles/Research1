@@ -1,0 +1,103 @@
+{
+  "prague": {
+    "standard": [
+      48,
+      132
+    ],
+    "intervention": [
+      52,
+      124
+    ],
+    "total": [
+      100,
+      256
+    ],
+    "fullRandomizationCeiling": [
+      108,
+      264
+    ]
+  },
+  "inception": {
+    "inceptionMatches": [
+      [
+        "month3"
+      ],
+      [
+        "day30",
+        "month6"
+      ]
+    ],
+    "native": {
+      "day30": [
+        [
+          10,
+          62
+        ],
+        [
+          14,
+          70
+        ]
+      ],
+      "month3": [
+        [
+          9,
+          63
+        ],
+        [
+          12,
+          68
+        ]
+      ],
+      "month6": [
+        [
+          10,
+          63
+        ],
+        [
+          14,
+          70
+        ]
+      ]
+    }
+  },
+  "arrest": {
+    "dischargeSurvival": [
+      [
+        1,
+        15
+      ],
+      [
+        6,
+        14
+      ]
+    ],
+    "dischargeCPC12ILCOR": [
+      [
+        0,
+        15
+      ],
+      [
+        3,
+        14
+      ]
+    ],
+    "cpcHistogram": {
+      "sample": [
+        [
+          0,
+          3,
+          3,
+          0
+        ]
+      ],
+      "population": [
+        [
+          0,
+          3,
+          3,
+          0
+        ]
+      ]
+    }
+  }
+}
