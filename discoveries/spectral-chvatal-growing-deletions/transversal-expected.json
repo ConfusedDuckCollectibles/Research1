@@ -1,0 +1,218 @@
+{
+  "top": {
+    "r": 4,
+    "s": 3,
+    "K": 27,
+    "d": "35/16",
+    "M": "397/16",
+    "positiveRows": 78,
+    "zeroRows": 3,
+    "pseudoinverseEntries": 144,
+    "kernel": 144,
+    "projectorIdempotence": 6561,
+    "incidenceProjectionEntries": 972,
+    "firstOrder": 972,
+    "secondOrder": 144,
+    "compatibleInitialAndNext": 324,
+    "offsetOmissionFailures": 312,
+    "sharpSeedGap": "3/4"
+  },
+  "lower": [
+    {
+      "r": 3,
+      "s": 3,
+      "k": 2,
+      "faces": 27,
+      "theta": 6,
+      "cliqueCover": "27/4",
+      "psdRank": 19,
+      "sectorRank": 19,
+      "starEntries": 243,
+      "blocks": [
+        {
+          "j": 0,
+          "rank": 1,
+          "mult": 1,
+          "dim": 3
+        },
+        {
+          "j": 1,
+          "rank": 1,
+          "mult": 6,
+          "dim": 2
+        },
+        {
+          "j": 2,
+          "rank": 1,
+          "mult": 12,
+          "dim": 1
+        }
+      ]
+    },
+    {
+      "r": 5,
+      "s": 3,
+      "k": 2,
+      "faces": 90,
+      "theta": 12,
+      "cliqueCover": "90/7",
+      "psdRank": 76,
+      "sectorRank": 76,
+      "starEntries": 1350,
+      "blocks": [
+        {
+          "j": 0,
+          "rank": 6,
+          "mult": 1,
+          "dim": 10
+        },
+        {
+          "j": 1,
+          "rank": 3,
+          "mult": 10,
+          "dim": 4
+        },
+        {
+          "j": 2,
+          "rank": 1,
+          "mult": 40,
+          "dim": 1
+        }
+      ]
+    },
+    {
+      "r": 4,
+      "s": 5,
+      "k": 3,
+      "faces": 500,
+      "theta": 75,
+      "cliqueCover": "250/3",
+      "psdRank": null,
+      "sectorRank": 481,
+      "starEntries": 10000,
+      "blocks": [
+        {
+          "j": 0,
+          "rank": 1,
+          "mult": 1,
+          "dim": 4
+        },
+        {
+          "j": 1,
+          "rank": 2,
+          "mult": 16,
+          "dim": 3
+        },
+        {
+          "j": 2,
+          "rank": 2,
+          "mult": 96,
+          "dim": 2
+        },
+        {
+          "j": 3,
+          "rank": 1,
+          "mult": 256,
+          "dim": 1
+        }
+      ]
+    },
+    {
+      "r": 5,
+      "s": 3,
+      "k": 3,
+      "faces": 270,
+      "theta": 54,
+      "cliqueCover": "54/1",
+      "psdRank": null,
+      "sectorRank": 256,
+      "starEntries": 4050,
+      "blocks": [
+        {
+          "j": 0,
+          "rank": 6,
+          "mult": 1,
+          "dim": 10
+        },
+        {
+          "j": 1,
+          "rank": 5,
+          "mult": 10,
+          "dim": 6
+        },
+        {
+          "j": 2,
+          "rank": 3,
+          "mult": 40,
+          "dim": 3
+        },
+        {
+          "j": 3,
+          "rank": 1,
+          "mult": 80,
+          "dim": 1
+        }
+      ]
+    }
+  ],
+  "analytic": {
+    "large": [
+      {
+        "r": 3,
+        "s": "2700",
+        "rho": "14/75",
+        "correction": "45/61",
+        "mu": "2698/2699"
+      },
+      {
+        "r": 4,
+        "s": "6400",
+        "rho": "9/50",
+        "correction": "30/41",
+        "mu": "6398/6399"
+      },
+      {
+        "r": 5,
+        "s": "12500",
+        "rho": "22/125",
+        "correction": "75/103",
+        "mu": "12498/12499"
+      },
+      {
+        "r": 9,
+        "s": "72900",
+        "rho": "38/225",
+        "correction": "135/187",
+        "mu": "72898/72899"
+      },
+      {
+        "r": 32,
+        "s": "3276800",
+        "rho": "13/80",
+        "correction": "48/67",
+        "mu": "3276798/3276799"
+      },
+      {
+        "r": 127,
+        "s": "204838300",
+        "rho": "102/635",
+        "correction": "381/533",
+        "mu": "204838298/204838299"
+      }
+    ],
+    "zeroAdmissibleCodegree": {
+      "r": 3,
+      "s": "2701",
+      "deletedOrbits": "2701",
+      "topTheta": "7292700",
+      "thetaWithLower": "7298103"
+    },
+    "regularityAlone": {
+      "r": 3,
+      "s": 2,
+      "degree": 2,
+      "theta": 4,
+      "perfectMatchings": 0
+    }
+  }
+}
