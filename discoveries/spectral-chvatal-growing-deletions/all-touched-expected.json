@@ -1,0 +1,156 @@
+{
+  "arithmetic": "exact modular and BigInt rational; displayed squared ratios approximate only",
+  "coefficients": [
+    [
+      [
+        "1875",
+        "484"
+      ],
+      4
+    ],
+    [
+      [
+        "2003825",
+        "11616"
+      ],
+      185
+    ],
+    [
+      [
+        "50",
+        "27"
+      ],
+      2
+    ],
+    [
+      [
+        "2300",
+        "81"
+      ],
+      30
+    ],
+    [
+      [
+        "715",
+        "162"
+      ],
+      5
+    ],
+    [
+      [
+        "35035",
+        "2916"
+      ],
+      13
+    ],
+    [
+      [
+        "71500",
+        "81"
+      ],
+      900
+    ],
+    [
+      [
+        "125",
+        "198"
+      ],
+      1
+    ]
+  ],
+  "uniformGap": [
+    [
+      "1669",
+      "2000"
+    ],
+    [
+      "76483",
+      "90000"
+    ]
+  ],
+  "irregular": {
+    "n": 100,
+    "deletions": 397,
+    "d0": 9,
+    "D": 12,
+    "degrees": {
+      "9": 1,
+      "10": 1,
+      "11": 4,
+      "12": 94
+    },
+    "positiveBridges": 26,
+    "unbridgedFits": 73,
+    "selectedDegrees": [
+      10,
+      11,
+      12
+    ],
+    "alpha": 75,
+    "actualRows": 161303,
+    "starCoordinates": 900,
+    "spanRows": 30000,
+    "endpointControls": 36,
+    "bValues": [
+      null,
+      0,
+      3,
+      1,
+      0,
+      0
+    ],
+    "paletteControls": 30461,
+    "unbridgedSurplus": 216,
+    "rationalCriterion": {
+      "squaredRatio": 0.2925327007,
+      "offset": [
+        "1",
+        "2609838"
+      ]
+    }
+  },
+  "regular": {
+    "n": 100,
+    "deletions": 400,
+    "d0": 12,
+    "D": 12,
+    "degrees": {
+      "12": 100
+    },
+    "positiveBridges": 0,
+    "unbridgedFits": 0,
+    "selectedDegrees": [],
+    "alpha": 0,
+    "actualRows": 161300,
+    "starCoordinates": 900,
+    "spanRows": 30000,
+    "endpointControls": 36,
+    "bValues": [
+      null,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "paletteControls": 30608,
+    "unbridgedSurplus": 0,
+    "rationalCriterion": {
+      "squaredRatio": 0.268932633,
+      "offset": [
+        "4",
+        "7824663"
+      ]
+    }
+  },
+  "tinyMask": {
+    "n": 10,
+    "minDegree": 5,
+    "rows": 101,
+    "m0": 1010,
+    "m1": 303,
+    "nonzero": 7223,
+    "nonidentity": 7223,
+    "wrongLocks": 303
+  }
+}
