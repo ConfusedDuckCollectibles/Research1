@@ -1,0 +1,32 @@
+{
+  "binaryThreeAllSupportFamilies": 127,
+  "maximizers": 364,
+  "nonstar": 10,
+  "maximalCliques": 1424,
+  "fixtures": [
+    {
+      "opt": 6,
+      "count": 9,
+      "nonstar": 0,
+      "enumMax": 36
+    },
+    {
+      "opt": 32,
+      "count": 16,
+      "nonstar": 10,
+      "enumMax": 256
+    },
+    {
+      "opt": 32,
+      "count": 16,
+      "nonstar": 10,
+      "enumMax": 2256
+    },
+    {
+      "opt": 18,
+      "count": 6,
+      "nonstar": 0,
+      "enumMax": 255
+    }
+  ]
+}

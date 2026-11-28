@@ -1,0 +1,62 @@
+[
+  {
+    "sizes": [
+      2,
+      2,
+      2
+    ],
+    "cap": "5",
+    "supports": 5,
+    "negative": 0,
+    "negativeIntersecting": 0,
+    "faces": 14,
+    "starActions": 84,
+    "rank": 8
+  },
+  {
+    "sizes": [
+      2,
+      2,
+      2
+    ],
+    "cap": "9",
+    "supports": 7,
+    "negative": 6,
+    "negativeIntersecting": 6,
+    "faces": 26,
+    "starActions": 156,
+    "rank": 20
+  },
+  {
+    "sizes": [
+      2,
+      3,
+      2
+    ],
+    "cap": "12",
+    "supports": 7,
+    "negative": 5,
+    "negativeIntersecting": 5,
+    "faces": 35,
+    "starActions": 245,
+    "rank": 28
+  },
+  {
+    "sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "cap": "21",
+    "supports": 22,
+    "negative": 13,
+    "negativeIntersecting": 13,
+    "faces": 86,
+    "starActions": 1204,
+    "rank": 72
+  }
+]
