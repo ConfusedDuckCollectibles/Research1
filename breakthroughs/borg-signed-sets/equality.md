@@ -22,3 +22,5 @@ With exactly one active integer class C, every containing support selects orient
 The classification makes no claim for arbitrary deleted assignments inside a cell or for general spectral Chvátal H. We work with nonempty supports as in Borg’s original convention. Any zero-weight cells can be dropped for the weighted classification on positive vertices.
 
 Prior context: [Borg 2007, Theorem 2.1 and Corollary 2.2](https://staff.um.edu.mt/peter.borg/publications/v14i1r41.pdf#page=4) already proved the antipodal description when the optimum saturates each of a prescribed group of binary cells, including cells whose supports are known to all contain a fixed base element. The argument above derives that support structure for arbitrary optimal families, rather than assuming saturation or a common base element. The two-label majority construction is the classical exception; the new assertion is necessity in arbitrary complete signed systems.
+
+The [mixed-alphabet extension](mixed-alphabets.md) gives the full optimizer classification when label counts differ, and a quantitative bound for near-maxima.

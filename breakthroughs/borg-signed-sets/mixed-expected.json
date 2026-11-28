@@ -1,0 +1,30 @@
+{
+  "checked": 254,
+  "optimal": 609,
+  "special": [
+    {
+      "sizes": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "N": 24,
+      "M": 12,
+      "optimal": 16,
+      "nonstar": 10
+    },
+    {
+      "sizes": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "N": 32,
+      "M": 36,
+      "optimal": 16,
+      "nonstar": 10
+    }
+  ]
+}

@@ -16,7 +16,7 @@ A simple strategy is to pick one person and one color and keep every team contai
 - **Exact equality cases:** For a common number of colors, the proof classifies all maximum intersecting families. This gives both parts of Peter Borg’s [2007 Conjecture 1.4](https://doi.org/10.37236/959), including the binary exception. The star-existence part was restated as [2011 Conjecture 3.1](https://staff.um.edu.mt/peter.borg/publications/conjectures%20gen.pdf#page=5).
 - **Not claimed:** This is not a proof for arbitrary missing color assignments, intersection in two or more points, general spectral Chvátal H, or the more general weighted hereditary conjecture from Borg’s 2011 paper.
 
-[Read the self-contained proof](proof.md) · [Read the equality and strictness proof](equality.md)
+[Read the self-contained proof](proof.md) · [Read the equality and strictness proof](equality.md) · [Mixed alphabets and near-optimum bounds](mixed-alphabets.md)
 
 ## Check it yourself
 
