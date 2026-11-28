@@ -1,0 +1,51 @@
+{
+  "constants": {
+    "c3coef": "1250/297",
+    "c4coef": "71875/2376",
+    "Vconst": "25/2",
+    "R": "846293/28800",
+    "A": "215074/16335",
+    "U": "83005/2916",
+    "offset": "1250/297",
+    "rho": "99/320",
+    "analytic": "738/1105",
+    "reportedLooseCorrection": "123/184"
+  },
+  "small": {
+    "n": 12,
+    "m": 14,
+    "minDegree": 3,
+    "survivors": 206,
+    "directFits": 84,
+    "weightedIncidences": 2472,
+    "locked": 618,
+    "maskRows": 618,
+    "offsetFailures": 618,
+    "offset": "3/2860",
+    "weightedDefect": "53341030497025960585234892125051/10843790269890797395085519981280000",
+    "maxPiQ": "11381/225090",
+    "maxPiQPi": "1211437/415291050",
+    "maxPiColumnSum": "1528935251/492496920",
+    "normIminusTOnUnitTile": "19173412/207645525"
+  },
+  "product": {
+    "n": 1020,
+    "D": 2601,
+    "minDegree": 2312,
+    "m": 879427,
+    "totalTripleCount": 176348140,
+    "deletedFraction": "51731/10373420",
+    "fractionOfDegreeBudget": "179/180",
+    "eligibleAnchors": 969,
+    "actualAnchors": 450,
+    "b": 289,
+    "alpha": 130050,
+    "S0": 519691,
+    "Ma": 1294,
+    "crossing": 150708078,
+    "u": 2,
+    "v": 867,
+    "theta": 451607144,
+    "certifiedCorrectionUpper": 0.6659102538
+  }
+}
