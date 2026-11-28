@@ -1,0 +1,172 @@
+{
+  "constants": {
+    "coefficientTests": 51,
+    "correction": "35/88"
+  },
+  "mixedRankFour": {
+    "n": 9,
+    "r": 4,
+    "eig": [
+      5,
+      -4,
+      3,
+      -2,
+      1
+    ],
+    "eigCount": 32256,
+    "outside": 630,
+    "lower": {
+      "mass": 37,
+      "rows": [
+        {
+          "k": 1,
+          "number": 9,
+          "starMass": 1,
+          "PSDExactRank": 1,
+          "starEntries": 81
+        },
+        {
+          "k": 2,
+          "number": 36,
+          "starMass": 8,
+          "PSDExactRank": 28,
+          "starEntries": 324
+        },
+        {
+          "k": 3,
+          "number": 84,
+          "starMass": 28,
+          "PSDExactRank": 76,
+          "starEntries": 756
+        }
+      ]
+    },
+    "zeroRows": 2,
+    "weights": [
+      "0/1",
+      "1/1",
+      "1/4",
+      "1/9",
+      "4/9",
+      "9/16"
+    ],
+    "first": 1134,
+    "quadratic": 81,
+    "locks": 15246,
+    "positiveNull": 1134,
+    "zeroComparison": 252,
+    "gapSupport": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        3,
+        5,
+        7
+      ],
+      [
+        0,
+        1,
+        3,
+        5
+      ],
+      [
+        0,
+        3,
+        4,
+        7
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "gap": "13/4",
+    "ray": "13/1"
+  },
+  "positiveCenter": {
+    "scale": "1/1",
+    "D": "415/144",
+    "W": "17/12",
+    "alpha": "13/4",
+    "tight": [
+      8
+    ],
+    "MMinusK": "11/48",
+    "theta": "4475/48",
+    "fitCount": 108,
+    "rankLocks": 504,
+    "tightOutputs": 130,
+    "oldProjLocks": 496,
+    "wrong": 496,
+    "dupEquals": 248,
+    "disjointBridgePairs": 10,
+    "markerLocks": 6,
+    "unlockedCross": 12,
+    "markerNorms": [
+      "52/4423",
+      "256/22119",
+      "264/22111",
+      "0/1"
+    ],
+    "cross": [
+      "-13312/97832337",
+      "-13728/97796953",
+      "0/1",
+      "-22528/163024403",
+      "0/1",
+      "0/1"
+    ]
+  },
+  "negativeCenter": {
+    "scale": "1/8",
+    "D": "415/144",
+    "W": "17/96",
+    "alpha": "13/32",
+    "tight": [
+      8
+    ],
+    "MMinusK": "-97/96",
+    "theta": "8831/96",
+    "fitCount": 108,
+    "rankLocks": 504,
+    "tightOutputs": 130,
+    "oldProjLocks": 496,
+    "wrong": 496,
+    "dupEquals": 248,
+    "disjointBridgePairs": 10,
+    "markerLocks": 6,
+    "unlockedCross": 12,
+    "markerNorms": [
+      "13/8818",
+      "64/44091",
+      "66/44089",
+      "0/1"
+    ],
+    "cross": [
+      "-416/194397219",
+      "-429/194388401",
+      "0/1",
+      "-1408/647976033",
+      "0/1",
+      "0/1"
+    ]
+  },
+  "large": {
+    "n": 25600,
+    "r": 4,
+    "block": 1280,
+    "K": "2795547353599",
+    "positiveHalfCount": "2684354560000",
+    "actualDeletedCount": "10737418240000",
+    "deletedFraction": "1677721600/2795547353599",
+    "lowMass": "327667201/1",
+    "theta": "33537917337617/12"
+  }
+}

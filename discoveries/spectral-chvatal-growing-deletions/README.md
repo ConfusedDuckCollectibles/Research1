@@ -8,11 +8,14 @@ Start with every possible team of up to three old people. Cross out some three-p
 
 **Many markers and different triple weights.** A separate extension allows each old triple to have its own weight in $[0,1]$, and permits many newcomers, each paired with its own set of old points. At $n\ge1000$, the largest old star still attains weighted theta when the maximum missing triple weight at any old point plus the maximum total bridge weight incident to any old point is at most $n^2/400$, and the total bridge weight is at most $n^2/8$. [See the exact statement and proof](heterogeneous-weights.md).
 
+**Every rank of team size.** A further theorem allows any maximum size $r\ge3$, with all smaller old teams present. Each size-$r$ team again has its own weight and there may be multiple newcomers. For $n\ge100r^4$, the combined per-point bound is $K/(20r^3)$ and the total bridge budget is $K/8$, where $K=\binom{n-1}{r-1}$. [Exact statement and proof](higher-rank.md). The rank-three theorem above has different, stronger cutoffs for triples.
+
 **Why it extends the earlier result.** The pattern need not be a cycle, the deletions can share tips or have unequal degrees, and it need not stay fixed as the ground set grows. For example, using three disjoint blocks of size $s=\lfloor n/8\rfloor$ and deleting triples indexed by $(i,j,i+j\bmod s)$ gives $s^2$ deletions and maximum degree $s$. The theorem permits arbitrary patterns within the degree bound, not just this example.
 
 The proof gives the analytic positive semidefinite certificate. Its independent replay checks the exact inequalities and algebraic identities, including an irregular 112-point instance with 515 deletions and exactly one untouched point. A separate exact check covers two all-touched instances at the cutoff and a negative control for a necessary constant offset. Neither replay runs a numerical semidefinite solver or uses sampled cases to establish the theorem.
 
 - [Linear-degree theorem, including no untouched point](all-touched.md)
+- [Higher-rank replay](higher-rank-replay.cjs) and [expected output](higher-rank-expected.json)
 - [Many-marker replay](heterogeneous-replay.cjs) and [expected output](heterogeneous-expected.json)
 - [Weighted-crossing replay](weighted-crossing-replay.cjs) and [expected output](weighted-crossing-expected.json)
 - [Fixed-density residual replay](fixed-density-replay.cjs) and [expected output](fixed-density-expected.json)
@@ -33,8 +36,10 @@ node weighted-crossing-replay.cjs > actual-weighted-crossing.json
 diff -u weighted-crossing-expected.json actual-weighted-crossing.json
 node heterogeneous-replay.cjs > actual-heterogeneous.json
 diff -u heterogeneous-expected.json actual-heterogeneous.json
+node higher-rank-replay.cjs > actual-higher-rank.json
+diff -u higher-rank-expected.json actual-higher-rank.json
 ```
 
-**Scope.** These are restricted weighted-theta theorems for nearly complete rank-three layers. It does not settle [general spectral Conjecture H](https://arxiv.org/html/2609.28404v3#S5), arbitrary downsets, or arbitrary weights. The cutoff is sufficient, not sharp. The ordinary non-spectral Chvátal conjecture was already [proved separately](https://arxiv.org/abs/2609.19123).
+**Scope.** These are restricted weighted-theta theorems for nearly complete top layers. It does not settle [general spectral Conjecture H](https://arxiv.org/html/2609.28404v3#S5), arbitrary downsets, or arbitrary weights. The cutoff is sufficient, not sharp. The ordinary non-spectral Chvátal conjecture was already [proved separately](https://arxiv.org/abs/2609.19123).
 
 AI-assisted research note with independent computational and deductive rechecks. No external peer review or priority claim.
