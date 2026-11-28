@@ -2,6 +2,8 @@
 
 Original, reproducible findings whose scope and limits are documented.
 
+- [Weighted Spectral Chvátal with growing triple deletions](spectral-chvatal-growing-deletions/): proves a largest-star certificate even when the irregular deletion pattern grows quadratically in size under a uniform degree bound. General Conjecture H remains open.
+
 - [Fuglede on the 17×17×17 grid: the 34-point case](fuglede-f17-size34/): rules out spectral sets with 34 points. Includes the complete argument and exact replays. The 68-point case and the full grid theorem are not claimed.
 
 - [Reproducibility check on a stroke-treatment evidence network](stroke-therapy-evidence-network/): checks a regimen-duration classification and independently tests the indirect path reported for a 2026 review. No treatment estimates or recommendations.

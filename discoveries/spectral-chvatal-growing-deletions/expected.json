@@ -1,0 +1,122 @@
+{
+  "arithmetic": "exact modular and BigInt rational; displayed ratios approximate only",
+  "coefficients": [
+    [
+      [
+        "425",
+        "108"
+      ],
+      4
+    ],
+    [
+      [
+        "39575",
+        "216"
+      ],
+      185
+    ],
+    [
+      [
+        "50",
+        "27"
+      ],
+      2
+    ],
+    [
+      [
+        "2300",
+        "81"
+      ],
+      30
+    ],
+    [
+      [
+        "715",
+        "162"
+      ],
+      5
+    ],
+    [
+      [
+        "35035",
+        "2916"
+      ],
+      13
+    ],
+    [
+      [
+        "71500",
+        "81"
+      ],
+      900
+    ]
+  ],
+  "uniformGap": [
+    [
+      "1569",
+      "2000"
+    ],
+    [
+      "76483",
+      "90000"
+    ]
+  ],
+  "thresholds": [
+    {
+      "n": 100,
+      "D": 12,
+      "m": 396,
+      "ratio": 0.392428014
+    },
+    {
+      "n": 112,
+      "D": 14,
+      "m": 518,
+      "ratio": 0.3557185133
+    },
+    {
+      "n": 41,
+      "D": 3,
+      "m": 40,
+      "ratio": 0.9210680391
+    },
+    {
+      "n": 36,
+      "D": 3,
+      "m": 21,
+      "ratio": 0.9897142068
+    }
+  ],
+  "growing": {
+    "n": 112,
+    "deletions": 515,
+    "D": 14,
+    "degrees": {
+      "0": 1,
+      "12": 1,
+      "13": 7,
+      "14": 103
+    },
+    "positiveBridges": 37,
+    "unbridgedFits": 74,
+    "selectedDegrees": [
+      12,
+      13,
+      14
+    ],
+    "alpha": 515,
+    "actualRows": 227405,
+    "starCoordinates": 900,
+    "spanRows": 33600,
+    "endpointControls": 24,
+    "exactSufficientSquaredRatio": 0.334612061
+  },
+  "tinyMask": {
+    "n": 10,
+    "rows": 115,
+    "m0": 1150,
+    "m1": 345,
+    "nonzero": 9371,
+    "nonidentity": 9371
+  }
+}
