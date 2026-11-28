@@ -12,11 +12,14 @@ Start with every possible team of up to three old people. Cross out some three-p
 
 **Teams drawn from separate groups.** A different theorem starts with $r$ equal groups of size $s\ge100r^3$ and allows at most one member from each group. The full-size teams carry arbitrary weights with the same total lost weight through every point, at most $s^{r-1}/(10r^3)$. The best common-member family still attains weighted theta, even though the original list of permitted teams can be sparse compared with all possible teams. All complete smaller transversal layers can be added, with no divisibility condition. [Exact statement and proof](balanced-transversals.md).
 
+**Uneven losses across the groups.** At $s\ge400r^3$, the point totals do not have to match: every full-size team can have its own weight in $[0,1]$, and each person can lose a different amount, up to $s^{r-1}/(40r^3)$. Picking teams that all share the best person still attains weighted theta. The result applies with or without complete smaller transversal layers. [Exact proof and scope](unequal-transversals.md).
+
 **Why it extends the earlier result.** The pattern need not be a cycle, the deletions can share tips or have unequal degrees, and it need not stay fixed as the ground set grows. For example, using three disjoint blocks of size $s=\lfloor n/8\rfloor$ and deleting triples indexed by $(i,j,i+j\bmod s)$ gives $s^2$ deletions and maximum degree $s$. The theorem permits arbitrary patterns within the degree bound, not just this example.
 
 The proof gives the analytic positive semidefinite certificate. Its independent replay checks the exact inequalities and algebraic identities, including an irregular 112-point instance with 515 deletions and exactly one untouched point. A separate exact check covers two all-touched instances at the cutoff and a negative control for a necessary constant offset. Neither replay runs a numerical semidefinite solver or uses sampled cases to establish the theorem.
 
 - [Linear-degree theorem, including no untouched point](all-touched.md)
+- [Unequal-transversal replay](unequal-transversal-replay.cjs) and [expected output](unequal-transversal-expected.json)
 - [Balanced-transversal replay](transversal-replay.cjs) and [expected output](transversal-expected.json)
 - [Higher-rank replay](higher-rank-replay.cjs) and [expected output](higher-rank-expected.json)
 - [Many-marker replay](heterogeneous-replay.cjs) and [expected output](heterogeneous-expected.json)
@@ -43,6 +46,8 @@ node higher-rank-replay.cjs > actual-higher-rank.json
 diff -u higher-rank-expected.json actual-higher-rank.json
 node transversal-replay.cjs > actual-transversal.json
 diff -u transversal-expected.json actual-transversal.json
+node unequal-transversal-replay.cjs > actual-unequal-transversal.json
+diff -u unequal-transversal-expected.json actual-unequal-transversal.json
 ```
 
 **Scope.** These are restricted weighted-theta theorems for structured or nearly complete top layers. It does not settle [general spectral Conjecture H](https://arxiv.org/html/2609.28404v3#S5), arbitrary downsets, or arbitrary weights. The cutoff is sufficient, not sharp. The ordinary non-spectral Chvátal conjecture was already [proved separately](https://arxiv.org/abs/2609.19123).

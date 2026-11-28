@@ -1,0 +1,202 @@
+{
+  "heterogeneous": {
+    "r": 3,
+    "s": 3,
+    "fullTupleCount": 27,
+    "completedSupport": 26,
+    "oldZeroRows": 4,
+    "completedZeroRows": 1,
+    "deficit": "11/4",
+    "minimumDeficit": "1/1",
+    "absoluteSignedDeficit": "49/27",
+    "addedTotal": "9/4",
+    "marginals": "8/1",
+    "maxIndividualWeight": "34/27",
+    "completionNonzero": 8,
+    "overlapProjectorEntries": 729,
+    "annihilationEntries": 243,
+    "weightedOrthogonalProjectorEntries": 676,
+    "firstOrder": 234,
+    "secondOrder": 81,
+    "compatibilityChecks": 156,
+    "exactSignedSchurNormBound": "3217/1944",
+    "relativeProjectorMaxWeightedColumn": "1774097/736056",
+    "negativeIncidenceRay": null
+  },
+  "indefiniteControl": {
+    "r": 3,
+    "s": 3,
+    "fullTupleCount": 27,
+    "completedSupport": 27,
+    "oldZeroRows": 2,
+    "completedZeroRows": 0,
+    "deficit": "1/1",
+    "minimumDeficit": "0/1",
+    "absoluteSignedDeficit": "3/2",
+    "addedTotal": "2/1",
+    "marginals": "9/1",
+    "maxIndividualWeight": "5/4",
+    "completionNonzero": 8,
+    "overlapProjectorEntries": 729,
+    "annihilationEntries": 243,
+    "weightedOrthogonalProjectorEntries": 729,
+    "firstOrder": 243,
+    "secondOrder": 81,
+    "compatibilityChecks": 162,
+    "exactSignedSchurNormBound": "779/432",
+    "relativeProjectorMaxWeightedColumn": "901/378",
+    "negativeIncidenceRay": {
+      "indexedPoints": [
+        1,
+        0
+      ],
+      "sign": -1,
+      "form": "-3/8"
+    }
+  },
+  "certificate": {
+    "r": 3,
+    "s": 2,
+    "fullTupleCount": 8,
+    "completedSupport": 8,
+    "oldZeroRows": 1,
+    "completedZeroRows": 0,
+    "deficit": "7/4",
+    "minimumDeficit": "3/2",
+    "absoluteSignedDeficit": "3/2",
+    "addedTotal": "1/4",
+    "marginals": "5/2",
+    "maxIndividualWeight": "1/1",
+    "completionNonzero": 1,
+    "overlapProjectorEntries": 64,
+    "annihilationEntries": 48,
+    "weightedOrthogonalProjectorEntries": 64,
+    "firstOrder": 48,
+    "secondOrder": 36,
+    "compatibilityChecks": 48,
+    "exactSignedSchurNormBound": "9/8",
+    "relativeProjectorMaxWeightedColumn": "49/25",
+    "negativeIncidenceRay": null,
+    "exactCertificate": {
+      "maskedDimensions": 32,
+      "systemRank": 31,
+      "positiveCompletedGramRank": 3,
+      "originalGramRank": 3,
+      "correctionNonzero": 31
+    }
+  },
+  "balancedTZero": {
+    "r": 3,
+    "s": 2,
+    "fullTupleCount": 8,
+    "completedSupport": 8,
+    "oldZeroRows": 0,
+    "completedZeroRows": 0,
+    "deficit": "3/2",
+    "minimumDeficit": "3/2",
+    "absoluteSignedDeficit": "3/2",
+    "addedTotal": "0/1",
+    "marginals": "5/2",
+    "maxIndividualWeight": "5/8",
+    "completionNonzero": 0,
+    "overlapProjectorEntries": 64,
+    "annihilationEntries": 48,
+    "weightedOrthogonalProjectorEntries": 64,
+    "firstOrder": 48,
+    "secondOrder": 36,
+    "compatibilityChecks": 48,
+    "exactSignedSchurNormBound": "15/16",
+    "relativeProjectorMaxWeightedColumn": "3/2",
+    "negativeIncidenceRay": null
+  },
+  "constants": [
+    {
+      "r": 3,
+      "s": "10800",
+      "overlap_bound": "1/240",
+      "compatible_rho": "14/75",
+      "correction": "195/488"
+    },
+    {
+      "r": 4,
+      "s": "25600",
+      "overlap_bound": "7/2560",
+      "compatible_rho": "117/800",
+      "correction": "260/683"
+    },
+    {
+      "r": 13,
+      "s": "878800",
+      "overlap_bound": "1/1690",
+      "compatible_rho": "297/4225",
+      "correction": "10985/31424"
+    },
+    {
+      "r": 14,
+      "s": "1097600",
+      "overlap_bound": "17/31360",
+      "compatible_rho": "667/9800",
+      "correction": "3185/9133"
+    },
+    {
+      "r": 31,
+      "s": "11916400",
+      "overlap_bound": "17/76880",
+      "compatible_rho": "252/4805",
+      "correction": "12493/36424"
+    },
+    {
+      "r": 73,
+      "s": "155606800",
+      "overlap_bound": "19/213160",
+      "compatible_rho": "6027/133225",
+      "correction": "346385/1017584"
+    }
+  ],
+  "large": [
+    {
+      "r": 3,
+      "s": 10801,
+      "step": 80,
+      "numberResidues": "5",
+      "D": "54000",
+      "m": "10",
+      "M": "116661591",
+      "largestCompleted": "53991",
+      "outsideOldExponentialCap": false
+    },
+    {
+      "r": 13,
+      "s": 900000,
+      "step": 45,
+      "numberResidues": "9",
+      "D": "2824260845836202602812613689583270777255471384082564599050089099991",
+      "m": "37656853118763944441884229065809239040338552163936599028000108",
+      "M": "282429536443343146881236055558115770934190760959661447836063400971999892",
+      "largestCompleted": "2824223188983083838868171805354204968016431045530400662451061099884",
+      "outsideOldExponentialCap": true
+    },
+    {
+      "r": 14,
+      "s": 1097600,
+      "step": 80,
+      "numberResidues": "5",
+      "D": "15286020460899843972209812251443563625580918267116400458326488925834944005",
+      "m": "181048147813270576630196965621111468881214302739446014398923792783935",
+      "M": "3355623898062050263746102497691698192301507042419803297260553985601076207216065",
+      "largestCompleted": "15285839412752030701633182054477942514112037052813661012312090002042160071",
+      "outsideOldExponentialCap": true
+    },
+    {
+      "r": 21,
+      "s": 3704400,
+      "step": 80,
+      "numberResidues": "5",
+      "D": "319600471897641423650729133736506720894299680782653291539093907678375053520198279177158402221609948376453472101358583479117995",
+      "m": "1725518616637362355678905721206094272751394656907386550633956588792811214559761403548367237015288841058716796443140080100",
+      "M": "236786812102870761056891219409301801957188629813967976506500732201934102096167511484321508356451632762984711158941283203556859919900",
+      "largestCompleted": "319598746379024786288373454830785514800026929387996384152543273721786260708983719415754853854372933087612413384562140339037896",
+      "outsideOldExponentialCap": true
+    }
+  ]
+}
